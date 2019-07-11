@@ -1,13 +1,20 @@
+/**
+ * index.js
+ *
+ * App main/start file.
+ *
+ */
+
 const express = require('express');
 const logger = require('./middleware/logger');
 
-const db = require('./db');
+// const db = require('./db');
 
 const app = express();
-const router = express.Router();
+// const router = express.Router();
 
-
-
+require('./startup/errorHandling')(app);
+require('./startup/db')();
 
 
 
@@ -15,8 +22,8 @@ const router = express.Router();
 // MOVE THIS TO A MIDDLEWARE
 // load environmeht variables from .env file to process.env
 const dotenv = require('dotenv');
-const dotenvResult = dotenv.config();
-console.log('.env vars: ', dotenvResult.parsed);
+// const dotenvResult = dotenv.config();
+// logger.info('.env vars: ' + JSON.stringify(dotenvResult.parsed));
 
 
 

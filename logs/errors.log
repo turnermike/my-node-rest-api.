@@ -8,3 +8,375 @@
 [info]: 2019-07-11T19:54:01.688Z 	Expresslistening on port 3000
 [info]: 2019-07-11T19:54:13.828Z 	Expresslistening on port 3000
 [info]: 2019-07-11T19:54:30.109Z 	Express listening on port 3000
+[error]: 2019-07-11T19:59:06.180Z 	uncaughtException: Cannot find module './startup/error'
+Error: Cannot find module './startup/error'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T19:59:35.336Z 	uncaughtException: Cannot find module './startup/errorHandling'
+Error: Cannot find module './startup/errorHandling'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T19:59:52.040Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:9:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:00:11.467Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:00:33.873Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:01:25.642Z 	uncaughtException: Cannot find module 'express-async-errors'
+Error: Cannot find module 'express-async-errors'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:15:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+[error]: 2019-07-11T20:01:36.852Z 	uncaughtException: Configuration property "mongodb" is not defined
+Error: Configuration property "mongodb" is not defined
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:203:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:24:92)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:11:18.180Z 	uncaughtException: Configuration property "mongodb" is not defined
+Error: Configuration property "mongodb" is not defined
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:203:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:24:92)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:12:38.020Z 	uncaughtException: Configuration property "mongodb" is not defined
+Error: Configuration property "mongodb" is not defined
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:203:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:24:92)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:21:01.019Z 	uncaughtException: Configuration property "name" is not defined
+Error: Configuration property "name" is not defined
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:203:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:29:49)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:21:06.059Z 	uncaughtException: Configuration property "name" is not defined
+Error: Configuration property "name" is not defined
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:203:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:29:49)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-11T20:21:17.781Z 	MongoDB URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:21:17.782Z 	NODE_ENV: development
+[info]: 2019-07-11T20:21:17.783Z 	app.get("env"):
+[info]: 2019-07-11T20:21:17.809Z 	Express listening on port 3000
+[info]: 2019-07-11T20:21:48.705Z 	MongoDB URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:21:48.706Z 	NODE_ENV: development
+[info]: 2019-07-11T20:21:48.726Z 	Express listening on port 3000
+[info]: 2019-07-11T20:23:16.643Z 	MongoDB URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:23:16.644Z 	NODE_ENV: development
+[info]: 2019-07-11T20:23:16.646Z 	Morgan enabled...
+[info]: 2019-07-11T20:23:16.666Z 	Express listening on port 3000
+[info]: 2019-07-11T20:24:07.049Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:24:07.051Z 	NODE_ENV: development
+[info]: 2019-07-11T20:24:07.053Z 	Morgan enabled...
+[info]: 2019-07-11T20:24:07.074Z 	Express listening on port 3000
+[info]: 2019-07-11T20:24:48.647Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:24:48.648Z 	NODE_ENV: development
+[info]: 2019-07-11T20:24:48.650Z 	Morgan enabled...
+[info]: 2019-07-11T20:24:48.671Z 	Express listening on port 3000
+[info]: 2019-07-11T20:25:31.053Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:25:31.054Z 	NODE_ENV: development
+[info]: 2019-07-11T20:25:31.056Z 	Morgan enabled...
+[error]: 2019-07-11T20:25:31.059Z 	uncaughtException: Cannot find module './startup/db'
+Error: Cannot find module './startup/db'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:25:31.060Z 	Cannot find module './startup/db'
+[info]: 2019-07-11T20:25:35.930Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:25:35.932Z 	NODE_ENV: development
+[info]: 2019-07-11T20:25:35.934Z 	Morgan enabled...
+[error]: 2019-07-11T20:25:35.937Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:25:35.937Z 	require(...) is not a function
+[info]: 2019-07-11T20:25:43.476Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:25:43.477Z 	NODE_ENV: development
+[info]: 2019-07-11T20:25:43.479Z 	Morgan enabled...
+[error]: 2019-07-11T20:25:43.482Z 	uncaughtException: Configuration property "mongodb" is not defined
+Error: Configuration property "mongodb" is not defined
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:203:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/db.js:14:92)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:25:43.483Z 	Configuration property "mongodb" is not defined
+[info]: 2019-07-11T20:25:48.745Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:25:48.747Z 	NODE_ENV: development
+[info]: 2019-07-11T20:25:48.749Z 	Morgan enabled...
+[error]: 2019-07-11T20:25:48.753Z 	uncaughtException: Configuration property "mongodb" is not defined
+Error: Configuration property "mongodb" is not defined
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:203:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/db.js:14:92)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:25:48.753Z 	Configuration property "mongodb" is not defined
+[info]: 2019-07-11T20:26:24.298Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:26:24.300Z 	NODE_ENV: development
+[info]: 2019-07-11T20:26:24.302Z 	Morgan enabled...
+[error]: 2019-07-11T20:26:24.305Z 	uncaughtException: connStr is not defined
+ReferenceError: connStr is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/db.js:19:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:26:24.306Z 	connStr is not defined
+[info]: 2019-07-11T20:26:25.840Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:26:25.842Z 	NODE_ENV: development
+[info]: 2019-07-11T20:26:25.844Z 	Morgan enabled...
+[error]: 2019-07-11T20:26:25.847Z 	uncaughtException: connStr is not defined
+ReferenceError: connStr is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/db.js:19:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:26:25.847Z 	connStr is not defined
+[info]: 2019-07-11T20:27:23.406Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:27:23.408Z 	NODE_ENV: development
+[info]: 2019-07-11T20:27:23.410Z 	Morgan enabled...
+[error]: 2019-07-11T20:27:23.414Z 	uncaughtException: connStr is not defined
+ReferenceError: connStr is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/db.js:19:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:27:23.414Z 	connStr is not defined
+[info]: 2019-07-11T20:27:42.495Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:27:42.497Z 	NODE_ENV: development
+[info]: 2019-07-11T20:27:42.499Z 	Morgan enabled...
+[error]: 2019-07-11T20:27:42.503Z 	uncaughtException: connStr is not defined
+ReferenceError: connStr is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/db.js:19:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:24)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-11T20:27:42.503Z 	connStr is not defined
+[info]: 2019-07-11T20:27:45.737Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:27:45.738Z 	NODE_ENV: development
+[info]: 2019-07-11T20:27:45.740Z 	Morgan enabled...
+[info]: 2019-07-11T20:27:45.764Z 	Express listening on port 3000
+[info]: 2019-07-11T20:27:45.792Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:27:55.154Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:27:55.156Z 	NODE_ENV: development
+[info]: 2019-07-11T20:27:55.159Z 	Morgan enabled...
+[info]: 2019-07-11T20:27:55.282Z 	Express listening on port 3000
+[info]: 2019-07-11T20:27:55.302Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:12.288Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:12.290Z 	NODE_ENV: development
+[info]: 2019-07-11T20:28:12.292Z 	Morgan enabled...
+[info]: 2019-07-11T20:28:12.413Z 	Express listening on port 3000
+[info]: 2019-07-11T20:28:12.434Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:17.537Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:17.540Z 	NODE_ENV: development
+[info]: 2019-07-11T20:28:17.542Z 	Morgan enabled...
+[info]: 2019-07-11T20:28:17.665Z 	Express listening on port 3000
+[info]: 2019-07-11T20:28:17.686Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:26.740Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:26.742Z 	NODE_ENV: development
+[info]: 2019-07-11T20:28:26.744Z 	Morgan enabled...
+[info]: 2019-07-11T20:28:26.860Z 	Express listening on port 3000
+[info]: 2019-07-11T20:28:26.882Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:29.063Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:28:29.065Z 	NODE_ENV: development
+[info]: 2019-07-11T20:28:29.067Z 	Morgan enabled...
+[info]: 2019-07-11T20:28:29.185Z 	Express listening on port 3000
+[info]: 2019-07-11T20:28:29.206Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:29:02.712Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:29:02.715Z 	NODE_ENV: development
+[info]: 2019-07-11T20:29:02.717Z 	Morgan enabled...
+[info]: 2019-07-11T20:29:02.844Z 	Express listening on port 3000
+[info]: 2019-07-11T20:29:02.869Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:29:30.386Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:29:30.388Z 	NODE_ENV: development
+[info]: 2019-07-11T20:29:30.391Z 	Morgan enabled...
+[info]: 2019-07-11T20:29:30.494Z 	.env vars: 
+[info]: 2019-07-11T20:29:30.511Z 	Express listening on port 3000
+[info]: 2019-07-11T20:29:30.532Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:29:45.751Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:29:45.753Z 	NODE_ENV: development
+[info]: 2019-07-11T20:29:45.755Z 	Morgan enabled...
+[info]: 2019-07-11T20:29:45.861Z 	.env vars: 
+[info]: 2019-07-11T20:29:45.881Z 	Express listening on port 3000
+[info]: 2019-07-11T20:29:45.898Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:00.420Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:00.422Z 	NODE_ENV: development
+[info]: 2019-07-11T20:30:00.424Z 	Morgan enabled...
+[info]: 2019-07-11T20:30:00.525Z 	.env vars: 
+[info]: 2019-07-11T20:30:00.542Z 	Express listening on port 3000
+[info]: 2019-07-11T20:30:00.565Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:06.885Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:06.888Z 	NODE_ENV: development
+[info]: 2019-07-11T20:30:06.890Z 	Morgan enabled...
+[info]: 2019-07-11T20:30:06.996Z 	.env vars: 
+[info]: 2019-07-11T20:30:07.014Z 	Express listening on port 3000
+[info]: 2019-07-11T20:30:07.036Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:18.367Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:18.370Z 	NODE_ENV: development
+[info]: 2019-07-11T20:30:18.372Z 	Morgan enabled...
+[info]: 2019-07-11T20:30:18.496Z 	Express listening on port 3000
+[info]: 2019-07-11T20:30:18.518Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:34.288Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:34.290Z 	NODE_ENV: development
+[info]: 2019-07-11T20:30:34.292Z 	Morgan enabled...
+[info]: 2019-07-11T20:30:34.396Z 	.env vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api"}
+[info]: 2019-07-11T20:30:34.416Z 	Express listening on port 3000
+[info]: 2019-07-11T20:30:34.439Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:53.133Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-11T20:30:53.135Z 	NODE_ENV: development
+[info]: 2019-07-11T20:30:53.137Z 	Morgan enabled...
+[info]: 2019-07-11T20:30:53.255Z 	Express listening on port 3000
+[info]: 2019-07-11T20:30:53.271Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
