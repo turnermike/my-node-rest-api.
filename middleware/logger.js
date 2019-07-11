@@ -30,6 +30,7 @@ const appRoot = require('app-root-path');
 const { createLogger, format, transports } = require('winston');
 require('winston-mongodb');
 const config = require('config');
+const dotenv = require('dotenv').config();
 
 // winston options
 var options = {
@@ -47,7 +48,6 @@ var options = {
         // format.json(),
         // format.prettyPrint(),
     ),
-
 
     file: {
         level: 'silly', // silly will accept all other logging levels
@@ -68,29 +68,23 @@ var options = {
 
     mongodb: {
         level: 'silly',
-        db: config.get('mongodb')
+        db: process.env.MONGO_URL
     }
 
 };
 
-
 // array of available Winston transports based off of config values
 let availableTransports = [];
-( config.get('errorLogToFile') ) ? availableTransports.push(new transports.File(options.file)) : '';
-( config.get('errorLogToDB') ) ? availableTransports.push(new transports.MongoDB(options.mongodb)) : '';
-( config.get('errorLogToConsole') ) ? availableTransports.push(new transports.Console(options.console)) : '';
+( config.get('logger.errorLogToFile') ) ? availableTransports.push(new transports.File(options.file)) : '';                     // enable log to file from config value
+( config.get('logger.errorLogToDB') ) ? availableTransports.push(new transports.MongoDB(options.mongodb)) : '';                 // enable log to database from config value
+( config.get('logger.errorLogToConsole') ) ? availableTransports.push(new transports.Console(options.console)) : '';            // enable log to console from config value
 
 // instantiate a new Winston Logger with the settings defined above
 const logger = createLogger({
-    level: 'info',
-    format: options.format,
-    transports: availableTransports,
-    // transports: [
-    //     new transports.File(options.file),
-    //     new transports.MongoDB(options.mongodb)
-    //     // see environment conditional below for console
-    // ],
-    exitOnError: false, // do not exit on handled exceptions
+    level: 'info',                      // default level
+    format: options.format,             // formatting options
+    transports: availableTransports,    // populated array above
+    exitOnError: false,                 // do not exit on handled exceptions
 });
 
 // create a stream object with a 'write' function that will be used by `morgan`
@@ -100,10 +94,5 @@ logger.stream = {
     logger.info(message);
   },
 };
-
-// // use console for dev/staging only
-// if (process.env.NODE_ENV !== 'production') {
-//     logger.add(new transports.Console(options.console));
-// }
 
 module.exports = logger;
