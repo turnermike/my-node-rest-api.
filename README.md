@@ -15,15 +15,10 @@ Login to MongDB with authentication:
 
 MongoDB Compass Setup:
 
-Hostname: 0.0.0.0
-
-Port: 27017
-
-Authentication: Username/Password
-
-Username: sammy
-
-Password: <check_the_env_file>
-
-Authentication Database: admin
+Hostname: 0.0.0.0.
+Port: 27017.
+Authentication: Username/Password.
+Username: sammy.
+Password: <check_the_env_file>.
+Authentication Database: admin.
 
