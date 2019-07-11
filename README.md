@@ -5,20 +5,18 @@ Source Code: [https://github.com/do-community/nodejs-mongo-mongoose](https://git
 
 ## MongoDB Access
 
-Get shell access to the container:
-
+Get shell access to the container:  
 `docker exec -it db bash`
 
-Login to MongDB with authentication:
-
+Login to MongDB with authentication:  
 `mongo -u "sammy" -p "<check_the_env_file>" --authenticationDatabase "admin"`
 
 MongoDB Compass Setup:
 
-Hostname: 0.0.0.0.
-Port: 27017.
-Authentication: Username/Password.
-Username: sammy.
-Password: <check_the_env_file>.
-Authentication Database: admin.
+Hostname: 0.0.0.0  
+Port: 27017  
+Authentication: Username/Password  
+Username: sammy  
+Password: <check_the_env_file>  
+Authentication Database: admin  
 
