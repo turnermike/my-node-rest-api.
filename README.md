@@ -1,22 +1,39 @@
-# Containerizing a Node.js Application for Development With Docker Compose
+# My Node.js RESTful API
 
-Tutorial: [https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-application-for-development-with-docker-compose](https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-application-for-development-with-docker-compose)
-Source Code: [https://github.com/do-community/nodejs-mongo-mongoose](https://github.com/do-community/nodejs-mongo-mongoose)
+A learning project for dockerizing a Node.js application running on Express.
 
-## MongoDB Access
 
-Get shell access to the container:  
-`docker exec -it db bash`
+# The Stack
 
-Login to MongDB with authentication:  
-`mongo -u "sammy" -p "<check_the_env_file>" --authenticationDatabase "admin"`
+Docker - Used for a local development environmet and containerized deployments.
+Node.js - Server side language.
+MongoDB - The database server.
+Express - The web server.
+Webpack - Build tool for front end scripts, styles, and images.
 
-MongoDB Compass Setup:
 
-Hostname: 0.0.0.0  
-Port: 27017  
-Authentication: Username/Password  
-Username: sammy  
-Password: <check_the_env_file>  
-Authentication Database: admin  
+# MongoDB Access
 
+## Docker/CLI
+Get shell access to the container:
+`docker exec -it mynoderesetapi-db bash`
+
+Login to MongDB with authentication:
+`mongo -u "mynoderestapi" -p "<check_the_env_file>" --authenticationDatabase "admin"`
+
+## MongoDB Compass Setup
+
+Hostname: 0.0.0.0
+Port: 27017
+Database: mynoderestapi
+Authentication: Username/Password
+Username: mynoderestapi
+Password: <check_the_env_file>
+Authentication Database: admin
+
+
+export MONGO_USERNAME=mynoderestapi &&
+export MONGO_PASSWORD=password &&
+export MONGO_PORT=27017 &&
+export MONGO_DB=mynoderestapi &&
+export MONGO_HOSTNAME=localhost

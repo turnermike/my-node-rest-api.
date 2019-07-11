@@ -1,25 +1,29 @@
 {
-  "name": "nodejs-image-demo",
+  "name": "my-node-rest-api",
   "version": "1.0.0",
-  "description": "nodejs image demo",
-  "author": "katjuell <kathleenjuell@gmail.com>",
-  "license": "MIT",
+  "description": "",
+  "author": "Mike Turner <turner.mike@gmail.com>",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/katjuell/nodejs-image-demo.git"
+    "url": "https://bitbucket.org/Hi-hatConsulting/nodejs-mongodb-docker/"
   },
   "keywords": [
     "nodejs",
     "bootstrap",
     "express"
   ],
+  "scripts": {
+    "dev": "export NODE_ENV=development && nodemon index.js"
+  },
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.4.10"
+    "mongoose": "^5.4.10",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
+    "dotenv": "^8.0.0",
     "nodemon": "^1.19.1"
   }
 }

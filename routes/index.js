@@ -11,4 +11,8 @@ router.get('/',function(req,res){
   res.sendFile(path.resolve('views/index.html'));
 });
 
+// router.get('/test', function(req, res){
+//     res.send('Hit the "test" route.');
+// });
+
 module.exports = router;
