@@ -2,12 +2,12 @@ version: '3'
 
 services:
 
-  nodejs:
+  mynoderesetapi-nodejs:
     build:
       context: .
       dockerfile: Dockerfile
     image: nodejs
-    container_name: nodejs
+    container_name: mynoderesetapi-nodejs
     restart: unless-stopped
     env_file: .env
     environment:
@@ -22,12 +22,12 @@ services:
       - .:/home/node/app
       - node_modules:/home/node/app/node_modules
     networks:
-      - app-network
-    command: ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon app.js
+      - mynoderesetapi-network
+    command: ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon index.js
 
   db:
     image: mongo:4.1.8-xenial
-    container_name: db
+    container_name: mynoderesetapi-db
     restart: unless-stopped
     env_file: .env
     environment:
@@ -36,12 +36,12 @@ services:
     volumes:
       - dbdata:/data/db
     networks:
-      - app-network
+      - mynoderesetapi-network
     ports:
       - "27017:27017"
 
 networks:
-  app-network:
+  mynoderesetapi-network:
     driver: bridge
 
 volumes:
