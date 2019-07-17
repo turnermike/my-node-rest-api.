@@ -1,15 +1,15 @@
+/**
+ * routes/index.js
+ *
+ *
+ */
+
 const express = require('express');
 const router = express.Router();
-// const path = require('path');
+const indexController = require('../controllers/index');
 
-// router.use (function (req,res,next) {
-//   console.log('/' + req.method);
-//   next();
-// });
-
-
-router.post('/addshark', function(req, res) {
-    res.send('hi?');
+router.get('/', (req, res) => {
+    indexController.getHomePage(req, res);
 });
 
 module.exports = router;

@@ -6,7 +6,7 @@
  */
 
 const express = require('express');
-const home = require('../routes/home');
+const index = require('../routes/index');
 const users = require('../routes/users');
 
 module.exports = function(app) {
@@ -14,8 +14,7 @@ module.exports = function(app) {
   app.use(express.json());                            // use express.json middleware in request processing pipeline
   app.use(express.urlencoded({ extended: true }));    // allow use of key/value pairs with post data
 
-  app.use('/', home);                                 // load home/root routes
-
+  app.use('/', index);                                 // load index/root routes
   app.use('/api/users', users);
 
 
