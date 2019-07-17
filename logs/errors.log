@@ -1,2 +1,1521 @@
 [info]: 2019-07-17T17:45:46.450Z 	::ffff:127.0.0.1 - - [17/Jul/2019:17:45:46 +0000] "GET /api/users/me HTTP/1.1" 200 17
 
+[info]: 2019-07-17T18:24:17.433Z 	Helmet enabled...
+[info]: 2019-07-17T18:24:17.435Z 	Compression enabled...
+[info]: 2019-07-17T18:24:17.441Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:24:17.441Z 	NODE_ENV: development
+[info]: 2019-07-17T18:24:17.442Z 	Morgan enabled...
+[info]: 2019-07-17T18:24:17.738Z 	Express listening on port 3000
+[info]: 2019-07-17T18:24:17.757Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:25:17.911Z 	Helmet enabled...
+[info]: 2019-07-17T18:25:17.914Z 	Compression enabled...
+[info]: 2019-07-17T18:25:17.920Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:25:17.920Z 	NODE_ENV: development
+[info]: 2019-07-17T18:25:17.921Z 	Morgan enabled...
+[info]: 2019-07-17T18:25:18.207Z 	Express listening on port 3000
+[info]: 2019-07-17T18:25:18.225Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:25:46.907Z 	Helmet enabled...
+[info]: 2019-07-17T18:25:46.910Z 	Compression enabled...
+[info]: 2019-07-17T18:25:46.914Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:25:46.914Z 	NODE_ENV: development
+[info]: 2019-07-17T18:25:46.916Z 	Morgan enabled...
+[info]: 2019-07-17T18:25:47.107Z 	Express listening on port 3000
+[info]: 2019-07-17T18:25:47.129Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:28:19.996Z 	Helmet enabled...
+[info]: 2019-07-17T18:28:19.999Z 	Compression enabled...
+[info]: 2019-07-17T18:28:20.005Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:28:20.005Z 	NODE_ENV: development
+[info]: 2019-07-17T18:28:20.006Z 	Morgan enabled...
+[info]: 2019-07-17T18:28:20.281Z 	Express listening on port 3000
+[info]: 2019-07-17T18:28:20.306Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:28:24.283Z 	Helmet enabled...
+[info]: 2019-07-17T18:28:24.286Z 	Compression enabled...
+[info]: 2019-07-17T18:28:24.289Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:28:24.289Z 	NODE_ENV: development
+[info]: 2019-07-17T18:28:24.290Z 	Morgan enabled...
+[info]: 2019-07-17T18:28:24.458Z 	Express listening on port 3000
+[info]: 2019-07-17T18:28:24.476Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:28:29.625Z 	Helmet enabled...
+[info]: 2019-07-17T18:28:29.628Z 	Compression enabled...
+[info]: 2019-07-17T18:28:29.631Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:28:29.631Z 	NODE_ENV: development
+[info]: 2019-07-17T18:28:29.632Z 	Morgan enabled...
+[info]: 2019-07-17T18:28:29.808Z 	Express listening on port 3000
+[info]: 2019-07-17T18:28:29.828Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:30.399Z 	Helmet enabled...
+[info]: 2019-07-17T18:29:30.402Z 	Compression enabled...
+[info]: 2019-07-17T18:29:30.405Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:30.405Z 	NODE_ENV: development
+[info]: 2019-07-17T18:29:30.406Z 	Morgan enabled...
+[info]: 2019-07-17T18:29:30.573Z 	Express listening on port 3000
+[info]: 2019-07-17T18:29:30.592Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:32.241Z 	Helmet enabled...
+[info]: 2019-07-17T18:29:32.243Z 	Compression enabled...
+[info]: 2019-07-17T18:29:32.246Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:32.247Z 	NODE_ENV: development
+[info]: 2019-07-17T18:29:32.247Z 	Morgan enabled...
+[info]: 2019-07-17T18:29:32.413Z 	Express listening on port 3000
+[info]: 2019-07-17T18:29:32.432Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:38.575Z 	Helmet enabled...
+[info]: 2019-07-17T18:29:38.578Z 	Compression enabled...
+[info]: 2019-07-17T18:29:38.581Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:38.581Z 	NODE_ENV: development
+[info]: 2019-07-17T18:29:38.582Z 	Morgan enabled...
+[info]: 2019-07-17T18:29:38.749Z 	Express listening on port 3000
+[info]: 2019-07-17T18:29:38.769Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:43.980Z 	Helmet enabled...
+[info]: 2019-07-17T18:29:43.983Z 	Compression enabled...
+[info]: 2019-07-17T18:29:43.987Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:43.987Z 	NODE_ENV: development
+[info]: 2019-07-17T18:29:43.988Z 	Morgan enabled...
+[info]: 2019-07-17T18:29:44.152Z 	Express listening on port 3000
+[info]: 2019-07-17T18:29:44.171Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:58.375Z 	Helmet enabled...
+[info]: 2019-07-17T18:29:58.378Z 	Compression enabled...
+[info]: 2019-07-17T18:29:58.382Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:29:58.382Z 	NODE_ENV: development
+[info]: 2019-07-17T18:29:58.383Z 	Morgan enabled...
+[info]: 2019-07-17T18:29:58.555Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:29:58.559Z 	Express listening on port 3000
+[info]: 2019-07-17T18:29:58.578Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:30:14.719Z 	Helmet enabled...
+[info]: 2019-07-17T18:30:14.721Z 	Compression enabled...
+[info]: 2019-07-17T18:30:14.724Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:30:14.724Z 	NODE_ENV: development
+[info]: 2019-07-17T18:30:14.725Z 	Morgan enabled...
+[info]: 2019-07-17T18:30:14.890Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:30:14.894Z 	Express listening on port 3000
+[info]: 2019-07-17T18:30:14.913Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:31:32.323Z 	Helmet enabled...
+[info]: 2019-07-17T18:31:32.326Z 	Compression enabled...
+[info]: 2019-07-17T18:31:32.331Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:31:32.331Z 	NODE_ENV: development
+[info]: 2019-07-17T18:31:32.332Z 	Morgan enabled...
+[info]: 2019-07-17T18:31:32.622Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:31:32.625Z 	Express listening on port 3000
+[info]: 2019-07-17T18:31:32.644Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:31:45.473Z 	Helmet enabled...
+[info]: 2019-07-17T18:31:45.475Z 	Compression enabled...
+[info]: 2019-07-17T18:31:45.479Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:31:45.479Z 	NODE_ENV: development
+[info]: 2019-07-17T18:31:45.480Z 	Morgan enabled...
+[info]: 2019-07-17T18:31:45.646Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:31:45.646Z 	
+[info]: 2019-07-17T18:31:45.650Z 	Express listening on port 3000
+[info]: 2019-07-17T18:31:45.670Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:31:55.582Z 	Helmet enabled...
+[info]: 2019-07-17T18:31:55.585Z 	Compression enabled...
+[info]: 2019-07-17T18:31:55.589Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:31:55.589Z 	NODE_ENV: development
+[info]: 2019-07-17T18:31:55.590Z 	Morgan enabled...
+[info]: 2019-07-17T18:31:55.761Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:31:55.761Z 	PORT
+[info]: 2019-07-17T18:31:55.765Z 	Express listening on port 3000
+[info]: 2019-07-17T18:31:55.790Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:32:15.283Z 	Helmet enabled...
+[info]: 2019-07-17T18:32:15.285Z 	Compression enabled...
+[info]: 2019-07-17T18:32:15.288Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:32:15.288Z 	NODE_ENV: development
+[info]: 2019-07-17T18:32:15.289Z 	Morgan enabled...
+[info]: 2019-07-17T18:32:15.454Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:32:15.455Z 	PORT
+[info]: 2019-07-17T18:32:15.459Z 	Express listening on port 3000
+[info]: 2019-07-17T18:32:15.481Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:33:22.165Z 	Helmet enabled...
+[info]: 2019-07-17T18:33:22.168Z 	Compression enabled...
+[info]: 2019-07-17T18:33:22.171Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:33:22.171Z 	NODE_ENV: development
+[info]: 2019-07-17T18:33:22.172Z 	Morgan enabled...
+[error]: 2019-07-17T18:33:22.333Z 	uncaughtException: Cannot find module '../middleware/dotenv'
+Error: Cannot find module '../middleware/dotenv'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:8:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+[error]: 2019-07-17T18:33:22.340Z 	Cannot find module '../middleware/dotenv'
+[info]: 2019-07-17T18:33:27.436Z 	Helmet enabled...
+[info]: 2019-07-17T18:33:27.438Z 	Compression enabled...
+[info]: 2019-07-17T18:33:27.441Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:33:27.442Z 	NODE_ENV: development
+[info]: 2019-07-17T18:33:27.442Z 	Morgan enabled...
+[info]: 2019-07-17T18:33:27.609Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:33:27.610Z 	PORT
+[info]: 2019-07-17T18:33:27.613Z 	Express listening on port 3000
+[info]: 2019-07-17T18:33:27.633Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:33:44.361Z 	Helmet enabled...
+[info]: 2019-07-17T18:33:44.364Z 	Compression enabled...
+[info]: 2019-07-17T18:33:44.367Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:33:44.367Z 	NODE_ENV: development
+[info]: 2019-07-17T18:33:44.368Z 	Morgan enabled...
+[info]: 2019-07-17T18:33:44.537Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:33:44.537Z 	PORT
+[info]: 2019-07-17T18:33:44.541Z 	Express listening on port 3000
+[info]: 2019-07-17T18:33:44.561Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:34:34.599Z 	Helmet enabled...
+[info]: 2019-07-17T18:34:34.602Z 	Compression enabled...
+[info]: 2019-07-17T18:34:34.605Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:34:34.605Z 	NODE_ENV: development
+[info]: 2019-07-17T18:34:34.606Z 	Morgan enabled...
+[info]: 2019-07-17T18:34:34.769Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:34:34.769Z 	PORT
+[info]: 2019-07-17T18:34:34.773Z 	Express listening on port 3000
+[info]: 2019-07-17T18:34:34.792Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:34:46.018Z 	Helmet enabled...
+[info]: 2019-07-17T18:34:46.021Z 	Compression enabled...
+[info]: 2019-07-17T18:34:46.024Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:34:46.024Z 	NODE_ENV: development
+[info]: 2019-07-17T18:34:46.025Z 	Morgan enabled...
+[info]: 2019-07-17T18:34:46.187Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:34:46.187Z 	PORT
+[info]: 2019-07-17T18:34:46.191Z 	Express listening on port 3000
+[info]: 2019-07-17T18:34:46.210Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:35:12.734Z 	Helmet enabled...
+[info]: 2019-07-17T18:35:12.736Z 	Compression enabled...
+[info]: 2019-07-17T18:35:12.739Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:35:12.739Z 	NODE_ENV: development
+[info]: 2019-07-17T18:35:12.740Z 	Morgan enabled...
+[error]: 2019-07-17T18:35:12.911Z 	uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/middleware/dotenv.js:12:3)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:8:32)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:17:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+[error]: 2019-07-17T18:35:12.912Z 	logger is not defined
+[info]: 2019-07-17T18:35:35.606Z 	Helmet enabled...
+[info]: 2019-07-17T18:35:35.608Z 	Compression enabled...
+[info]: 2019-07-17T18:35:35.611Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:35:35.611Z 	NODE_ENV: development
+[info]: 2019-07-17T18:35:35.612Z 	Morgan enabled...
+[info]: 2019-07-17T18:35:35.777Z 	.env vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api","JWT_PRIVATE_KEY":"MIIBOgIBAAJBAI2jmU8BW7C5Y3ycmq52j+JHfKNPRoIfCFjYReuzozzWuYvFzo534KRaSqbrppC3Q1kp1PguR8KEATTXrzOctBECAwEAAQJAR2BEJ74leJ9T9T3t7TEuPPeNZbbTb0s4J52FTswN3OAKKvuXEqM2ZfONZ8/JdWo8QRQ1el+i0gr4EjIZVdNByQIhAPVt+NCGrmCTu+uPkP3gx6aSuZeElM2pxmyHdI7C4RqnAiEAk71EDe9GVl5V0pvJVw4SeyeThTnD0lt7ebFymi996ocCIC5TDY2+fhd4ixXRSVrCHK0SMLmqqrOPAgbmIlf37KktAiAdHKR2YnnntvsOXyhTgTBfGDNXg0R1BRXVqwO8IjObrQIhALsqGuyyWObiteLbvwynMcFvaB8aWPCmp8GX7kfUXRE0"}
+[info]: 2019-07-17T18:35:35.778Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:35:35.778Z 	PORT
+[info]: 2019-07-17T18:35:35.782Z 	Express listening on port 3000
+[info]: 2019-07-17T18:35:35.801Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:36:29.334Z 	Helmet enabled...
+[info]: 2019-07-17T18:36:29.336Z 	Compression enabled...
+[info]: 2019-07-17T18:36:29.339Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:36:29.340Z 	NODE_ENV: development
+[info]: 2019-07-17T18:36:29.341Z 	Morgan enabled...
+[info]: 2019-07-17T18:36:29.512Z 	.env vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api","JWT_PRIVATE_KEY":"MIIBOgIBAAJBAI2jmU8BW7C5Y3ycmq52j+JHfKNPRoIfCFjYReuzozzWuYvFzo534KRaSqbrppC3Q1kp1PguR8KEATTXrzOctBECAwEAAQJAR2BEJ74leJ9T9T3t7TEuPPeNZbbTb0s4J52FTswN3OAKKvuXEqM2ZfONZ8/JdWo8QRQ1el+i0gr4EjIZVdNByQIhAPVt+NCGrmCTu+uPkP3gx6aSuZeElM2pxmyHdI7C4RqnAiEAk71EDe9GVl5V0pvJVw4SeyeThTnD0lt7ebFymi996ocCIC5TDY2+fhd4ixXRSVrCHK0SMLmqqrOPAgbmIlf37KktAiAdHKR2YnnntvsOXyhTgTBfGDNXg0R1BRXVqwO8IjObrQIhALsqGuyyWObiteLbvwynMcFvaB8aWPCmp8GX7kfUXRE0"}
+[info]: 2019-07-17T18:36:29.512Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:36:29.513Z 	PORT
+[info]: 2019-07-17T18:36:29.516Z 	Express listening on port 3000
+[info]: 2019-07-17T18:36:29.535Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:36:42.983Z 	Helmet enabled...
+[info]: 2019-07-17T18:36:42.986Z 	Compression enabled...
+[info]: 2019-07-17T18:36:42.989Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:36:42.989Z 	NODE_ENV: development
+[info]: 2019-07-17T18:36:42.990Z 	Morgan enabled...
+[info]: 2019-07-17T18:36:43.154Z 	.env vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api","JWT_PRIVATE_KEY":"MIIBOgIBAAJBAI2jmU8BW7C5Y3ycmq52j+JHfKNPRoIfCFjYReuzozzWuYvFzo534KRaSqbrppC3Q1kp1PguR8KEATTXrzOctBECAwEAAQJAR2BEJ74leJ9T9T3t7TEuPPeNZbbTb0s4J52FTswN3OAKKvuXEqM2ZfONZ8/JdWo8QRQ1el+i0gr4EjIZVdNByQIhAPVt+NCGrmCTu+uPkP3gx6aSuZeElM2pxmyHdI7C4RqnAiEAk71EDe9GVl5V0pvJVw4SeyeThTnD0lt7ebFymi996ocCIC5TDY2+fhd4ixXRSVrCHK0SMLmqqrOPAgbmIlf37KktAiAdHKR2YnnntvsOXyhTgTBfGDNXg0R1BRXVqwO8IjObrQIhALsqGuyyWObiteLbvwynMcFvaB8aWPCmp8GX7kfUXRE0"}
+[info]: 2019-07-17T18:36:43.154Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:36:43.154Z 	PORT: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:36:43.158Z 	Express listening on port 3000
+[info]: 2019-07-17T18:36:43.177Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:36:47.146Z 	Helmet enabled...
+[info]: 2019-07-17T18:36:47.149Z 	Compression enabled...
+[info]: 2019-07-17T18:36:47.152Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:36:47.152Z 	NODE_ENV: development
+[info]: 2019-07-17T18:36:47.153Z 	Morgan enabled...
+[info]: 2019-07-17T18:36:47.319Z 	.env vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api","JWT_PRIVATE_KEY":"MIIBOgIBAAJBAI2jmU8BW7C5Y3ycmq52j+JHfKNPRoIfCFjYReuzozzWuYvFzo534KRaSqbrppC3Q1kp1PguR8KEATTXrzOctBECAwEAAQJAR2BEJ74leJ9T9T3t7TEuPPeNZbbTb0s4J52FTswN3OAKKvuXEqM2ZfONZ8/JdWo8QRQ1el+i0gr4EjIZVdNByQIhAPVt+NCGrmCTu+uPkP3gx6aSuZeElM2pxmyHdI7C4RqnAiEAk71EDe9GVl5V0pvJVw4SeyeThTnD0lt7ebFymi996ocCIC5TDY2+fhd4ixXRSVrCHK0SMLmqqrOPAgbmIlf37KktAiAdHKR2YnnntvsOXyhTgTBfGDNXg0R1BRXVqwO8IjObrQIhALsqGuyyWObiteLbvwynMcFvaB8aWPCmp8GX7kfUXRE0"}
+[info]: 2019-07-17T18:36:47.319Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:36:47.320Z 	PORT: 3000
+[info]: 2019-07-17T18:36:47.323Z 	Express listening on port 3000
+[info]: 2019-07-17T18:36:47.349Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:37:09.569Z 	Helmet enabled...
+[info]: 2019-07-17T18:37:09.571Z 	Compression enabled...
+[info]: 2019-07-17T18:37:09.574Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:37:09.574Z 	NODE_ENV: development
+[info]: 2019-07-17T18:37:09.575Z 	Morgan enabled...
+[info]: 2019-07-17T18:37:09.742Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:37:09.742Z 	PORT: 3000
+[info]: 2019-07-17T18:37:09.746Z 	Express listening on port 3000
+[info]: 2019-07-17T18:37:09.765Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:38:31.951Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:38:31.953Z 	PORT: 3000
+[info]: 2019-07-17T18:38:31.994Z 	Helmet enabled...
+[info]: 2019-07-17T18:38:31.995Z 	Compression enabled...
+[info]: 2019-07-17T18:38:31.997Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:38:31.998Z 	NODE_ENV: development
+[info]: 2019-07-17T18:38:31.999Z 	Morgan enabled...
+[info]: 2019-07-17T18:38:32.165Z 	Express listening on port 3000
+[info]: 2019-07-17T18:38:32.184Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:38:55.586Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:38:55.588Z 	PORT: 3000
+[info]: 2019-07-17T18:38:55.624Z 	Helmet enabled...
+[info]: 2019-07-17T18:38:55.625Z 	Compression enabled...
+[info]: 2019-07-17T18:38:55.627Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:38:55.628Z 	NODE_ENV: development
+[info]: 2019-07-17T18:38:55.628Z 	Morgan enabled...
+[info]: 2019-07-17T18:38:55.797Z 	Express listening on port 3000
+[info]: 2019-07-17T18:38:55.816Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:39:13.453Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:39:13.456Z 	PORT: 3000
+[info]: 2019-07-17T18:39:13.491Z 	Helmet enabled...
+[info]: 2019-07-17T18:39:13.491Z 	Compression enabled...
+[info]: 2019-07-17T18:39:13.494Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:39:13.494Z 	NODE_ENV: development
+[info]: 2019-07-17T18:39:13.495Z 	Morgan enabled...
+[info]: 2019-07-17T18:39:13.669Z 	Express listening on port 3000
+[info]: 2019-07-17T18:39:13.689Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:39:19.628Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:39:19.630Z 	PORT: 3000
+[info]: 2019-07-17T18:39:19.670Z 	Helmet enabled...
+[info]: 2019-07-17T18:39:19.670Z 	Compression enabled...
+[info]: 2019-07-17T18:39:19.674Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:39:19.674Z 	NODE_ENV: development
+[info]: 2019-07-17T18:39:19.675Z 	Morgan enabled...
+[info]: 2019-07-17T18:39:19.844Z 	Express listening on port 3000
+[info]: 2019-07-17T18:39:19.863Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:40:31.729Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:40:31.731Z 	All ENV vars: {"parsed":{"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api","JWT_PRIVATE_KEY":"MIIBOgIBAAJBAI2jmU8BW7C5Y3ycmq52j+JHfKNPRoIfCFjYReuzozzWuYvFzo534KRaSqbrppC3Q1kp1PguR8KEATTXrzOctBECAwEAAQJAR2BEJ74leJ9T9T3t7TEuPPeNZbbTb0s4J52FTswN3OAKKvuXEqM2ZfONZ8/JdWo8QRQ1el+i0gr4EjIZVdNByQIhAPVt+NCGrmCTu+uPkP3gx6aSuZeElM2pxmyHdI7C4RqnAiEAk71EDe9GVl5V0pvJVw4SeyeThTnD0lt7ebFymi996ocCIC5TDY2+fhd4ixXRSVrCHK0SMLmqqrOPAgbmIlf37KktAiAdHKR2YnnntvsOXyhTgTBfGDNXg0R1BRXVqwO8IjObrQIhALsqGuyyWObiteLbvwynMcFvaB8aWPCmp8GX7kfUXRE0"}}
+[info]: 2019-07-17T18:40:31.732Z 	PORT: 3000
+[info]: 2019-07-17T18:40:31.770Z 	Helmet enabled...
+[info]: 2019-07-17T18:40:31.770Z 	Compression enabled...
+[info]: 2019-07-17T18:40:31.773Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:40:31.773Z 	NODE_ENV: development
+[info]: 2019-07-17T18:40:31.774Z 	Morgan enabled...
+[info]: 2019-07-17T18:40:31.945Z 	Express listening on port 3000
+[info]: 2019-07-17T18:40:31.967Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:40:50.446Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:40:50.448Z 	All ENV vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api","JWT_PRIVATE_KEY":"MIIBOgIBAAJBAI2jmU8BW7C5Y3ycmq52j+JHfKNPRoIfCFjYReuzozzWuYvFzo534KRaSqbrppC3Q1kp1PguR8KEATTXrzOctBECAwEAAQJAR2BEJ74leJ9T9T3t7TEuPPeNZbbTb0s4J52FTswN3OAKKvuXEqM2ZfONZ8/JdWo8QRQ1el+i0gr4EjIZVdNByQIhAPVt+NCGrmCTu+uPkP3gx6aSuZeElM2pxmyHdI7C4RqnAiEAk71EDe9GVl5V0pvJVw4SeyeThTnD0lt7ebFymi996ocCIC5TDY2+fhd4ixXRSVrCHK0SMLmqqrOPAgbmIlf37KktAiAdHKR2YnnntvsOXyhTgTBfGDNXg0R1BRXVqwO8IjObrQIhALsqGuyyWObiteLbvwynMcFvaB8aWPCmp8GX7kfUXRE0"}
+[info]: 2019-07-17T18:40:50.449Z 	PORT: 3000
+[info]: 2019-07-17T18:40:50.490Z 	Helmet enabled...
+[info]: 2019-07-17T18:40:50.491Z 	Compression enabled...
+[info]: 2019-07-17T18:40:50.494Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:40:50.494Z 	NODE_ENV: development
+[info]: 2019-07-17T18:40:50.495Z 	Morgan enabled...
+[info]: 2019-07-17T18:40:50.662Z 	Express listening on port 3000
+[info]: 2019-07-17T18:40:50.681Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:41:21.110Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:41:21.113Z 	All ENV vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api","JWT_PRIVATE_KEY":"MIIBOgIBAAJBAI2jmU8BW7C5Y3ycmq52j+JHfKNPRoIfCFjYReuzozzWuYvFzo534KRaSqbrppC3Q1kp1PguR8KEATTXrzOctBECAwEAAQJAR2BEJ74leJ9T9T3t7TEuPPeNZbbTb0s4J52FTswN3OAKKvuXEqM2ZfONZ8/JdWo8QRQ1el+i0gr4EjIZVdNByQIhAPVt+NCGrmCTu+uPkP3gx6aSuZeElM2pxmyHdI7C4RqnAiEAk71EDe9GVl5V0pvJVw4SeyeThTnD0lt7ebFymi996ocCIC5TDY2+fhd4ixXRSVrCHK0SMLmqqrOPAgbmIlf37KktAiAdHKR2YnnntvsOXyhTgTBfGDNXg0R1BRXVqwO8IjObrQIhALsqGuyyWObiteLbvwynMcFvaB8aWPCmp8GX7kfUXRE0"}
+[info]: 2019-07-17T18:41:21.114Z 	PORT: 3000
+[info]: 2019-07-17T18:41:21.152Z 	Helmet enabled...
+[info]: 2019-07-17T18:41:21.153Z 	Compression enabled...
+[info]: 2019-07-17T18:41:21.156Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:41:21.156Z 	NODE_ENV: development
+[info]: 2019-07-17T18:41:21.157Z 	Morgan enabled...
+[info]: 2019-07-17T18:41:21.324Z 	Express listening on port 3000
+[info]: 2019-07-17T18:41:21.343Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:41:25.011Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:41:25.013Z 	PORT: 3000
+[info]: 2019-07-17T18:41:25.052Z 	Helmet enabled...
+[info]: 2019-07-17T18:41:25.052Z 	Compression enabled...
+[info]: 2019-07-17T18:41:25.055Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:41:25.055Z 	NODE_ENV: development
+[info]: 2019-07-17T18:41:25.056Z 	Morgan enabled...
+[info]: 2019-07-17T18:41:25.237Z 	Express listening on port 3000
+[info]: 2019-07-17T18:41:25.256Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:42:20.356Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:42:20.359Z 	PORT: 3000
+[info]: 2019-07-17T18:42:20.398Z 	Helmet enabled...
+[info]: 2019-07-17T18:42:20.398Z 	Compression enabled...
+[info]: 2019-07-17T18:42:20.401Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:42:20.401Z 	NODE_ENV: development
+[info]: 2019-07-17T18:42:20.402Z 	Morgan enabled...
+[info]: 2019-07-17T18:42:20.575Z 	Express listening on port 3000
+[info]: 2019-07-17T18:42:20.595Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:44:03.365Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:44:03.367Z 	PORT: 3000
+[info]: 2019-07-17T18:44:03.406Z 	Helmet enabled...
+[info]: 2019-07-17T18:44:03.406Z 	Compression enabled...
+[info]: 2019-07-17T18:44:03.409Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:44:03.409Z 	NODE_ENV: development
+[info]: 2019-07-17T18:44:03.410Z 	Morgan enabled...
+[info]: 2019-07-17T18:44:03.577Z 	Express listening on port 3000
+[info]: 2019-07-17T18:44:03.596Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:45:05.266Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:45:05.269Z 	PORT: 3000
+[info]: 2019-07-17T18:45:05.308Z 	Helmet enabled...
+[info]: 2019-07-17T18:45:05.308Z 	Compression enabled...
+[info]: 2019-07-17T18:45:05.311Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:45:05.312Z 	NODE_ENV: development
+[info]: 2019-07-17T18:45:05.312Z 	Morgan enabled...
+[info]: 2019-07-17T18:45:05.489Z 	Express listening on port 3000
+[info]: 2019-07-17T18:45:05.509Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T18:46:02.660Z 	uncaughtException: Unexpected token )
+/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:22
+  allEnvVars.map(el => )
+                       ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[error]: 2019-07-17T18:46:34.837Z 	uncaughtException: Unexpected token )
+/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:22
+  allEnvVars.map(el => (){
+                        ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[info]: 2019-07-17T18:47:29.528Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:47:29.531Z 	PORT: 3000
+[error]: 2019-07-17T18:47:29.534Z 	uncaughtException: allEnvVars.map is not a function
+TypeError: allEnvVars.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:22:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T18:48:05.810Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:48:05.817Z 	PORT: 3000
+[info]: 2019-07-17T18:48:05.884Z 	Helmet enabled...
+[info]: 2019-07-17T18:48:05.884Z 	Compression enabled...
+[info]: 2019-07-17T18:48:05.890Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:48:05.891Z 	NODE_ENV: development
+[info]: 2019-07-17T18:48:05.891Z 	Morgan enabled...
+[info]: 2019-07-17T18:48:06.190Z 	Express listening on port 3000
+[info]: 2019-07-17T18:48:06.215Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:48:34.133Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:48:34.136Z 	PORT: 3000
+[error]: 2019-07-17T18:48:34.139Z 	uncaughtException: allEnvVars.map is not a function
+TypeError: allEnvVars.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:24:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T18:49:00.416Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:49:00.426Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:16:27)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T18:49:12.228Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:49:12.237Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:16:27)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T18:49:41.494Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:49:41.500Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:16:27)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T18:49:52.632Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:49:52.637Z 	PORT: 3000
+[error]: 2019-07-17T18:49:52.640Z 	uncaughtException: allEnvVars.map is not a function
+TypeError: allEnvVars.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:25:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T18:50:01.239Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:50:01.244Z 	PORT: 3000
+[error]: 2019-07-17T18:50:01.251Z 	uncaughtException: allEnvVars.map is not a function
+TypeError: allEnvVars.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:25:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T18:50:24.974Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:50:24.980Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:16:27)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T18:50:37.232Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:50:37.237Z 	PORT: 3000
+[error]: 2019-07-17T18:50:37.240Z 	uncaughtException: allEnvVars.map is not a function
+TypeError: allEnvVars.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:25:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T18:50:40.139Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:50:40.144Z 	PORT: 3000
+[info]: 2019-07-17T18:50:40.203Z 	Helmet enabled...
+[info]: 2019-07-17T18:50:40.204Z 	Compression enabled...
+[info]: 2019-07-17T18:50:40.208Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:50:40.209Z 	NODE_ENV: development
+[info]: 2019-07-17T18:50:40.209Z 	Morgan enabled...
+[info]: 2019-07-17T18:50:40.499Z 	Express listening on port 3000
+[info]: 2019-07-17T18:50:40.518Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:51:04.826Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:51:04.832Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:34)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T18:51:09.153Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:51:09.159Z 	PORT: 3000
+[info]: 2019-07-17T18:51:09.199Z 	Helmet enabled...
+[info]: 2019-07-17T18:51:09.199Z 	Compression enabled...
+[info]: 2019-07-17T18:51:09.202Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:51:09.202Z 	NODE_ENV: development
+[info]: 2019-07-17T18:51:09.203Z 	Morgan enabled...
+[info]: 2019-07-17T18:51:09.369Z 	Express listening on port 3000
+[info]: 2019-07-17T18:51:09.389Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:54:43.006Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:54:43.014Z 	PORT: 3000
+[info]: 2019-07-17T18:54:43.086Z 	Helmet enabled...
+[info]: 2019-07-17T18:54:43.086Z 	Compression enabled...
+[info]: 2019-07-17T18:54:43.092Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:54:43.092Z 	NODE_ENV: development
+[info]: 2019-07-17T18:54:43.093Z 	Morgan enabled...
+[info]: 2019-07-17T18:54:43.392Z 	Express listening on port 3000
+[info]: 2019-07-17T18:54:43.415Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:54:45.542Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:54:45.548Z 	PORT: 3000
+[info]: 2019-07-17T18:54:45.584Z 	Helmet enabled...
+[info]: 2019-07-17T18:54:45.584Z 	Compression enabled...
+[info]: 2019-07-17T18:54:45.587Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:54:45.587Z 	NODE_ENV: development
+[info]: 2019-07-17T18:54:45.587Z 	Morgan enabled...
+[info]: 2019-07-17T18:54:45.750Z 	Express listening on port 3000
+[info]: 2019-07-17T18:54:45.769Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:55:18.166Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:55:18.174Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:18:20)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T18:56:53.647Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:56:53.652Z 	PORT: 3000
+[info]: 2019-07-17T18:56:53.710Z 	Helmet enabled...
+[info]: 2019-07-17T18:56:53.711Z 	Compression enabled...
+[info]: 2019-07-17T18:56:53.715Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:56:53.715Z 	NODE_ENV: development
+[info]: 2019-07-17T18:56:53.716Z 	Morgan enabled...
+[info]: 2019-07-17T18:56:54.011Z 	Express listening on port 3000
+[info]: 2019-07-17T18:56:54.030Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:57:27.439Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:57:27.450Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:20:20)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T18:57:33.534Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:57:33.540Z 	PORT: 3000
+[info]: 2019-07-17T18:57:33.606Z 	Helmet enabled...
+[info]: 2019-07-17T18:57:33.606Z 	Compression enabled...
+[info]: 2019-07-17T18:57:33.612Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:57:33.612Z 	NODE_ENV: development
+[info]: 2019-07-17T18:57:33.613Z 	Morgan enabled...
+[info]: 2019-07-17T18:57:33.897Z 	Express listening on port 3000
+[info]: 2019-07-17T18:57:33.916Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:08.230Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:58:08.239Z 	PORT: 3000
+[info]: 2019-07-17T18:58:08.310Z 	Helmet enabled...
+[info]: 2019-07-17T18:58:08.310Z 	Compression enabled...
+[info]: 2019-07-17T18:58:08.322Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:08.323Z 	NODE_ENV: development
+[info]: 2019-07-17T18:58:08.324Z 	Morgan enabled...
+[info]: 2019-07-17T18:58:08.619Z 	Express listening on port 3000
+[info]: 2019-07-17T18:58:08.642Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:17.461Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:58:17.466Z 	PORT: 3000
+[info]: 2019-07-17T18:58:17.506Z 	Helmet enabled...
+[info]: 2019-07-17T18:58:17.506Z 	Compression enabled...
+[info]: 2019-07-17T18:58:17.509Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:17.509Z 	NODE_ENV: development
+[info]: 2019-07-17T18:58:17.510Z 	Morgan enabled...
+[info]: 2019-07-17T18:58:17.681Z 	Express listening on port 3000
+[info]: 2019-07-17T18:58:17.701Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:32.124Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:58:32.129Z 	PORT: 3000
+[info]: 2019-07-17T18:58:32.169Z 	Helmet enabled...
+[info]: 2019-07-17T18:58:32.170Z 	Compression enabled...
+[info]: 2019-07-17T18:58:32.173Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:32.173Z 	NODE_ENV: development
+[info]: 2019-07-17T18:58:32.174Z 	Morgan enabled...
+[info]: 2019-07-17T18:58:32.342Z 	Express listening on port 3000
+[info]: 2019-07-17T18:58:32.361Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:44.331Z 	Validating env vars and config values...
+[info]: 2019-07-17T18:58:44.336Z 	PORT: 3000
+[info]: 2019-07-17T18:58:44.375Z 	Helmet enabled...
+[info]: 2019-07-17T18:58:44.376Z 	Compression enabled...
+[info]: 2019-07-17T18:58:44.378Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:58:44.378Z 	NODE_ENV: development
+[info]: 2019-07-17T18:58:44.379Z 	Morgan enabled...
+[info]: 2019-07-17T18:58:44.544Z 	Express listening on port 3000
+[info]: 2019-07-17T18:58:44.563Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T18:59:31.093Z 	Validating env vars and config values...
+[error]: 2019-07-17T18:59:31.099Z 	uncaughtException: allEnvVars is not defined
+ReferenceError: allEnvVars is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:23:26)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:00:10.470Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:00:10.473Z 	PORT: 3000
+[info]: 2019-07-17T19:00:10.538Z 	Helmet enabled...
+[info]: 2019-07-17T19:00:10.538Z 	Compression enabled...
+[info]: 2019-07-17T19:00:10.543Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:00:10.544Z 	NODE_ENV: development
+[info]: 2019-07-17T19:00:10.544Z 	Morgan enabled...
+[info]: 2019-07-17T19:00:10.849Z 	Express listening on port 3000
+[info]: 2019-07-17T19:00:10.873Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:00:29.283Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:00:29.286Z 	PORT: 3000
+[error]: 2019-07-17T19:00:29.289Z 	uncaughtException: allEnvVars is not defined
+ReferenceError: allEnvVars is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:34:3)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:00:36.964Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:00:36.968Z 	PORT: 3000
+[error]: 2019-07-17T19:00:36.973Z 	uncaughtException: allEnvVarsArray.map is not a function
+TypeError: allEnvVarsArray.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:34:19)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:00:45.140Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:00:45.143Z 	PORT: 3000
+[error]: 2019-07-17T19:00:45.147Z 	uncaughtException: allEnvVarsJSON.map is not a function
+TypeError: allEnvVarsJSON.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:34:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:00:54.221Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:00:54.224Z 	PORT: 3000
+[error]: 2019-07-17T19:00:54.228Z 	uncaughtException: allEnvVars is not defined
+ReferenceError: allEnvVars is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:34:3)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:00:57.423Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:00:57.426Z 	PORT: 3000
+[error]: 2019-07-17T19:00:57.430Z 	uncaughtException: allEnvVarsArray.map is not a function
+TypeError: allEnvVarsArray.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:34:19)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:02:50.037Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:02:50.040Z 	PORT: 3000
+[error]: 2019-07-17T19:02:50.043Z 	uncaughtException: allEnvVarsArray is not defined
+ReferenceError: allEnvVarsArray is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:33:3)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:02:54.686Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:02:54.689Z 	PORT: 3000
+[info]: 2019-07-17T19:02:54.753Z 	Helmet enabled...
+[info]: 2019-07-17T19:02:54.754Z 	Compression enabled...
+[info]: 2019-07-17T19:02:54.760Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:02:54.760Z 	NODE_ENV: development
+[info]: 2019-07-17T19:02:54.761Z 	Morgan enabled...
+[info]: 2019-07-17T19:02:55.084Z 	Express listening on port 3000
+[info]: 2019-07-17T19:02:55.103Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:03:08.876Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:03:08.882Z 	uncaughtException: allEnvVars is not defined
+ReferenceError: allEnvVars is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:21:15)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:04:16.530Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:04:16.533Z 	PORT: 3000
+[info]: 2019-07-17T19:04:16.596Z 	Helmet enabled...
+[info]: 2019-07-17T19:04:16.597Z 	Compression enabled...
+[info]: 2019-07-17T19:04:16.603Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:04:16.603Z 	NODE_ENV: development
+[info]: 2019-07-17T19:04:16.604Z 	Morgan enabled...
+[info]: 2019-07-17T19:04:16.886Z 	Express listening on port 3000
+[info]: 2019-07-17T19:04:16.907Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:04:17.831Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:04:17.834Z 	PORT: 3000
+[info]: 2019-07-17T19:04:17.877Z 	Helmet enabled...
+[info]: 2019-07-17T19:04:17.877Z 	Compression enabled...
+[info]: 2019-07-17T19:04:17.880Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:04:17.881Z 	NODE_ENV: development
+[info]: 2019-07-17T19:04:17.882Z 	Morgan enabled...
+[info]: 2019-07-17T19:04:18.051Z 	Express listening on port 3000
+[info]: 2019-07-17T19:04:18.070Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:04:35.849Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:04:35.852Z 	PORT: 3000
+[info]: 2019-07-17T19:04:35.894Z 	Helmet enabled...
+[info]: 2019-07-17T19:04:35.895Z 	Compression enabled...
+[info]: 2019-07-17T19:04:35.898Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:04:35.898Z 	NODE_ENV: development
+[info]: 2019-07-17T19:04:35.899Z 	Morgan enabled...
+[info]: 2019-07-17T19:04:36.071Z 	Express listening on port 3000
+[info]: 2019-07-17T19:04:36.090Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:05:55.578Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:05:55.581Z 	PORT: 3000
+[info]: 2019-07-17T19:05:55.624Z 	Helmet enabled...
+[info]: 2019-07-17T19:05:55.624Z 	Compression enabled...
+[info]: 2019-07-17T19:05:55.628Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:05:55.628Z 	NODE_ENV: development
+[info]: 2019-07-17T19:05:55.629Z 	Morgan enabled...
+[info]: 2019-07-17T19:05:55.795Z 	Express listening on port 3000
+[info]: 2019-07-17T19:05:55.814Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:07:57.266Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:07:57.338Z 	Helmet enabled...
+[info]: 2019-07-17T19:07:57.338Z 	Compression enabled...
+[info]: 2019-07-17T19:07:57.345Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:07:57.345Z 	NODE_ENV: development
+[info]: 2019-07-17T19:07:57.346Z 	Morgan enabled...
+[info]: 2019-07-17T19:07:57.641Z 	Express listening on port 3000
+[info]: 2019-07-17T19:07:57.660Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:08:06.687Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:08:06.730Z 	Helmet enabled...
+[info]: 2019-07-17T19:08:06.730Z 	Compression enabled...
+[info]: 2019-07-17T19:08:06.734Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:08:06.734Z 	NODE_ENV: development
+[info]: 2019-07-17T19:08:06.735Z 	Morgan enabled...
+[info]: 2019-07-17T19:08:06.902Z 	Express listening on port 3000
+[info]: 2019-07-17T19:08:06.922Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T19:08:35.330Z 	uncaughtException: missing ) after argument list
+/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:20
+  const allEnvVars = dotenv.parse(buf;
+                                  ^^^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[info]: 2019-07-17T19:08:46.133Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:08:46.168Z 	Helmet enabled...
+[info]: 2019-07-17T19:08:46.169Z 	Compression enabled...
+[info]: 2019-07-17T19:08:46.172Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:08:46.172Z 	NODE_ENV: development
+[info]: 2019-07-17T19:08:46.173Z 	Morgan enabled...
+[info]: 2019-07-17T19:08:46.362Z 	Express listening on port 3000
+[info]: 2019-07-17T19:08:46.381Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:08:54.383Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:08:54.423Z 	Helmet enabled...
+[info]: 2019-07-17T19:08:54.424Z 	Compression enabled...
+[info]: 2019-07-17T19:08:54.427Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:08:54.427Z 	NODE_ENV: development
+[info]: 2019-07-17T19:08:54.428Z 	Morgan enabled...
+[info]: 2019-07-17T19:08:54.620Z 	Express listening on port 3000
+[info]: 2019-07-17T19:08:54.639Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:09:50.692Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:09:50.699Z 	uncaughtException: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+    at Function.from (buffer.js:233:9)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:19:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:09:52.924Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:09:52.931Z 	uncaughtException: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+    at Function.from (buffer.js:233:9)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:19:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:10:38.743Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:10:38.783Z 	Helmet enabled...
+[info]: 2019-07-17T19:10:38.784Z 	Compression enabled...
+[info]: 2019-07-17T19:10:38.788Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:10:38.788Z 	NODE_ENV: development
+[info]: 2019-07-17T19:10:38.789Z 	Morgan enabled...
+[info]: 2019-07-17T19:10:38.982Z 	Express listening on port 3000
+[info]: 2019-07-17T19:10:39.001Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:11:02.141Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:11:02.185Z 	Helmet enabled...
+[info]: 2019-07-17T19:11:02.185Z 	Compression enabled...
+[info]: 2019-07-17T19:11:02.188Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:11:02.189Z 	NODE_ENV: development
+[info]: 2019-07-17T19:11:02.190Z 	Morgan enabled...
+[info]: 2019-07-17T19:11:02.359Z 	Express listening on port 3000
+[info]: 2019-07-17T19:11:02.378Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T19:13:11.080Z 	uncaughtException: Unexpected token }
+/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:20
+  const test = dotenv.config({ path: })
+                                     ^
+
+SyntaxError: Unexpected token }
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[error]: 2019-07-17T19:13:39.501Z 	uncaughtException: Unexpected token }
+/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:20
+  const test = dotenv.config({ path: })
+                                     ^
+
+SyntaxError: Unexpected token }
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[info]: 2019-07-17T19:13:45.114Z 	Validating env vars and config values.../Users/mike/Sites/Personal/my-node-rest-api/startup
+[info]: 2019-07-17T19:13:45.183Z 	Helmet enabled...
+[info]: 2019-07-17T19:13:45.184Z 	Compression enabled...
+[info]: 2019-07-17T19:13:45.189Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:13:45.189Z 	NODE_ENV: development
+[info]: 2019-07-17T19:13:45.190Z 	Morgan enabled...
+[info]: 2019-07-17T19:13:45.477Z 	Express listening on port 3000
+[info]: 2019-07-17T19:13:45.496Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:14:11.724Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:14:11.770Z 	Helmet enabled...
+[info]: 2019-07-17T19:14:11.770Z 	Compression enabled...
+[info]: 2019-07-17T19:14:11.773Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:14:11.773Z 	NODE_ENV: development
+[info]: 2019-07-17T19:14:11.774Z 	Morgan enabled...
+[info]: 2019-07-17T19:14:11.947Z 	Express listening on port 3000
+[info]: 2019-07-17T19:14:11.967Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:14:37.015Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:14:37.059Z 	Helmet enabled...
+[info]: 2019-07-17T19:14:37.059Z 	Compression enabled...
+[info]: 2019-07-17T19:14:37.062Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:14:37.062Z 	NODE_ENV: development
+[info]: 2019-07-17T19:14:37.063Z 	Morgan enabled...
+[info]: 2019-07-17T19:14:37.232Z 	Express listening on port 3000
+[info]: 2019-07-17T19:14:37.251Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:15:14.350Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:15:14.395Z 	Helmet enabled...
+[info]: 2019-07-17T19:15:14.395Z 	Compression enabled...
+[info]: 2019-07-17T19:15:14.398Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:15:14.398Z 	NODE_ENV: development
+[info]: 2019-07-17T19:15:14.399Z 	Morgan enabled...
+[info]: 2019-07-17T19:15:14.572Z 	Express listening on port 3000
+[info]: 2019-07-17T19:15:14.598Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:15:22.967Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:15:23.007Z 	Helmet enabled...
+[info]: 2019-07-17T19:15:23.007Z 	Compression enabled...
+[info]: 2019-07-17T19:15:23.010Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:15:23.010Z 	NODE_ENV: development
+[info]: 2019-07-17T19:15:23.011Z 	Morgan enabled...
+[info]: 2019-07-17T19:15:23.211Z 	Express listening on port 3000
+[info]: 2019-07-17T19:15:23.231Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:15:40.611Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:15:40.620Z 	uncaughtException: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+    at Function.from (buffer.js:233:9)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:24:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:15:59.727Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:15:59.737Z 	uncaughtException: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+    at Function.from (buffer.js:233:9)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:24:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:16:30.022Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:16:30.030Z 	uncaughtException: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+    at Function.from (buffer.js:233:9)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:24:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:16:38.006Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:16:38.015Z 	uncaughtException: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type object
+    at Function.from (buffer.js:233:9)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:24:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:19:50.387Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:19:50.427Z 	Helmet enabled...
+[info]: 2019-07-17T19:19:50.427Z 	Compression enabled...
+[info]: 2019-07-17T19:19:50.430Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:19:50.431Z 	NODE_ENV: development
+[info]: 2019-07-17T19:19:50.431Z 	Morgan enabled...
+[info]: 2019-07-17T19:19:50.593Z 	Express listening on port 3000
+[info]: 2019-07-17T19:19:50.616Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:19:54.505Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:19:54.548Z 	Helmet enabled...
+[info]: 2019-07-17T19:19:54.548Z 	Compression enabled...
+[info]: 2019-07-17T19:19:54.551Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:19:54.551Z 	NODE_ENV: development
+[info]: 2019-07-17T19:19:54.552Z 	Morgan enabled...
+[info]: 2019-07-17T19:19:54.721Z 	Express listening on port 3000
+[info]: 2019-07-17T19:19:54.748Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:20:10.959Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:20:10.994Z 	Helmet enabled...
+[info]: 2019-07-17T19:20:10.995Z 	Compression enabled...
+[info]: 2019-07-17T19:20:10.998Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:20:10.999Z 	NODE_ENV: development
+[info]: 2019-07-17T19:20:10.999Z 	Morgan enabled...
+[info]: 2019-07-17T19:20:11.168Z 	Express listening on port 3000
+[info]: 2019-07-17T19:20:11.187Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:20:18.538Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:20:18.580Z 	Helmet enabled...
+[info]: 2019-07-17T19:20:18.580Z 	Compression enabled...
+[info]: 2019-07-17T19:20:18.584Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:20:18.584Z 	NODE_ENV: development
+[info]: 2019-07-17T19:20:18.585Z 	Morgan enabled...
+[info]: 2019-07-17T19:20:18.751Z 	Express listening on port 3000
+[info]: 2019-07-17T19:20:18.770Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:20:48.139Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:20:48.181Z 	Helmet enabled...
+[info]: 2019-07-17T19:20:48.182Z 	Compression enabled...
+[info]: 2019-07-17T19:20:48.185Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:20:48.185Z 	NODE_ENV: development
+[info]: 2019-07-17T19:20:48.186Z 	Morgan enabled...
+[info]: 2019-07-17T19:20:48.360Z 	Express listening on port 3000
+[info]: 2019-07-17T19:20:48.387Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:28:39.759Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:28:39.800Z 	Helmet enabled...
+[info]: 2019-07-17T19:28:39.800Z 	Compression enabled...
+[info]: 2019-07-17T19:28:39.803Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:28:39.804Z 	NODE_ENV: development
+[info]: 2019-07-17T19:28:39.804Z 	Morgan enabled...
+[info]: 2019-07-17T19:28:39.971Z 	Express listening on port 3000
+[info]: 2019-07-17T19:28:39.989Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:28:52.709Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:28:52.750Z 	Helmet enabled...
+[info]: 2019-07-17T19:28:52.750Z 	Compression enabled...
+[info]: 2019-07-17T19:28:52.754Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:28:52.754Z 	NODE_ENV: development
+[info]: 2019-07-17T19:28:52.755Z 	Morgan enabled...
+[info]: 2019-07-17T19:28:52.922Z 	Express listening on port 3000
+[info]: 2019-07-17T19:28:52.941Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:28:56.473Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:28:56.515Z 	Helmet enabled...
+[info]: 2019-07-17T19:28:56.516Z 	Compression enabled...
+[info]: 2019-07-17T19:28:56.518Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:28:56.519Z 	NODE_ENV: development
+[info]: 2019-07-17T19:28:56.519Z 	Morgan enabled...
+[info]: 2019-07-17T19:28:56.685Z 	Express listening on port 3000
+[info]: 2019-07-17T19:28:56.704Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:29:09.302Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:29:09.343Z 	Helmet enabled...
+[info]: 2019-07-17T19:29:09.344Z 	Compression enabled...
+[info]: 2019-07-17T19:29:09.347Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:29:09.347Z 	NODE_ENV: development
+[info]: 2019-07-17T19:29:09.348Z 	Morgan enabled...
+[info]: 2019-07-17T19:29:09.518Z 	Express listening on port 3000
+[info]: 2019-07-17T19:29:09.536Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:29:27.020Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:29:27.027Z 	uncaughtException: The following variables were defined in .env.example but are not present in the environment:
+  JWT_PRIVATE_KEY
+Make sure to add them to .env or directly to the environment.
+
+If you expect any of these variables to be empty, you can use the allowEmptyValues option:
+require('dotenv-safe').config({
+  allowEmptyValues: true
+});
+MissingEnvVarsError: The following variables were defined in .env.example but are not present in the environment:
+  JWT_PRIVATE_KEY
+Make sure to add them to .env or directly to the environment.
+
+If you expect any of these variables to be empty, you can use the allowEmptyValues option:
+require('dotenv-safe').config({
+  allowEmptyValues: true
+});
+    at Object.config (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/dotenv-safe/index.js:31:19)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:30)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:31:34.408Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:31:34.415Z 	uncaughtException: dotenvsafe is not defined
+ReferenceError: dotenvsafe is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:19)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:31:49.368Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:31:49.374Z 	uncaughtException: dotenvsafe is not defined
+ReferenceError: dotenvsafe is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:19:19)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:31:54.944Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:31:54.950Z 	uncaughtException: dotenvsafe is not defined
+ReferenceError: dotenvsafe is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:19:19)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T19:32:15.370Z 	uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:3)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T19:32:22.630Z 	uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:210:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:7)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[error]: 2019-07-17T19:32:26.931Z 	uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:3)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T19:32:57.290Z 	uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:210:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:7)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[error]: 2019-07-17T19:33:05.547Z 	uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:210:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:7)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[error]: 2019-07-17T19:33:39.199Z 	uncaughtException: helmet is not defined
+ReferenceError: helmet is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:35:9)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:33:49.817Z 	Helmet enabled...
+[info]: 2019-07-17T19:33:49.820Z 	Compression enabled...
+[info]: 2019-07-17T19:33:49.823Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:33:49.823Z 	NODE_ENV: development
+[info]: 2019-07-17T19:33:49.824Z 	Morgan enabled...
+[info]: 2019-07-17T19:33:49.995Z 	Express listening on port 3000
+[info]: 2019-07-17T19:33:50.014Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T19:34:11.731Z 	uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:210:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:35:9)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[error]: 2019-07-17T19:34:31.460Z 	uncaughtException: The following variables were defined in .env.example but are not present in the environment:
+  JWT_PRIVATE_KEY
+Make sure to add them to .env or directly to the environment.
+
+If you expect any of these variables to be empty, you can use the allowEmptyValues option:
+require('dotenv-safe').config({
+  allowEmptyValues: true
+});
+MissingEnvVarsError: The following variables were defined in .env.example but are not present in the environment:
+  JWT_PRIVATE_KEY
+Make sure to add them to .env or directly to the environment.
+
+If you expect any of these variables to be empty, you can use the allowEmptyValues option:
+require('dotenv-safe').config({
+  allowEmptyValues: true
+});
+    at Object.config (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/dotenv-safe/index.js:31:19)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:35:36)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[error]: 2019-07-17T19:34:46.741Z 	uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:210:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:36:9)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[error]: 2019-07-17T19:35:11.858Z 	uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:210:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:17:7)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:35:41.002Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:35:41.046Z 	Helmet enabled...
+[info]: 2019-07-17T19:35:41.046Z 	Compression enabled...
+[info]: 2019-07-17T19:35:41.049Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:35:41.050Z 	NODE_ENV: development
+[info]: 2019-07-17T19:35:41.051Z 	Morgan enabled...
+[info]: 2019-07-17T19:35:41.216Z 	Express listening on port 3000
+[info]: 2019-07-17T19:35:41.236Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:35:51.342Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:35:51.382Z 	Helmet enabled...
+[info]: 2019-07-17T19:35:51.382Z 	Compression enabled...
+[info]: 2019-07-17T19:35:51.385Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:35:51.385Z 	NODE_ENV: development
+[info]: 2019-07-17T19:35:51.386Z 	Morgan enabled...
+[info]: 2019-07-17T19:35:51.553Z 	Express listening on port 3000
+[info]: 2019-07-17T19:35:51.574Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:05.483Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:37:05.522Z 	Helmet enabled...
+[info]: 2019-07-17T19:37:05.522Z 	Compression enabled...
+[info]: 2019-07-17T19:37:05.525Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:05.525Z 	NODE_ENV: development
+[info]: 2019-07-17T19:37:05.526Z 	Morgan enabled...
+[info]: 2019-07-17T19:37:05.688Z 	Express listening on port 3000
+[info]: 2019-07-17T19:37:05.708Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:13.557Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:37:13.610Z 	Helmet enabled...
+[info]: 2019-07-17T19:37:13.610Z 	Compression enabled...
+[info]: 2019-07-17T19:37:13.613Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:13.613Z 	NODE_ENV: development
+[info]: 2019-07-17T19:37:13.614Z 	Morgan enabled...
+[info]: 2019-07-17T19:37:13.778Z 	Express listening on port 3000
+[info]: 2019-07-17T19:37:13.798Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:18.029Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:37:18.071Z 	Helmet enabled...
+[info]: 2019-07-17T19:37:18.071Z 	Compression enabled...
+[info]: 2019-07-17T19:37:18.074Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:18.075Z 	NODE_ENV: development
+[info]: 2019-07-17T19:37:18.076Z 	Morgan enabled...
+[info]: 2019-07-17T19:37:18.242Z 	Express listening on port 3000
+[info]: 2019-07-17T19:37:18.262Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:25.376Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:37:25.423Z 	Helmet enabled...
+[info]: 2019-07-17T19:37:25.423Z 	Compression enabled...
+[info]: 2019-07-17T19:37:25.426Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:25.426Z 	NODE_ENV: development
+[info]: 2019-07-17T19:37:25.427Z 	Morgan enabled...
+[info]: 2019-07-17T19:37:25.604Z 	Express listening on port 3000
+[info]: 2019-07-17T19:37:25.634Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:36.078Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:37:36.121Z 	Helmet enabled...
+[info]: 2019-07-17T19:37:36.122Z 	Compression enabled...
+[info]: 2019-07-17T19:37:36.125Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:37:36.125Z 	NODE_ENV: development
+[info]: 2019-07-17T19:37:36.126Z 	Morgan enabled...
+[info]: 2019-07-17T19:37:36.293Z 	Express listening on port 3000
+[info]: 2019-07-17T19:37:36.313Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:38:08.625Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:38:08.662Z 	Helmet enabled...
+[info]: 2019-07-17T19:38:08.662Z 	Compression enabled...
+[info]: 2019-07-17T19:38:08.665Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:38:08.665Z 	NODE_ENV: development
+[info]: 2019-07-17T19:38:08.666Z 	Morgan enabled...
+[info]: 2019-07-17T19:38:08.838Z 	Express listening on port 3000
+[info]: 2019-07-17T19:38:08.860Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:38:11.252Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:38:11.290Z 	Helmet enabled...
+[info]: 2019-07-17T19:38:11.290Z 	Compression enabled...
+[info]: 2019-07-17T19:38:11.293Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:38:11.293Z 	NODE_ENV: development
+[info]: 2019-07-17T19:38:11.294Z 	Morgan enabled...
+[info]: 2019-07-17T19:38:11.465Z 	Express listening on port 3000
+[info]: 2019-07-17T19:38:11.485Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:39:20.436Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:39:20.478Z 	Helmet enabled...
+[info]: 2019-07-17T19:39:20.478Z 	Compression enabled...
+[info]: 2019-07-17T19:39:20.481Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:39:20.482Z 	NODE_ENV: development
+[info]: 2019-07-17T19:39:20.483Z 	Morgan enabled...
+[info]: 2019-07-17T19:39:20.653Z 	Express listening on port 3000
+[info]: 2019-07-17T19:39:20.672Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:39:53.980Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:39:53.990Z 	uncaughtException: Calling config.get with null or undefined argument
+Error: Calling config.get with null or undefined argument
+    at Config.get (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/config/lib/config.js:188:11)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:26:22)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:40:27.080Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:40:27.121Z 	Helmet enabled...
+[info]: 2019-07-17T19:40:27.122Z 	Compression enabled...
+[info]: 2019-07-17T19:40:27.126Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:40:27.126Z 	NODE_ENV: development
+[info]: 2019-07-17T19:40:27.127Z 	Morgan enabled...
+[info]: 2019-07-17T19:40:27.304Z 	Express listening on port 3000
+[info]: 2019-07-17T19:40:27.325Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T19:41:02.606Z 	uncaughtException: Unexpected token )
+/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:30
+  config.get('logger').map(el => () {
+                                  ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[info]: 2019-07-17T19:41:08.394Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:41:08.405Z 	uncaughtException: config.get(...).map is not a function
+TypeError: config.get(...).map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:30:24)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:41:33.114Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:41:33.122Z 	uncaughtException: loggerVals.map is not a function
+TypeError: loggerVals.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:31:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:41:43.941Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:41:43.952Z 	uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:30:21)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+[info]: 2019-07-17T19:41:58.977Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:41:58.985Z 	uncaughtException: loggerVals.map is not a function
+TypeError: loggerVals.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:31:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:42:11.899Z 	Validating env vars and config values...
+[error]: 2019-07-17T19:42:11.910Z 	uncaughtException: loggerVals.map is not a function
+TypeError: loggerVals.map is not a function
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/config.js:31:14)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:13:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T19:44:44.479Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:44:44.519Z 	Helmet enabled...
+[info]: 2019-07-17T19:44:44.519Z 	Compression enabled...
+[info]: 2019-07-17T19:44:44.523Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:44:44.523Z 	NODE_ENV: development
+[info]: 2019-07-17T19:44:44.523Z 	Morgan enabled...
+[info]: 2019-07-17T19:44:44.694Z 	Express listening on port 3000
+[info]: 2019-07-17T19:44:44.723Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:45:07.598Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:45:07.643Z 	Helmet enabled...
+[info]: 2019-07-17T19:45:07.644Z 	Compression enabled...
+[info]: 2019-07-17T19:45:07.648Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:45:07.648Z 	NODE_ENV: development
+[info]: 2019-07-17T19:45:07.650Z 	Morgan enabled...
+[info]: 2019-07-17T19:45:07.829Z 	Express listening on port 3000
+[info]: 2019-07-17T19:45:07.851Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:45:10.163Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:45:10.203Z 	Helmet enabled...
+[info]: 2019-07-17T19:45:10.203Z 	Compression enabled...
+[info]: 2019-07-17T19:45:10.206Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:45:10.206Z 	NODE_ENV: development
+[info]: 2019-07-17T19:45:10.207Z 	Morgan enabled...
+[info]: 2019-07-17T19:45:10.381Z 	Express listening on port 3000
+[info]: 2019-07-17T19:45:10.400Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:45:26.420Z 	Validating env vars and config values...
+[info]: 2019-07-17T19:45:26.458Z 	Helmet enabled...
+[info]: 2019-07-17T19:45:26.459Z 	Compression enabled...
+[info]: 2019-07-17T19:45:26.462Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T19:45:26.462Z 	NODE_ENV: development
+[info]: 2019-07-17T19:45:26.463Z 	Morgan enabled...
+[info]: 2019-07-17T19:45:26.631Z 	Express listening on port 3000
+[info]: 2019-07-17T19:45:26.652Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
