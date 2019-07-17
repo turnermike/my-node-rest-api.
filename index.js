@@ -8,19 +8,14 @@
 const express = require('express');
 const logger = require('./middleware/logger');
 
-// const db = require('./db');
-
 const app = express();
-// const router = express.Router();
 
+require('./startup/production')(app);                                       // load production environment specific modules
 require('./startup/errorHandling')(app);                                    // initialize error handling and message logging
 require('./startup/db')();                                                  // initialize db connection
 require('./startup/routes')(app);                                           // load routes
 
 
-
-
-// MOVE THIS TO A MIDDLEWARE
 // load environmeht variables from .env file to process.env
 const dotenv = require('dotenv');
 // const dotenvResult = dotenv.config();
@@ -44,7 +39,9 @@ const dotenv = require('dotenv');
 
 // start server
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
+const server = app.listen(port, () => {
   // console.log(`Example app listening on port ${port}`)
   logger.info(`Express listening on port ${port}`);
 });
+
+module.exports = server;

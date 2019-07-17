@@ -8,11 +8,11 @@
 const mongoose = require('mongoose');
 const config = require('config');
 const logger = require('../middleware/logger');
-const dotenv = require('dotenv').config();
+// const dotenv = require('dotenv').config();
 
 module.exports = function() {
 
-    // const connStr = (process.env.NODE_ENV === 'production') ? process.env.mongodb : config.get('mongodb');
+    // get mongo connection url
     const url = process.env.MONGO_URL;
 
     // connect to mongodb

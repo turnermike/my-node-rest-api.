@@ -1,7 +1,7 @@
 {
     "logger": {
         "errorLogToFile": true,
-        "errorLogToDB": true,
+        "errorLogToDB": false,
         "errorLogToConsole": true
     }
 }
