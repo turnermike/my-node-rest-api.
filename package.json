@@ -1,7 +1,8 @@
 {
   "name": "my-node-rest-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "My starter project.",
+  "license": "",
   "author": "Mike Turner <turner.mike@gmail.com>",
   "main": "index.js",
   "repository": {
@@ -14,7 +15,8 @@
     "express"
   ],
   "scripts": {
-    "dev": "export NODE_ENV=development && nodemon index.js"
+    "dev": "export NODE_ENV=development MONGO_USERNAME=mynoderestapi MONGO_PASSWORD=password MONGO_PORT=27017 MONGO_DB=mynoderestapi MONGO_HOSTNAME=localhost && nodemon index.js",
+    "start": "npm run dev"
   },
   "dependencies": {
     "app-root-path": "^2.2.1",
@@ -22,6 +24,9 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-async-errors": "^3.1.1",
+    "joi": "^14.3.1",
+    "joi-password-complexity": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.14",
     "mongoose": "^5.4.10",
     "morgan": "^1.9.1",

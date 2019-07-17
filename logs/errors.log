@@ -380,3 +380,823 @@ ReferenceError: connStr is not defined
 [info]: 2019-07-11T20:30:53.137Z 	Morgan enabled...
 [info]: 2019-07-11T20:30:53.255Z 	Express listening on port 3000
 [info]: 2019-07-11T20:30:53.271Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:53:45.270Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:53:45.272Z 	NODE_ENV: development
+[info]: 2019-07-17T15:53:45.273Z 	Morgan enabled...
+[info]: 2019-07-17T15:53:45.389Z 	Express listening on port 3000
+[info]: 2019-07-17T15:53:45.410Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:56:20.124Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:56:20.126Z 	NODE_ENV: development
+[info]: 2019-07-17T15:56:20.128Z 	Morgan enabled...
+[info]: 2019-07-17T15:56:20.256Z 	Express listening on port 3000
+[info]: 2019-07-17T15:56:20.280Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:57:42.386Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:57:42.388Z 	NODE_ENV: development
+[info]: 2019-07-17T15:57:42.390Z 	Morgan enabled...
+[info]: 2019-07-17T15:57:42.595Z 	Express listening on port 3000
+[info]: 2019-07-17T15:57:42.616Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:58:26.151Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:58:26.153Z 	NODE_ENV: development
+[info]: 2019-07-17T15:58:26.155Z 	Morgan enabled...
+[info]: 2019-07-17T15:58:26.366Z 	Express listening on port 3000
+[info]: 2019-07-17T15:58:26.387Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:58:42.900Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:58:42.903Z 	NODE_ENV: development
+[info]: 2019-07-17T15:58:42.905Z 	Morgan enabled...
+[info]: 2019-07-17T15:58:43.028Z 	Express listening on port 3000
+[info]: 2019-07-17T15:58:43.049Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:58:55.338Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:58:55.340Z 	NODE_ENV: development
+[info]: 2019-07-17T15:58:55.342Z 	Morgan enabled...
+[info]: 2019-07-17T15:58:55.457Z 	Express listening on port 3000
+[info]: 2019-07-17T15:58:55.478Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+info: 	MONGO_URL: mongodb://localhost/my-node-rest-api {"timestamp":"2019-07-17T15:58:58.173Z"}
+info: 	NODE_ENV: development {"timestamp":"2019-07-17T15:58:58.175Z"}
+info: 	Morgan enabled... {"timestamp":"2019-07-17T15:58:58.177Z"}
+info: 	Express listening on port 3000 {"timestamp":"2019-07-17T15:58:58.294Z"}
+info: 	Connected to MongoDB: mongodb://localhost/my-node-rest-api {"timestamp":"2019-07-17T15:58:58.315Z"}
+{"message":"\tMONGO_URL: mongodb://localhost/my-node-rest-api","level":"info","timestamp":"2019-07-17T15:59:06.928Z"}
+{"message":"\tNODE_ENV: development","level":"info","timestamp":"2019-07-17T15:59:06.930Z"}
+{"message":"\tMorgan enabled...","level":"info","timestamp":"2019-07-17T15:59:06.932Z"}
+{"message":"\tExpress listening on port 3000","level":"info","timestamp":"2019-07-17T15:59:07.047Z"}
+{"message":"\tConnected to MongoDB: mongodb://localhost/my-node-rest-api","level":"info","timestamp":"2019-07-17T15:59:07.068Z"}
+{ message: '\tMONGO_URL: mongodb://localhost/my-node-rest-api',
+  level: 'info',
+  timestamp: '2019-07-17T15:59:14.503Z' }
+{ message: '\tNODE_ENV: development',
+  level: 'info',
+  timestamp: '2019-07-17T15:59:14.507Z' }
+{ message: '\tMorgan enabled...',
+  level: 'info',
+  timestamp: '2019-07-17T15:59:14.510Z' }
+{ message: '\tExpress listening on port 3000',
+  level: 'info',
+  timestamp: '2019-07-17T15:59:14.629Z' }
+{ message:
+   '\tConnected to MongoDB: mongodb://localhost/my-node-rest-api',
+  level: 'info',
+  timestamp: '2019-07-17T15:59:14.649Z' }
+[info]: 2019-07-17T15:59:18.796Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:59:18.798Z 	NODE_ENV: development
+[info]: 2019-07-17T15:59:18.800Z 	Morgan enabled...
+[info]: 2019-07-17T15:59:18.915Z 	Express listening on port 3000
+[info]: 2019-07-17T15:59:18.935Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:59:26.670Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T15:59:26.672Z 	NODE_ENV: development
+[info]: 2019-07-17T15:59:26.674Z 	Morgan enabled...
+[info]: 2019-07-17T15:59:26.791Z 	Express listening on port 3000
+[info]: 2019-07-17T15:59:26.813Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:00:17.423Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:00:17.425Z 	NODE_ENV: development
+[info]: 2019-07-17T16:00:17.427Z 	Morgan enabled...
+[info]: 2019-07-17T16:00:17.540Z 	Express listening on port 3000
+[info]: 2019-07-17T16:00:17.561Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T16:03:17.801Z 	uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:16:48)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+[error]: 2019-07-17T16:03:19.594Z 	uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:16:48)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+[info]: 2019-07-17T16:03:41.743Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:03:41.745Z 	NODE_ENV: development
+[info]: 2019-07-17T16:03:41.747Z 	Morgan enabled...
+[info]: 2019-07-17T16:03:41.866Z 	Express listening on port 3000
+[info]: 2019-07-17T16:03:41.888Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T16:03:54.135Z 	uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/middleware/logger.js:96:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:9:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+[error]: 2019-07-17T16:04:19.354Z 	uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/middleware/logger.js:96:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:9:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+[error]: 2019-07-17T16:04:33.986Z 	uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/middleware/logger.js:96:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:9:16)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+[info]: 2019-07-17T16:04:57.126Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:04:57.128Z 	NODE_ENV: development
+[info]: 2019-07-17T16:04:57.130Z 	Morgan enabled...
+[info]: 2019-07-17T16:04:57.245Z 	Express listening on port 3000
+[info]: 2019-07-17T16:04:57.266Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:05:03.993Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:05:03.995Z 	NODE_ENV: development
+[info]: 2019-07-17T16:05:03.997Z 	Morgan enabled...
+[info]: 2019-07-17T16:05:04.112Z 	Express listening on port 3000
+[info]: 2019-07-17T16:05:04.133Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[error]: 2019-07-17T16:06:10.024Z 	uncaughtException: Unexpected identifier
+/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:57
+    instantiate a new Winston Logger with the settings defined above
+                ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[error]: 2019-07-17T16:06:29.230Z 	uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/errorHandling.js:31:9)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:16:35)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[info]: 2019-07-17T16:06:37.707Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:06:37.709Z 	NODE_ENV: development
+[info]: 2019-07-17T16:06:37.711Z 	Morgan enabled...
+[info]: 2019-07-17T16:06:37.837Z 	Express listening on port 3000
+[info]: 2019-07-17T16:06:37.858Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:06:44.715Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:06:44.717Z 	NODE_ENV: development
+[info]: 2019-07-17T16:06:44.719Z 	Morgan enabled...
+[info]: 2019-07-17T16:06:44.845Z 	Express listening on port 3000
+[info]: 2019-07-17T16:06:44.867Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:06:52.276Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:06:52.278Z 	NODE_ENV: development
+[info]: 2019-07-17T16:06:52.280Z 	Morgan enabled...
+[info]: 2019-07-17T16:06:52.397Z 	Express listening on port 3000
+[info]: 2019-07-17T16:06:52.420Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:06:58.669Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:06:58 +0000] "GET /test HTTP/1.1" 404 143 "-" "PostmanRuntime/7.15.2"
+
+[info]: 2019-07-17T16:07:24.192Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:07:24 +0000] "GET /test HTTP/1.1" 404 143 "-" "PostmanRuntime/7.15.2"
+
+[info]: 2019-07-17T16:07:30.253Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:07:30.255Z 	NODE_ENV: development
+[info]: 2019-07-17T16:07:30.256Z 	Morgan enabled...
+[info]: 2019-07-17T16:07:30.376Z 	Express listening on port 3000
+[info]: 2019-07-17T16:07:30.392Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:07:33.272Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:07:33 +0000] "GET /test HTTP/1.1" 404 143 "-" "PostmanRuntime/7.15.2"
+
+[info]: 2019-07-17T16:08:15.318Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:08:15.320Z 	NODE_ENV: development
+[info]: 2019-07-17T16:08:15.322Z 	Morgan enabled...
+[info]: 2019-07-17T16:08:15.439Z 	Express listening on port 3000
+[info]: 2019-07-17T16:08:15.459Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:08:32.282Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:08:32.285Z 	NODE_ENV: development
+[info]: 2019-07-17T16:08:32.287Z 	Morgan enabled...
+[info]: 2019-07-17T16:08:32.406Z 	Express listening on port 3000
+[info]: 2019-07-17T16:08:32.427Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:08:33.973Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:08:33 +0000] "GET /test HTTP/1.1" 404 143 "-" "PostmanRuntime/7.15.2"
+
+[info]: 2019-07-17T16:10:15.516Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:10:15.518Z 	NODE_ENV: development
+[info]: 2019-07-17T16:10:15.520Z 	Morgan enabled...
+[info]: 2019-07-17T16:10:15.637Z 	Express listening on port 3000
+[info]: 2019-07-17T16:10:15.653Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:11:32.325Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:11:32.327Z 	NODE_ENV: development
+[info]: 2019-07-17T16:11:32.329Z 	Morgan enabled...
+[info]: 2019-07-17T16:11:32.445Z 	Express listening on port 3000
+[info]: 2019-07-17T16:11:32.462Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:11:45.455Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:11:45 +0000] "GET /test HTTP/1.1" 404 143 "-" "PostmanRuntime/7.15.2"
+
+[info]: 2019-07-17T16:12:59.320Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:12:59.322Z 	NODE_ENV: development
+[info]: 2019-07-17T16:12:59.324Z 	Morgan enabled...
+[info]: 2019-07-17T16:12:59.440Z 	Express listening on port 3000
+[info]: 2019-07-17T16:12:59.456Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:13:02.362Z 	GET /test 404 143 - 4.865 ms
+
+[info]: 2019-07-17T16:13:39.929Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:13:39.931Z 	NODE_ENV: development
+[info]: 2019-07-17T16:13:40.049Z 	Express listening on port 3000
+[info]: 2019-07-17T16:13:40.072Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:13:42.300Z 	GET /test 404 143 - 4.777 ms
+
+[info]: 2019-07-17T16:13:47.551Z 	GET /test 404 143 - 0.542 ms
+
+[info]: 2019-07-17T16:13:48.745Z 	GET /test 404 143 - 1.015 ms
+
+[info]: 2019-07-17T16:15:16.635Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:15:16.638Z 	NODE_ENV: development
+[info]: 2019-07-17T16:15:16.842Z 	Express listening on port 3000
+[info]: 2019-07-17T16:15:16.864Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:15:35.883Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:15:35.885Z 	NODE_ENV: development
+[info]: 2019-07-17T16:15:36.012Z 	Express listening on port 3000
+[info]: 2019-07-17T16:15:36.031Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:16:11.044Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:16:11.047Z 	NODE_ENV: development
+[info]: 2019-07-17T16:16:11.165Z 	Express listening on port 3000
+[info]: 2019-07-17T16:16:11.187Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:16:34.399Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:16:34.401Z 	NODE_ENV: development
+[info]: 2019-07-17T16:16:34.528Z 	Express listening on port 3000
+[info]: 2019-07-17T16:16:34.552Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:16:42.005Z 	[0mGET /test [33m404 [0m4.266 ms - 143[0m
+
+[info]: 2019-07-17T16:17:03.229Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:17:03.231Z 	NODE_ENV: development
+[info]: 2019-07-17T16:17:03.351Z 	Express listening on port 3000
+[info]: 2019-07-17T16:17:03.376Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:17:12.125Z 	[0mGET /test [33m404 [0m3.817 ms - 143[0m
+
+[info]: 2019-07-17T16:20:02.018Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:20:02.021Z 	NODE_ENV: development
+[info]: 2019-07-17T16:20:02.140Z 	Express listening on port 3000
+[info]: 2019-07-17T16:20:02.165Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:20:12.645Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:20:12.647Z 	NODE_ENV: development
+[info]: 2019-07-17T16:20:12.770Z 	Express listening on port 3000
+[info]: 2019-07-17T16:20:12.792Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:20:20.489Z 	[0mGET /test [33m404 [0m4.799 ms - 143[0m
+
+[info]: 2019-07-17T16:21:07.222Z 	[0mGET /test [33m404 [0m0.629 ms - 143[0m
+
+[info]: 2019-07-17T16:21:24.556Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:21:24.558Z 	NODE_ENV: development
+[info]: 2019-07-17T16:21:24.676Z 	Express listening on port 3000
+[info]: 2019-07-17T16:21:24.698Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:21:27.590Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:21:27 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:24:03.605Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:24:03.608Z 	NODE_ENV: development
+[info]: 2019-07-17T16:24:03.610Z 	Morgan enabled...
+[info]: 2019-07-17T16:24:03.727Z 	Express listening on port 3000
+[info]: 2019-07-17T16:24:03.749Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:24:12.287Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:24:12.290Z 	NODE_ENV: development
+[info]: 2019-07-17T16:24:12.292Z 	Morgan enabled...
+[info]: 2019-07-17T16:24:12.409Z 	Express listening on port 3000
+[info]: 2019-07-17T16:24:12.432Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:24:40.498Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:24:40.500Z 	NODE_ENV: development
+[info]: 2019-07-17T16:24:40.502Z 	Morgan enabled...
+[info]: 2019-07-17T16:24:40.633Z 	Express listening on port 3000
+[info]: 2019-07-17T16:24:40.652Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:24:41.534Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:24:41.537Z 	NODE_ENV: development
+[info]: 2019-07-17T16:24:41.539Z 	Morgan enabled...
+[info]: 2019-07-17T16:24:41.655Z 	Express listening on port 3000
+[info]: 2019-07-17T16:24:41.678Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:25:01.723Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:25:01.726Z 	NODE_ENV: development
+[info]: 2019-07-17T16:25:01.728Z 	Morgan enabled...
+[info]: 2019-07-17T16:25:01.850Z 	Express listening on port 3000
+[info]: 2019-07-17T16:25:01.872Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:25:51.829Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:25:51.831Z 	NODE_ENV: development
+[info]: 2019-07-17T16:25:51.833Z 	Morgan enabled...
+[info]: 2019-07-17T16:25:51.956Z 	Express listening on port 3000
+[info]: 2019-07-17T16:25:51.981Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:01.318Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:01.320Z 	NODE_ENV: development
+[info]: 2019-07-17T16:26:01.322Z 	Morgan enabled...
+[info]: 2019-07-17T16:26:01.440Z 	Express listening on port 3000
+[info]: 2019-07-17T16:26:01.463Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:09.083Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:09.085Z 	NODE_ENV: development
+[info]: 2019-07-17T16:26:09.087Z 	Morgan enabled...
+[info]: 2019-07-17T16:26:09.205Z 	Express listening on port 3000
+[info]: 2019-07-17T16:26:09.228Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:35.156Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:35.158Z 	NODE_ENV: development
+[info]: 2019-07-17T16:26:35.160Z 	Morgan enabled...
+[info]: 2019-07-17T16:26:35.285Z 	Express listening on port 3000
+[info]: 2019-07-17T16:26:35.309Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:38.964Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:26:38.966Z 	NODE_ENV: development
+[info]: 2019-07-17T16:26:38.968Z 	Morgan enabled...
+[info]: 2019-07-17T16:26:39.084Z 	Express listening on port 3000
+[info]: 2019-07-17T16:26:39.106Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:27:20.702Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:27:20.705Z 	NODE_ENV: development
+[info]: 2019-07-17T16:27:20.707Z 	Morgan enabled...
+[info]: 2019-07-17T16:27:20.824Z 	Express listening on port 3000
+[info]: 2019-07-17T16:27:20.841Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:27:35.294Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:27:35.297Z 	NODE_ENV: development
+[info]: 2019-07-17T16:27:35.299Z 	Morgan enabled...
+[info]: 2019-07-17T16:27:35.425Z 	Express listening on port 3000
+[info]: 2019-07-17T16:27:35.444Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:27:44.933Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:27:44.935Z 	NODE_ENV: development
+[info]: 2019-07-17T16:27:44.937Z 	Morgan enabled...
+[error]: 2019-07-17T16:27:45.042Z 	uncaughtException: dotenvResult is not defined
+ReferenceError: dotenvResult is not defined
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:26:44)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:27:45.042Z 	dotenvResult is not defined
+[info]: 2019-07-17T16:27:53.425Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:27:53.427Z 	NODE_ENV: development
+[info]: 2019-07-17T16:27:53.430Z 	Morgan enabled...
+[info]: 2019-07-17T16:27:53.531Z 	.env vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api"}
+[info]: 2019-07-17T16:27:53.549Z 	Express listening on port 3000
+[info]: 2019-07-17T16:27:53.571Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:00.714Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:00.717Z 	NODE_ENV: development
+[info]: 2019-07-17T16:28:00.719Z 	Morgan enabled...
+[info]: 2019-07-17T16:28:00.817Z 	.env vars: {"PORT":"3000","MONGO_URL":"mongodb://localhost/my-node-rest-api"}
+[info]: 2019-07-17T16:28:00.833Z 	Express listening on port 3000
+[info]: 2019-07-17T16:28:00.857Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:15.071Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:15.073Z 	NODE_ENV: development
+[info]: 2019-07-17T16:28:15.075Z 	Morgan enabled...
+[info]: 2019-07-17T16:28:15.194Z 	Express listening on port 3000
+[info]: 2019-07-17T16:28:15.212Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:33.386Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:33.389Z 	NODE_ENV: development
+[info]: 2019-07-17T16:28:33.390Z 	Morgan enabled...
+[info]: 2019-07-17T16:28:33.506Z 	Express listening on port 3000
+[info]: 2019-07-17T16:28:33.522Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:47.936Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:47.938Z 	NODE_ENV: development
+[info]: 2019-07-17T16:28:47.940Z 	Morgan enabled...
+[info]: 2019-07-17T16:28:48.063Z 	Express listening on port 3000
+[info]: 2019-07-17T16:28:48.089Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:28:50.349Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:28:50 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:29:06.479Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:29:06.481Z 	NODE_ENV: development
+[info]: 2019-07-17T16:29:06.484Z 	Morgan enabled...
+[info]: 2019-07-17T16:29:06.601Z 	Express listening on port 3000
+[info]: 2019-07-17T16:29:06.623Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:29:14.004Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:29:14 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:29:25.724Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:29:25 +0000] "GET / HTTP/1.1" 200 2313
+
+[info]: 2019-07-17T16:29:25.809Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:29:25 +0000] "GET /css/styles.css HTTP/1.1" 200 608
+
+[info]: 2019-07-17T16:29:26.149Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:29:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+
+[info]: 2019-07-17T16:29:30.978Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:29:30 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:29:38.868Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:29:38 +0000] "GET / HTTP/1.1" 200 2313
+
+[info]: 2019-07-17T16:30:19.765Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:30:19.767Z 	NODE_ENV: development
+[info]: 2019-07-17T16:30:19.769Z 	Morgan enabled...
+[info]: 2019-07-17T16:30:19.888Z 	Express listening on port 3000
+[info]: 2019-07-17T16:30:19.911Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:30:24.479Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:30:24.481Z 	NODE_ENV: development
+[info]: 2019-07-17T16:30:24.484Z 	Morgan enabled...
+[info]: 2019-07-17T16:30:24.596Z 	Express listening on port 3000
+[info]: 2019-07-17T16:30:24.618Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:30:31.254Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:30:31.257Z 	NODE_ENV: development
+[info]: 2019-07-17T16:30:31.259Z 	Morgan enabled...
+[info]: 2019-07-17T16:30:31.377Z 	Express listening on port 3000
+[info]: 2019-07-17T16:30:31.400Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:30:36.069Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:30:36 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:31:04.161Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:31:04.163Z 	NODE_ENV: development
+[info]: 2019-07-17T16:31:04.165Z 	Morgan enabled...
+[info]: 2019-07-17T16:31:04.286Z 	Express listening on port 3000
+[info]: 2019-07-17T16:31:04.302Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:31:07.309Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:31:07 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:31:14.859Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:31:14.862Z 	NODE_ENV: development
+[info]: 2019-07-17T16:31:14.864Z 	Morgan enabled...
+[info]: 2019-07-17T16:31:14.980Z 	Express listening on port 3000
+[info]: 2019-07-17T16:31:15.002Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:31:17.002Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:31:17 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:31:21.149Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:31:21 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:31:21.990Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:31:21 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:31:32.959Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:31:32 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:32:13.671Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:32:13.673Z 	NODE_ENV: development
+[info]: 2019-07-17T16:32:13.675Z 	Morgan enabled...
+[info]: 2019-07-17T16:32:13.792Z 	Express listening on port 3000
+[info]: 2019-07-17T16:32:13.814Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:32:53.720Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:32:53.723Z 	NODE_ENV: development
+[info]: 2019-07-17T16:32:53.725Z 	Morgan enabled...
+[info]: 2019-07-17T16:32:53.842Z 	Express listening on port 3000
+[info]: 2019-07-17T16:32:53.871Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:32:55.015Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:32:55.018Z 	NODE_ENV: development
+[info]: 2019-07-17T16:32:55.020Z 	Morgan enabled...
+[info]: 2019-07-17T16:32:55.141Z 	Express listening on port 3000
+[info]: 2019-07-17T16:32:55.162Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:33:26.657Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:33:26.659Z 	NODE_ENV: development
+[info]: 2019-07-17T16:33:26.661Z 	Morgan enabled...
+[info]: 2019-07-17T16:33:26.778Z 	Express listening on port 3000
+[info]: 2019-07-17T16:33:26.801Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:33:29.780Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:33:29 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:33:43.716Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:33:43 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:33:49.180Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:33:49.183Z 	NODE_ENV: development
+[info]: 2019-07-17T16:33:49.185Z 	Morgan enabled...
+[info]: 2019-07-17T16:33:49.305Z 	Express listening on port 3000
+[info]: 2019-07-17T16:33:49.328Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:34:50.372Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:34:50.374Z 	NODE_ENV: development
+[info]: 2019-07-17T16:34:50.376Z 	Morgan enabled...
+[info]: 2019-07-17T16:34:50.485Z 	Express listening on port 3000
+[info]: 2019-07-17T16:34:50.506Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:35:34.083Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:35:34.085Z 	NODE_ENV: development
+[info]: 2019-07-17T16:35:34.087Z 	Morgan enabled...
+[info]: 2019-07-17T16:35:34.192Z 	Express listening on port 3000
+[info]: 2019-07-17T16:35:34.213Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:35:53.923Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:35:53.925Z 	NODE_ENV: development
+[info]: 2019-07-17T16:35:53.927Z 	Morgan enabled...
+[info]: 2019-07-17T16:35:54.041Z 	Express listening on port 3000
+[info]: 2019-07-17T16:35:54.067Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:37:29.909Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:37:29.911Z 	NODE_ENV: development
+[info]: 2019-07-17T16:37:29.913Z 	Morgan enabled...
+[info]: 2019-07-17T16:37:30.016Z 	Express listening on port 3000
+[info]: 2019-07-17T16:37:30.032Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:37:32.249Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:37:32.252Z 	NODE_ENV: development
+[info]: 2019-07-17T16:37:32.254Z 	Morgan enabled...
+[info]: 2019-07-17T16:37:32.364Z 	Express listening on port 3000
+[info]: 2019-07-17T16:37:32.385Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:39:04.153Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:39:04.155Z 	NODE_ENV: development
+[info]: 2019-07-17T16:39:04.157Z 	Morgan enabled...
+[info]: 2019-07-17T16:39:04.259Z 	Express listening on port 3000
+[info]: 2019-07-17T16:39:04.275Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:39:27.399Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:39:27.402Z 	NODE_ENV: development
+[info]: 2019-07-17T16:39:27.404Z 	Morgan enabled...
+[info]: 2019-07-17T16:39:27.507Z 	Express listening on port 3000
+[info]: 2019-07-17T16:39:27.528Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:41:46.521Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:41:46.523Z 	NODE_ENV: development
+[info]: 2019-07-17T16:41:46.525Z 	Morgan enabled...
+[error]: 2019-07-17T16:41:46.623Z 	uncaughtException: Cannot find module './startup/routes'
+Error: Cannot find module './startup/routes'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:41:46.623Z 	Cannot find module './startup/routes'
+[info]: 2019-07-17T16:41:47.249Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:41:47.252Z 	NODE_ENV: development
+[info]: 2019-07-17T16:41:47.254Z 	Morgan enabled...
+[error]: 2019-07-17T16:41:47.355Z 	uncaughtException: Cannot find module './startup/routes'
+Error: Cannot find module './startup/routes'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:41:47.355Z 	Cannot find module './startup/routes'
+[info]: 2019-07-17T16:41:58.888Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:41:58.891Z 	NODE_ENV: development
+[info]: 2019-07-17T16:41:58.893Z 	Morgan enabled...
+[error]: 2019-07-17T16:41:58.996Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:41:58.996Z 	require(...) is not a function
+[info]: 2019-07-17T16:42:08.825Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:42:08.827Z 	NODE_ENV: development
+[info]: 2019-07-17T16:42:08.829Z 	Morgan enabled...
+[error]: 2019-07-17T16:42:08.931Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:42:08.931Z 	require(...) is not a function
+[info]: 2019-07-17T16:42:24.336Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:42:24.339Z 	NODE_ENV: development
+[info]: 2019-07-17T16:42:24.341Z 	Morgan enabled...
+[error]: 2019-07-17T16:42:24.443Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:42:24.443Z 	require(...) is not a function
+[info]: 2019-07-17T16:42:37.502Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:42:37.504Z 	NODE_ENV: development
+[info]: 2019-07-17T16:42:37.506Z 	Morgan enabled...
+[error]: 2019-07-17T16:42:37.610Z 	uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:42:37.610Z 	require(...) is not a function
+[info]: 2019-07-17T16:43:53.093Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:43:53.095Z 	NODE_ENV: development
+[info]: 2019-07-17T16:43:53.097Z 	Morgan enabled...
+[error]: 2019-07-17T16:43:53.196Z 	uncaughtException: Cannot find module '../routes/home'
+Error: Cannot find module '../routes/home'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/routes.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+[error]: 2019-07-17T16:43:53.203Z 	Cannot find module '../routes/home'
+[info]: 2019-07-17T16:44:10.082Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:44:10.084Z 	NODE_ENV: development
+[info]: 2019-07-17T16:44:10.086Z 	Morgan enabled...
+[error]: 2019-07-17T16:44:10.198Z 	uncaughtException: Cannot find module '../routes/home'
+Error: Cannot find module '../routes/home'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/routes.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+[error]: 2019-07-17T16:44:10.198Z 	Cannot find module '../routes/home'
+[info]: 2019-07-17T16:44:24.326Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:44:24.328Z 	NODE_ENV: development
+[info]: 2019-07-17T16:44:24.330Z 	Morgan enabled...
+[error]: 2019-07-17T16:44:24.433Z 	uncaughtException: Cannot find module '../routes/home'
+Error: Cannot find module '../routes/home'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/routes.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+[error]: 2019-07-17T16:44:24.433Z 	Cannot find module '../routes/home'
+[info]: 2019-07-17T16:44:45.679Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:44:45.681Z 	NODE_ENV: development
+[info]: 2019-07-17T16:44:45.683Z 	Morgan enabled...
+[error]: 2019-07-17T16:44:45.787Z 	uncaughtException: Cannot find module '../routes/home'
+Error: Cannot find module '../routes/home'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/routes.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+[error]: 2019-07-17T16:44:45.788Z 	Cannot find module '../routes/home'
+[info]: 2019-07-17T16:44:54.503Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:44:54.505Z 	NODE_ENV: development
+[info]: 2019-07-17T16:44:54.507Z 	Morgan enabled...
+[error]: 2019-07-17T16:44:54.614Z 	uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/router/index.js:458:13)
+    at Function.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/Users/mike/Sites/Personal/my-node-rest-api/node_modules/express/lib/application.js:217:7)
+    at module.exports (/Users/mike/Sites/Personal/my-node-rest-api/startup/routes.js:16:7)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/index.js:18:28)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+[error]: 2019-07-17T16:44:54.615Z 	Router.use() requires a middleware function but got a Object
+[info]: 2019-07-17T16:45:11.965Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:45:11.968Z 	NODE_ENV: development
+[info]: 2019-07-17T16:45:11.970Z 	Morgan enabled...
+[info]: 2019-07-17T16:45:12.075Z 	Express listening on port 3000
+[info]: 2019-07-17T16:45:12.096Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:45:36.709Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:45:36 +0000] "GET / HTTP/1.1" 200 22
+
+[info]: 2019-07-17T16:45:40.310Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:45:40 +0000] "GET /test HTTP/1.1" 404 143
+
+[info]: 2019-07-17T16:45:44.941Z 	::ffff:127.0.0.1 - - [17/Jul/2019:16:45:44 +0000] "GET / HTTP/1.1" 200 22
+
+[info]: 2019-07-17T16:46:36.671Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:46:36.673Z 	NODE_ENV: development
+[info]: 2019-07-17T16:46:36.675Z 	Morgan enabled...
+[info]: 2019-07-17T16:46:36.781Z 	Express listening on port 3000
+[info]: 2019-07-17T16:46:36.802Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:46:51.374Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:46:51.376Z 	NODE_ENV: development
+[info]: 2019-07-17T16:46:51.378Z 	Morgan enabled...
+[info]: 2019-07-17T16:46:51.489Z 	Express listening on port 3000
+[info]: 2019-07-17T16:46:51.511Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:46:58.752Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:46:58.754Z 	NODE_ENV: development
+[info]: 2019-07-17T16:46:58.756Z 	Morgan enabled...
+[info]: 2019-07-17T16:46:58.861Z 	Express listening on port 3000
+[info]: 2019-07-17T16:46:58.878Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:47:05.185Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:47:05.187Z 	NODE_ENV: development
+[info]: 2019-07-17T16:47:05.189Z 	Morgan enabled...
+[info]: 2019-07-17T16:47:05.296Z 	Express listening on port 3000
+[info]: 2019-07-17T16:47:05.318Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:48:56.230Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:48:56.232Z 	NODE_ENV: development
+[info]: 2019-07-17T16:48:56.234Z 	Morgan enabled...
+[info]: 2019-07-17T16:48:56.337Z 	Express listening on port 3000
+[info]: 2019-07-17T16:48:56.361Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:50:12.282Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:50:12.285Z 	NODE_ENV: development
+[info]: 2019-07-17T16:50:12.287Z 	Morgan enabled...
+[info]: 2019-07-17T16:50:12.388Z 	Express listening on port 3000
+[info]: 2019-07-17T16:50:12.410Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:50:36.799Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:50:36.802Z 	NODE_ENV: development
+[info]: 2019-07-17T16:50:36.804Z 	Morgan enabled...
+[info]: 2019-07-17T16:50:36.911Z 	Express listening on port 3000
+[info]: 2019-07-17T16:50:36.932Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:50:54.504Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:50:54.506Z 	NODE_ENV: development
+[info]: 2019-07-17T16:50:54.508Z 	Morgan enabled...
+[info]: 2019-07-17T16:50:54.616Z 	Express listening on port 3000
+[info]: 2019-07-17T16:50:54.639Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:51:30.255Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:51:30.257Z 	NODE_ENV: development
+[info]: 2019-07-17T16:51:30.260Z 	Morgan enabled...
+[error]: 2019-07-17T16:51:30.364Z 	uncaughtException: Unexpected token }
+/Users/mike/Sites/Personal/my-node-rest-api/routes/users.js:14
+});
+^
+
+SyntaxError: Unexpected token }
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (/Users/mike/Sites/Personal/my-node-rest-api/startup/routes.js:10:15)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+[error]: 2019-07-17T16:51:30.364Z 	Unexpected token }
+[info]: 2019-07-17T16:51:49.562Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:51:49.565Z 	NODE_ENV: development
+[info]: 2019-07-17T16:51:49.567Z 	Morgan enabled...
+[info]: 2019-07-17T16:51:49.685Z 	Express listening on port 3000
+[info]: 2019-07-17T16:51:49.709Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:52:00.540Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:52:00.542Z 	NODE_ENV: development
+[info]: 2019-07-17T16:52:00.544Z 	Morgan enabled...
+[info]: 2019-07-17T16:52:00.653Z 	Express listening on port 3000
+[info]: 2019-07-17T16:52:00.675Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:53:04.583Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:53:04.586Z 	NODE_ENV: development
+[info]: 2019-07-17T16:53:04.588Z 	Morgan enabled...
+[info]: 2019-07-17T16:53:04.707Z 	Express listening on port 3000
+[info]: 2019-07-17T16:53:04.730Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:53:13.804Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:53:13.806Z 	NODE_ENV: development
+[info]: 2019-07-17T16:53:13.808Z 	Morgan enabled...
+[info]: 2019-07-17T16:53:13.931Z 	Express listening on port 3000
+[info]: 2019-07-17T16:53:13.954Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:53:47.527Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T16:53:47.529Z 	NODE_ENV: development
+[info]: 2019-07-17T16:53:47.531Z 	Morgan enabled...
+[info]: 2019-07-17T16:53:47.647Z 	Express listening on port 3000
+[info]: 2019-07-17T16:53:47.670Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T17:01:15.893Z 	MONGO_URL: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T17:01:15.896Z 	NODE_ENV: development
+[info]: 2019-07-17T17:01:15.899Z 	Morgan enabled...
+[info]: 2019-07-17T17:01:16.138Z 	Express listening on port 3000
+[info]: 2019-07-17T17:01:16.161Z 	Connected to MongoDB: mongodb://localhost/my-node-rest-api
+[info]: 2019-07-17T17:01:51.750Z 	::ffff:127.0.0.1 - - [17/Jul/2019:17:01:51 +0000] "GET /api/users/me HTTP/1.1" 200 17
+

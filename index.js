@@ -13,8 +13,9 @@ const logger = require('./middleware/logger');
 const app = express();
 // const router = express.Router();
 
-require('./startup/errorHandling')(app);
-require('./startup/db')();
+require('./startup/errorHandling')(app);                                    // initialize error handling and message logging
+require('./startup/db')();                                                  // initialize db connection
+require('./startup/routes')(app);                                           // load routes
 
 
 
@@ -30,15 +31,16 @@ const dotenv = require('dotenv');
 
 
 // TUTORIAL STUFF TO REMOVE LATER
-const sharks = require('./routes/sharks');
-const path = __dirname + '/views/';
+// const sharks = require('./routes/sharks');
+// const path = __dirname + '/views/';
 
+// app.engine('html', require('ejs').renderFile);
+// app.set('view engine', 'html');
+// app.use(express.urlencoded({ extended: true }));
+// app.use(express.static(path));
 
-app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'html');
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path));
-app.use('/sharks', sharks);
+// app.use('/test', test);
+// app.use('/sharks', sharks);
 
 // start server
 const port = process.env.PORT || 3000;
