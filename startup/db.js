@@ -2,13 +2,13 @@
  * startup/db.js
  *
  * MongoDB connection.
+ * Throws fatal error if connection url unavailable.
  *
  */
 
 const mongoose = require('mongoose');
 const config = require('config');
 const logger = require('../middleware/logger');
-// const dotenv = require('dotenv').config();
 
 module.exports = function() {
 
@@ -18,7 +18,10 @@ module.exports = function() {
     // connect to mongodb
     mongoose.connect(url, { useNewUrlParser: true, useFindAndModify: false })
         .then( () => logger.info(`Connected to MongoDB: ${url}`))
-        .catch(err => logger.error('Error: ', err));
+        .catch(err => {
+          logger.error('FATAL ERROR: ', err);
+          process.exit(1);
+        });
     mongoose.set('useCreateIndex', true);
 
 }

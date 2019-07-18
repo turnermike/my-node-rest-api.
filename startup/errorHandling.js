@@ -10,11 +10,16 @@
  * Winston - Log to console, file and database.
  * https://www.npmjs.com/package/winston
  *
+ * Messaging prefix conventions:
+ * ERROR: ... for standard errors
+ * FATAL ERROR: ... for process.exit(1)
+ * No prefix for standard info logs.
+ *
  */
 
 require('express-async-errors');
 const logger = require('../middleware/logger');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const config = require('config');
 
 module.exports = function(app) {
