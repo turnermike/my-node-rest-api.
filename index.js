@@ -8,20 +8,16 @@
 const express = require('express');
 const logger = require('./middleware/logger');
 
-const app = express();
+const app = express();                      // initialize express object
 
-require('./startup/config')(app);                                              // validate env vars and config values
-require('./startup/production')(app);                                       // load production environment specific modules
-require('./startup/errorHandling')(app);                                    // initialize error handling and message logging
-require('./startup/db')();                                                  // initialize db connection
-require('./startup/routes')(app);                                           // load routes
+require('./startup/config')(app);           // validate env vars and config values
+require('./startup/production')(app);       // load production environment specific modules
+require('./startup/errorHandling')(app);    // initialize error handling and message logging
+require('./startup/db')();                  // initialize db connection
+require('./startup/routes')(app);           // load routes
+require('./startup/validation')();            // load Joi validation module
 
 
-
-// load environmeht variables from .env file to process.env
-// const dotenv = require('dotenv');
-// // const dotenvResult = dotenv.config();
-// // logger.info('.env vars: ' + JSON.stringify(dotenvResult.parsed));
 
 
 

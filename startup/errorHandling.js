@@ -37,7 +37,7 @@ module.exports = function(app) {
     process.on('uncaughtException', (ex) => {
         logger.log({
             level: 'error',
-            message: ex.message
+            message: 'ERROR: ' + ex.message
         });
         // process.exit(1);
     })

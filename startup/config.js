@@ -34,7 +34,6 @@ module.exports = function(app) {
 
   }
 
-
   /**
    * validate .env vars
    */
@@ -53,6 +52,4 @@ module.exports = function(app) {
 
   }
 
-
 }
-
