@@ -68,8 +68,8 @@ exports.addNewUser = async function(req, res) {
   // generate jwt
   const token = user.generateAuthToken();
 
-  // res.send(user);
-  res.header('x-auth-token', token).send(_.pick(user, ['email', 'firstName', 'lastName']));
+  res.send(user);
+  // res.header('x-auth-token', token).send(_.pick(user, ['email', 'firstName', 'lastName']));
 
 }
 

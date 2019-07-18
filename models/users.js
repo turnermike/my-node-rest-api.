@@ -8,7 +8,6 @@
 const mongoose = require('mongoose');
 const Joi = require('joi');
 const PasswordComplexity = require('joi-password-complexity');
-const PhoneNumber = Joi.extend(require('joi-phone-number'));
 const jwt = require('jsonwebtoken');
 // const config = require('config');
 // const logger = require('../middleware/logger');
@@ -22,13 +21,12 @@ const passwordComplexityOptions = {
     numeric: 1,
     symbol: 1,
     requirementCount: 4
-}; //Password$1
+}; // Password$1
 
 // schema
 const userSchema = new mongoose.Schema({
     email: {
         type: String,
-        label: 'Email',
         required: true,
         min: 5,
         max: 255,
@@ -36,53 +34,45 @@ const userSchema = new mongoose.Schema({
     },
     password: {
         type: String,
-        label: 'Password',
         required: true,
         min: 5,
         max: 1024
     },
     firstName: {
         type: String,
-        label: 'First name',
         required: true,
         min: 2,
         max: 50
     },
     lastName: {
         type: String,
-        label: 'Last name',
         required: true,
         min: 2,
         max: 50
     },
     telephone: {
         type: String,
-        label: 'Telephone number',
         required: false,
         min: 10,
         max: 18
     },
     organizationName: {
         type: String,
-        label: 'Organization Name',
         required: false,
         min: 2,
         max: 100
     },
     // userRole: {
     //     type: rolesSchema,
-        // label: 'User Role',
     //     required: true
     // },
     dateAdded: {
         type: Date,
-        label: 'Date Added',
         required: true,
         default: Date.now
     },
     dateUpdated: {
         type: Date,
-        label: 'Date Updated',
         required: false
     }
 });
@@ -97,45 +87,112 @@ userSchema.methods.generateAuthToken = function() {
 
 }
 
+
 // schema/model
 const Users = mongoose.model('Users', userSchema);
 
 // validation
 function validateUsers(user) {
 
-    const schema = {
-        email: Joi.string().min(5).max(255).email().required(),
-        password: new PasswordComplexity(passwordComplexityOptions).required(),
-        firstName: Joi.string().min(2).max(50).required(),
-        // lastName: Joi.string().min(2).max(50).required(),
-        lastName: Joi.string().min(2).max(50).required().label('Last name')
-            .error(errors => {
-                // console.log(errors[0]);
+  const schema = {
 
-                switch(errors[0].type) {
+    email: Joi.string().trim().min(5).max(255).email().required().label('Email')
+      .error(errors => {
+        switch(errors[0].type) {
+          case 'string.min':
+            return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
+            break;
+          case 'string.max':
+            return { message: `${errors[0].context.label} may have a maximum of 50 characters.` };
+            break;
+          case 'string.email':
+            return { message: 'Please enter a valid email address.' };
+          default: // catches required()
+            return { message: `${errors[0].context.label} is required.`}
+        }
+      }),
 
-                    case 'string.min':
-                        return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
-                        break;
+    password: new PasswordComplexity(passwordComplexityOptions).required().label('Password')
+      .error(errors => {
+        switch(errors[0].type) {
+          case 'passwordComplexity.base':
+            return { message: `The ${errors[0].context.label} requires at least one uppercase, lowercase, number and symbol.` };
+            break;          default: // catches required()
+            return { message: `${errors[0].context.label} is required.`}
+        }
+      }),
 
-                    case 'string.max':
-                        return { message: `${errors[0].context.label} may have a maximum of 50 characters.` };
-                        break;
+    firstName: Joi.string().trim().min(2).max(50).required().label('First name')
+      .error(errors => {
+        switch(errors[0].type) {
+          case 'string.min':
+            return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
+            break;
+          case 'string.max':
+            return { message: `${errors[0].context.label} may have a maximum of 50 characters.` };
+            break;
+          default: // catches required()
+            return { message: `${errors[0].context.label} is required.`}
+        }
+      }),
 
-                    default: // catches required()
-                        return { message: `${errors[0].context.label} is required.`}
+    lastName: Joi.string().trim().min(2).max(50).required().label('Last name')
+      .error(errors => {
+        switch(errors[0].type) {
+          case 'string.min':
+            return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
+            break;
+          case 'string.max':
+            return { message: `${errors[0].context.label} may have a maximum of 50 characters.` };
+            break;
+          default: // catches required()
+            return { message: `${errors[0].context.label} is required.`}
+        }
+      }),
 
-                }
-            }),
-        telephone: PhoneNumber.string().min(10).max(18).phoneNumber(),
-        organizationName: Joi.string().min(2).max(100),
-        dateAdded: Joi.date(),
-        dateUpdated: Joi.date()
-    };
+    telephone: Joi.string().trim().regex(/^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/).min(10).max(18).label('Telephone number')
+      .error(errors => {
+        console.log(errors[0]);
+        switch(errors[0].type) {
+          case 'string.min':
+            return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
+            break;
+          case 'string.max':
+            return { message: `${errors[0].context.label} may have a maximum of 50 characters.` };
+            break;
+          case 'string.regex.base':
+            return { message: `Please enter a valid ${errors[0].context.label}.` };
+          default: // catches required()
+            return { message: `${errors[0].context.label} is required.`}
+        }
+      }),
 
-    return Joi.validate(user, schema);
+    organizationName: Joi.string().trim().min(2).max(100).label('Organization name')
+      .error(errors => {
+        console.log(errors[0]);
+        switch(errors[0].type) {
+          case 'string.min':
+            return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
+            break;
+          case 'string.max':
+            return { message: `${errors[0].context.label} may have a maximum of 50 characters.` };
+            break;
+          default: // catches required()
+            return { message: `${errors[0].context.label} is required.`}
+        }
+      }),
+
+    dateAdded: Joi.date(),
+
+    dateUpdated: Joi.date()
+
+  };
+
+  return Joi.validate(user, schema);
 
 }
+
+
 
 exports.Users = Users;
 exports.validate = validateUsers;
