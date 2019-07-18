@@ -3,6 +3,10 @@
  *
  * User controller processing User routes.
  *
+ * Messaging prefix conventions:
+ * USER: ... for CRUD operations.
+ * No prefix for standard info logs.
+ *
  */
 
 // const path = require('path');
@@ -10,6 +14,7 @@
 const { Users, validate } = require('../models/users');
 const _ = require('lodash');
 const bcrypt = require('bcrypt');
+const logger = require('../middleware/logger');
 
 /**
  * get current user
@@ -64,6 +69,9 @@ exports.addNewUser = async function(req, res) {
 
   // save to db
   await user.save();
+
+  // log message
+  logger.info('USER: New user added: ' + user._id);
 
   // generate jwt
   const token = user.generateAuthToken();

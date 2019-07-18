@@ -80,13 +80,10 @@ const userSchema = new mongoose.Schema({
 // generate auth token
 userSchema.methods.generateAuthToken = function() {
 
-    // logger.info('generateAuthToken called');
-
     const token = jwt.sign({ _id: this._id, isAdmin: this.isAdmin }, process.env.JWT_PRIVATE_KEY);
     return token;
 
 }
-
 
 // schema/model
 const Users = mongoose.model('Users', userSchema);
@@ -96,7 +93,7 @@ function validateUsers(user) {
 
   const schema = {
 
-    email: Joi.string().trim().min(5).max(255).email().required().label('Email')
+    email: Joi.string().trim().min(5).max(255).email({ minDomainAtoms: 2 }).required().label('Email')
       .error(errors => {
         switch(errors[0].type) {
           case 'string.min':
@@ -152,7 +149,6 @@ function validateUsers(user) {
 
     telephone: Joi.string().trim().regex(/^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/).min(10).max(18).label('Telephone number')
       .error(errors => {
-        console.log(errors[0]);
         switch(errors[0].type) {
           case 'string.min':
             return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
@@ -169,7 +165,6 @@ function validateUsers(user) {
 
     organizationName: Joi.string().trim().min(2).max(100).label('Organization name')
       .error(errors => {
-        console.log(errors[0]);
         switch(errors[0].type) {
           case 'string.min':
             return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
@@ -191,8 +186,6 @@ function validateUsers(user) {
   return Joi.validate(user, schema);
 
 }
-
-
 
 exports.Users = Users;
 exports.validate = validateUsers;
