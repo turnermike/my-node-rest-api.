@@ -176,9 +176,65 @@ exports.addNewUser = async function(req, res) {
 /**
  * edit user
  */
-exports.editUser = function(req, res) {
+exports.editUser = async function(req, res) {
 
-  res.send(`Edit user: ${req.params.id}`);
+  // validate
+  const { error } = validate(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+
+  // get the role document
+  const role = await Roles.findById(new ObjectID(req.body.userRole));
+  console.log('role', role);
+
+  if (!role) return res.status(400).send('Invalid role ID');
+
+  // find/update
+  try {
+
+    const user = await Users.findByIdAndUpdate(
+      { _id: new ObjectID(req.params.id) },
+      {
+        email: req.body.email,
+        // password: req.body.password,
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        telephone: req.body.telephone,
+        organizationName: req.body.organizationName,
+        userRole: {
+          _id: role._id,
+          label: role.label,
+          level: role.level
+        }
+      },
+
+
+      // {
+      //   title: req.body.title,
+      //   // genre,                   // the whole genre document
+      //   genre: {
+      //     // selected fields
+      //     _id: genre._id,
+      //     name: genre.name,
+      //   },
+      //   numberInStock: req.body.numberInStock,
+      //   dailyRentalRate: req.body.dailyRentalRate,
+      // },
+
+      { upsert: true, new: true }
+    );
+
+    logger.info(`USERS: Updated user: ${req.params.id}`);
+    res.send(user);
+
+  } catch (err) {
+
+    logger.error('ERROR: ' + err.message);
+    res.send('ERROR: ' + err.message);
+
+  }
+
+
+  // res.send(`Edit user: ${req.params.id}`);
 
 }
 
