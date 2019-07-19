@@ -14,6 +14,7 @@
 const { Users, validate } = require('../models/users');
 const { Roles } = require('../models/roles');
 const _ = require('lodash');
+const ObjectID = require('mongodb').ObjectID;
 const bcrypt = require('bcrypt');
 const logger = require('../middleware/logger');
 
@@ -29,18 +30,68 @@ exports.getCurrentUser = function(req, res) {
 /**
  * get all users
  */
-exports.getAllUsers = function(req, res) {
+exports.getAllUsers = async function(req, res) {
 
-  res.send('Get all users.');
+  try{
+
+    const allUsers = await Users.find();
+    console.log('allUsers', allUsers);
+
+    if(allUsers.length) {
+
+      logger.info('USERS: Get all users requested.');
+      res.send(allUsers);
+
+    } else {
+
+      logger.info('USERS: Get all users requested, none found.');
+      res.status(404).send('No users found.');
+
+    }
+
+  }
+  catch(err) {
+
+    logger.error('ERROR: ' + err.message);
+    res.send('ERROR: ' + err.message);
+
+  }
 
 }
 
 /**
  * get user by id
  */
-exports.getUserById = function(req, res) {
+exports.getUserById = async function(req, res) {
 
-  res.send(`Get user: ${req.params.id}`);
+  try{
+
+    const user = await Users.findById(
+        { _id: new ObjectID(req.params.id) },
+        (err, user) => {
+            if (err) {
+                logger.error('USERS: User requested by ID not found.');
+                // res.send({ error: err.message });
+                res.status(404).send(`The user with the ID ('${req.params.id}') does not exist.`);
+                return;
+            }
+
+            logger.error(`USERS: Get user by ID: ${req.params.id}.`);
+            // debug('Get user by ID: \n', user);
+            res.send(user);
+        }
+    );
+
+  }
+  catch(err) {
+
+    logger.error('ERROR: ' + err.message);
+    res.send('ERROR: ' + err.message);
+
+  }
+
+
+  // res.send(`Get user: ${req.params.id}`);
 
 }
 
@@ -102,7 +153,7 @@ exports.addNewUser = async function(req, res) {
       await user.save();
 
       // log message
-      logger.info('USER: New user added: ' + user._id);
+      logger.info('USERS: New user added: ' + user._id);
 
       // generate jwt
       const token = user.generateAuthToken();
@@ -116,7 +167,7 @@ exports.addNewUser = async function(req, res) {
   catch(err) {
 
     logger.error('ERROR: ' + err.message);
-    res.send(err.message);
+    res.send('ERROR: ' + err.message);
 
   }
 
