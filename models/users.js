@@ -99,8 +99,8 @@ userSchema.methods.generateAuthToken = function() {
 // schema/model
 const Users = mongoose.model('Users', userSchema);
 
-// validation
-function validateUsers(user) {
+// POST validation
+function validateUsersPOST(user) {
   const schema = {
     email: Joi.string()
       .trim()
@@ -266,7 +266,195 @@ function validateUsers(user) {
         }
       }),
 
-    // userRole: Joi.objectId().required(),
+    userRole: Joi.objectId()
+      .required()
+      .label('User Role')
+      .error(errors => {
+        console.log(errors[0]);
+        switch (errors[0].type) {
+          case 'string.regex.base':
+            return { message: `${errors[0].context.value} is not a valid ${errors[0].context.label}.`}
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
+
+    dateAdded: Joi.date(),
+
+    dateUpdated: Joi.date(),
+  };
+
+  return Joi.validate(user, schema);
+
+}
+
+// PUT validation
+function validateUsersPUT(user) {
+  const schema = {
+    email: Joi.string()
+      .trim()
+      .min(5)
+      .max(255)
+      .email({ minDomainAtoms: 2 })
+      .required()
+      .label('Email')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'string.min':
+            return {
+              message: `${errors[0].context.label} requires at least ${
+                errors[0].context.limit
+              } characters.`,
+            };
+            break;
+          case 'string.max':
+            return {
+              message: `${
+                errors[0].context.label
+              } may have a maximum of 50 characters.`,
+            };
+            break;
+          case 'string.email':
+            return { message: 'Please enter a valid email address.' };
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
+
+    password: new PasswordComplexity(passwordComplexityOptions)
+      // .required()
+      .label('Password')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'passwordComplexity.base':
+            return {
+              message: `The ${
+                errors[0].context.label
+              } requires at least one uppercase, lowercase, number and symbol.`,
+            };
+            break;
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
+
+    firstName: Joi.string()
+      .trim()
+      .min(2)
+      .max(50)
+      .required()
+      .label('First name')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'string.min':
+            return {
+              message: `${errors[0].context.label} requires at least ${
+                errors[0].context.limit
+              } characters.`,
+            };
+            break;
+          case 'string.max':
+            return {
+              message: `${
+                errors[0].context.label
+              } may have a maximum of 50 characters.`,
+            };
+            break;
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
+
+    lastName: Joi.string()
+      .trim()
+      .min(2)
+      .max(50)
+      .required()
+      .label('Last name')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'string.min':
+            return {
+              message: `${errors[0].context.label} requires at least ${
+                errors[0].context.limit
+              } characters.`,
+            };
+            break;
+          case 'string.max':
+            return {
+              message: `${
+                errors[0].context.label
+              } may have a maximum of 50 characters.`,
+            };
+            break;
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
+
+    telephone: Joi.string()
+      .trim()
+      .regex(/^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/)
+      .min(10)
+      .max(18)
+      .label('Telephone number')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'string.min':
+            return {
+              message: `${errors[0].context.label} requires at least ${
+                errors[0].context.limit
+              } characters.`,
+            };
+            break;
+          case 'string.max':
+            return {
+              message: `${
+                errors[0].context.label
+              } may have a maximum of 50 characters.`,
+            };
+            break;
+          case 'string.regex.base':
+            return {
+              message: `Please enter a valid ${errors[0].context.label}.`,
+            };
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
+
+    organizationName: Joi.string()
+      .trim()
+      .min(2)
+      .max(100)
+      .label('Organization name')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'string.min':
+            return {
+              message: `${errors[0].context.label} requires at least ${
+                errors[0].context.limit
+              } characters.`,
+            };
+            break;
+          case 'string.max':
+            return {
+              message: `${
+                errors[0].context.label
+              } may have a maximum of 50 characters.`,
+            };
+            break;
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
 
     userRole: Joi.objectId()
       .required()
@@ -290,7 +478,9 @@ function validateUsers(user) {
   return Joi.validate(user, schema);
 }
 
+
 exports.Users = Users;
-exports.validate = validateUsers;
+exports.validatePOST = validateUsersPOST;
+exports.validatePUT = validateUsersPUT;
 
 

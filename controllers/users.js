@@ -11,7 +11,7 @@
 
 // const path = require('path');
 // const Shark = require('../models/sharks');
-const { Users, validate } = require('../models/users');
+const { Users, validatePOST, validatePUT } = require('../models/users');
 const { Roles } = require('../models/roles');
 const _ = require('lodash');
 const ObjectID = require('mongodb').ObjectID;
@@ -101,7 +101,7 @@ exports.getUserById = async function(req, res) {
 exports.addNewUser = async function(req, res) {
 
   // validate
-  const { error } = validate(req.body);
+  const { error } = validatePOST(req.body);
   if(error) return res.status(400).send(error.details[0].message);
 
   // check for existing user
@@ -179,23 +179,33 @@ exports.addNewUser = async function(req, res) {
 exports.editUser = async function(req, res) {
 
   // validate
-  const { error } = validate(req.body);
+  const { error } = validatePUT(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   // get the role document
   const role = await Roles.findById(new ObjectID(req.body.userRole));
-  console.log('role', role);
+  // console.log('role', role);
 
   if (!role) return res.status(400).send('Invalid role ID');
 
   // find/update
   try {
 
-    const user = await Users.findByIdAndUpdate(
+    // get the user record
+    let user = await Users.findById(new ObjectID(req.params.id));
+    console.log('user', user);
+
+
+    // // hash password
+    // const salt = await bcrypt.genSalt(10);
+    // user.password = await bcrypt.hash(user.password, salt);
+
+
+    user = await Users.findByIdAndUpdate(
       { _id: new ObjectID(req.params.id) },
       {
         email: req.body.email,
-        // password: req.body.password,
+        password: user.password,                        // not updating the password, using exiting password
         firstName: req.body.firstName,
         lastName: req.body.lastName,
         telephone: req.body.telephone,
@@ -206,20 +216,6 @@ exports.editUser = async function(req, res) {
           level: role.level
         }
       },
-
-
-      // {
-      //   title: req.body.title,
-      //   // genre,                   // the whole genre document
-      //   genre: {
-      //     // selected fields
-      //     _id: genre._id,
-      //     name: genre.name,
-      //   },
-      //   numberInStock: req.body.numberInStock,
-      //   dailyRentalRate: req.body.dailyRentalRate,
-      // },
-
       { upsert: true, new: true }
     );
 
