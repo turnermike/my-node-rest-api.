@@ -24,12 +24,12 @@ const config = require('config');
 
 module.exports = function(app) {
 
-    const devEnvs = ['development', 'test'];
+    const devEnvs = ['test'];
 
     // output debug info
     if(devEnvs.includes(app.get('env'))) {
         logger.info(`MONGO_URL: ${process.env.MONGO_URL}`);
-        // logger.info(`jwtPrivateKey: ${config.get('jwtPrivateKey')}`);
+        logger.info(`JWT_PRIVATE_KEY: ${process.env.JWT_PRIVATE_KEY}`);
         logger.info(`NODE_ENV: ${process.env.NODE_ENV}`);
     }
 

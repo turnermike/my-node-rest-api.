@@ -57,9 +57,10 @@ exports.addNewUser = async function(req, res) {
   if(user) return res.status(400).send('That email address is associated with an existing user.');
 
   // set new user object with post data
+  console.log(req.body);
   user = new Users(_.pick(req.body,
     [
-      'email', 'password', 'firstName', 'lastName', 'telephone', 'organizationName'
+      'email', 'password', 'firstName', 'lastName', 'telephone', 'organizationName', 'userRole'
     ]
   ));
 
