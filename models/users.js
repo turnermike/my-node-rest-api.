@@ -11,10 +11,11 @@ const Joi = require('joi');
 const PasswordComplexity = require('joi-password-complexity');
 const jwt = require('jsonwebtoken');
 const { rolesSchema } = require('./roles');
+
 // const config = require('config');
 // const logger = require('../middleware/logger');
 
-console.log('typeof: ', typeof(rolesSchema));
+// console.log('typeof: ', typeof(rolesSchema));
 
 // joi-password-complexity options
 const passwordComplexityOptions = {
@@ -66,11 +67,15 @@ const userSchema = new mongoose.Schema({
     min: 2,
     max: 100,
   },
+  // userRole: rolesSchema,
   userRole: {
-    // type: rolesSchema,
-    type: ObjectID,
+    type: rolesSchema,
     required: true,
   },
+  // userRole: {
+  //   type: ObjectID,
+  //   required: true,
+  // },
   dateAdded: {
     type: Date,
     required: true,
@@ -260,6 +265,8 @@ function validateUsers(user) {
             return { message: `${errors[0].context.label} is required.` };
         }
       }),
+
+    // userRole: Joi.objectId().required(),
 
     userRole: Joi.objectId()
       .required()

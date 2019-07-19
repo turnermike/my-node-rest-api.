@@ -12,6 +12,7 @@
 // const path = require('path');
 // const Shark = require('../models/sharks');
 const { Users, validate } = require('../models/users');
+const { Roles } = require('../models/roles');
 const _ = require('lodash');
 const bcrypt = require('bcrypt');
 const logger = require('../middleware/logger');
@@ -56,29 +57,68 @@ exports.addNewUser = async function(req, res) {
   let user  = await Users.findOne({ email: req.body.email });
   if(user) return res.status(400).send('That email address is associated with an existing user.');
 
-  // set new user object with post data
-  console.log(req.body);
-  user = new Users(_.pick(req.body,
-    [
-      'email', 'password', 'firstName', 'lastName', 'telephone', 'organizationName', 'userRole'
-    ]
-  ));
 
-  // hash password
-  const salt = await bcrypt.genSalt(10);
-  user.password = await bcrypt.hash(user.password, salt);
+  try{
 
-  // save to db
-  await user.save();
+    // get the user role data
+    const role = Roles.findById({ _id: req.body.userRole }, async (err, role) => {
 
-  // log message
-  logger.info('USER: New user added: ' + user._id);
+      if(err) {
+          logger.error('ERROR: ' + err.message);
+          return;
+      }
 
-  // generate jwt
-  const token = user.generateAuthToken();
+      // validate role id
+      if(! role) return res.status(400).send('Invalid role ID');
 
-  res.send(user);
-  // res.header('x-auth-token', token).send(_.pick(user, ['email', 'firstName', 'lastName']));
+
+      // set new user object with post data
+      console.log(req.body);
+      // user = new Users(_.pick(req.body,
+      //   [
+      //     'email', 'password', 'firstName', 'lastName', 'telephone', 'organizationName', 'userRole'
+      //   ]
+      // ));
+
+      user = new Users({
+        email: req.body.email,
+        password: req.body.password,
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        telephone: req.body.telephone,
+        organizationName: req.body.organizationName,
+        userRole: {
+          _id: role._id,
+          label: role.label,
+          level: role.level
+        }
+      })
+
+      // hash password
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(user.password, salt);
+
+      // save to db
+      await user.save();
+
+      // log message
+      logger.info('USER: New user added: ' + user._id);
+
+      // generate jwt
+      const token = user.generateAuthToken();
+
+      res.send(user);
+      // res.header('x-auth-token', token).send(_.pick(user, ['email', 'firstName', 'lastName']));
+
+    });
+
+  }
+  catch(err) {
+
+    logger.error('ERROR: ' + err.message);
+    res.send(err.message);
+
+  }
 
 }
 
