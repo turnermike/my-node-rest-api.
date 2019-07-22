@@ -195,11 +195,9 @@ exports.editUser = async function(req, res) {
     let user = await Users.findById(new ObjectID(req.params.id));
     console.log('user', user);
 
-
     // // hash password
     // const salt = await bcrypt.genSalt(10);
     // user.password = await bcrypt.hash(user.password, salt);
-
 
     user = await Users.findByIdAndUpdate(
       { _id: new ObjectID(req.params.id) },
@@ -237,9 +235,23 @@ exports.editUser = async function(req, res) {
 /**
  * delete user
  */
-exports.deleteUser = function(req, res) {
+exports.deleteUser = async function(req, res) {
 
-  res.send(`Delete user: ${req.params.id}`);
+  try{
+
+    const user = await Users.findByIdAndRemove({ _id: new ObjectID(req.params.id) });
+    if (! user) return res.status(404).send('That user ID was not found');
+
+    logger.info(`USERS: Deleted user: ${req.params.id}`);
+    res.send(user);
+
+  }
+  catch(err) {
+
+    logger.error('ERROR: ' + err.message);
+    res.send('ERROR: ' + err.message);
+
+  }
 
 }
 
