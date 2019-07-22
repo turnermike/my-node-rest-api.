@@ -476,11 +476,72 @@ function validateUsersPUT(user) {
   };
 
   return Joi.validate(user, schema);
+
+}
+
+// AUTH/POST validation
+function validateAUTH(user) {
+
+  const schema = {
+    email: Joi.string()
+      .trim()
+      .min(5)
+      .max(255)
+      .email({ minDomainAtoms: 2 })
+      .required()
+      .label('Email')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'string.min':
+            return {
+              message: `${errors[0].context.label} requires at least ${
+                errors[0].context.limit
+              } characters.`,
+            };
+            break;
+          case 'string.max':
+            return {
+              message: `${
+                errors[0].context.label
+              } may have a maximum of 50 characters.`,
+            };
+            break;
+          case 'string.email':
+            return { message: 'Please enter a valid email address.' };
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      }),
+
+    password: new PasswordComplexity(passwordComplexityOptions)
+      .required()
+      .label('Password')
+      .error(errors => {
+        switch (errors[0].type) {
+          case 'passwordComplexity.base':
+            return {
+              message: `The ${
+                errors[0].context.label
+              } requires at least one uppercase, lowercase, number and symbol.`,
+            };
+            break;
+          default:
+            // catches required()
+            return { message: `${errors[0].context.label} is required.` };
+        }
+      })
+  }
+
+  return Joi.validate(user, schema);
+
 }
 
 
 exports.Users = Users;
 exports.validatePOST = validateUsersPOST;
 exports.validatePUT = validateUsersPUT;
+
+exports.validateAUTH = validateAUTH;
 
 
