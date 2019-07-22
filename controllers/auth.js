@@ -4,7 +4,7 @@
  * Authorization controller processing Auth routes.
  *
  * Messaging prefix conventions:
- * Auth: ... for CRUD operations.
+ * AUTH: ... for CRUD operations.
  * No prefix for standard info logs.
  *
  */
@@ -30,6 +30,8 @@ exports.getAuth = async function(req, res) {
   if (! validPassword) return res.status(400).send('Invalid email or password');
 
   const token = user.generateAuthToken();
+
+  logger.info(`AUTH: User successfully authenticated: ${req.body.email}`)
 
   // res.header('x-auth-token', token).send(_.pick(user, ['_id', 'name', 'email', 'isAdmin']));           // use _.pick to select with properties to send
   // res.header('x-auth-token', token).send(token);
