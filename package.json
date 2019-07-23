@@ -15,8 +15,8 @@
   },
   "keywords": [
     "nodejs",
-    "bootstrap",
-    "express"
+    "express",
+    "mongdb"
   ],
   "scripts": {
     "dev": "export NODE_ENV=development MONGO_USERNAME=mynoderestapi MONGO_PASSWORD=password MONGO_PORT=27017 MONGO_DB=mynoderestapi MONGO_HOSTNAME=localhost && nodemon index.js",
