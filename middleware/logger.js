@@ -68,11 +68,13 @@ var options = {
 
 };
 
+const devEnvs = ['development'];        // array of possible NODE_ENV values where we want to log to console
+
 // array of available Winston transports based off of config values
 let availableTransports = [];
 ( config.get('logger.errorLogToFile') ) ? availableTransports.push(new transports.File(options.file)) : '';                     // enable log to file from config value
 ( config.get('logger.errorLogToDB') ) ? availableTransports.push(new transports.MongoDB(options.mongodb)) : '';                 // enable log to database from config value
-( config.get('logger.errorLogToConsole') ) ? availableTransports.push(new transports.Console(options.console)) : '';            // enable log to console from config value
+( config.get('logger.errorLogToConsole') && devEnvs.includes(process.env.NODE_ENV) ) ? availableTransports.push(new transports.Console(options.console)) : '';            // enable log to console from config value
 
 // instantiate a new Winston Logger with the settings defined above
 const logger = createLogger({

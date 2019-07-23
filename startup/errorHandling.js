@@ -18,19 +18,16 @@
  */
 
 require('express-async-errors');
+require('dotenv-safe').config();
 const logger = require('../middleware/logger');
 // const config = require('config');
 
 module.exports = function(app) {
 
-    const devEnvs = ['development'];
-
     // output debug info
-    if(devEnvs.includes(app.get('env'))) {
-        logger.info(`MONGO_URL: ${process.env.MONGO_URL}`);
-        logger.info(`JWT_PRIVATE_KEY: ${process.env.JWT_PRIVATE_KEY}`);
-        logger.info(`NODE_ENV: ${process.env.NODE_ENV}`);
-    }
+    logger.info(`MONGO_URL: ${process.env.MONGO_URL}`);
+    logger.info(`JWT_PRIVATE_KEY: ${process.env.JWT_PRIVATE_KEY}`);
+    logger.info(`NODE_ENV: ${process.env.NODE_ENV}`);
 
     // log any express uncaught exceptions
     process.on('uncaughtException', (ex) => {
@@ -54,7 +51,7 @@ module.exports = function(app) {
     };
 
     // use morgan http request logger for development only
-    if (app.get('env') === 'development'){
+    if (process.env.NODE_ENV === 'development'){
         app.use(require("morgan")("common", { "stream": logger.stream }));
         logger.info('Morgan enabled...');
     }

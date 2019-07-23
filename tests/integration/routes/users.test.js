@@ -16,8 +16,6 @@ let token;
 
 describe('/api/users', () => {
 
-
-
   beforeEach(() => {                          // executed before each test
 
     server = require('../../../index');       // start server before each test
@@ -36,13 +34,23 @@ describe('/api/users', () => {
   describe('GET /', () => {
 
     const exec = async () => {                  // send async request to server
-      console.log('called exec');
+      // console.log('called exec', token);
       const res = await request(server)
         .get('/api/users')
         .set('x-auth-token', token)
         .send();
       return res;
     }
+
+    it('Should return 401 is user is not logged in.', async () => {
+
+      token = '';
+
+      const res = await exec();
+
+      expect(res.status).toBe(401);
+
+    });
 
     it('Should return all users.', async () => {
 
@@ -76,9 +84,8 @@ describe('/api/users', () => {
       //   }
       // ]);
 
-      await exec();
-
-      const res = await request(server).get('/api/users');           // make get request
+      // const res = await request(server).get('/api/users');           // make get request
+      const res = await exec();
       // console.log('res', res.body);
 
       expect(res.status).toBe(200);                                   // test expects a 200 response code

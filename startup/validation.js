@@ -5,12 +5,13 @@
  *
  */
 
+require('dotenv-safe').config();
 const Joi = require('joi');
 const logger = require('../middleware/logger');
 
 module.exports = function() {
 
-    Joi.objectId = require('joi-objectid')(Joi);
-    logger.info('Joi validation enabled...');
+  Joi.objectId = require('joi-objectid')(Joi);
+  logger.info('Joi validation enabled...');
 
 }

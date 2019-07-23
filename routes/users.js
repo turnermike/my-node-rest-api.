@@ -19,7 +19,7 @@ router.get('/me', (req, res) => {
 });
 
 // get all users
-router.get('/', (req, res) => {
+router.get('/', auth, (req, res) => {
 
   usersController.getAllUsers(req, res);
 
