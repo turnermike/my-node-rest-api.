@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "dev": "export NODE_ENV=development MONGO_USERNAME=mynoderestapi MONGO_PASSWORD=password MONGO_PORT=27017 MONGO_DB=mynoderestapi MONGO_HOSTNAME=localhost && nodemon index.js",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "test": "jest --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "app-root-path": "^2.2.1",
@@ -28,6 +29,7 @@
     "express": "^4.16.4",
     "express-async-errors": "^3.1.1",
     "helmet": "^3.19.0",
+    "jest": "^24.8.0",
     "joi": "^14.3.1",
     "joi-objectid": "^2.0.0",
     "joi-password-complexity": "^2.0.1",
@@ -35,6 +37,7 @@
     "lodash": "^4.17.14",
     "mongoose": "^5.4.10",
     "morgan": "^1.9.1",
+    "supertest": "^4.0.2",
     "winston": "^3.2.1",
     "winston-mongodb": "^5.0.0"
   },

@@ -99,7 +99,7 @@ userSchema.methods.generateAuthToken = function() {
 // schema/model
 const Users = mongoose.model('Users', userSchema);
 
-// POST validation
+// POST validation (add new user)
 function validateUsersPOST(user) {
   const schema = {
     email: Joi.string()
@@ -289,7 +289,7 @@ function validateUsersPOST(user) {
 
 }
 
-// PUT validation
+// PUT validation (edit existing user)
 function validateUsersPUT(user) {
   const schema = {
     email: Joi.string()
@@ -537,11 +537,9 @@ function validateAUTH(user) {
 
 }
 
-
 exports.Users = Users;
 exports.validatePOST = validateUsersPOST;
 exports.validatePUT = validateUsersPUT;
-
 exports.validateAUTH = validateAUTH;
 
 
