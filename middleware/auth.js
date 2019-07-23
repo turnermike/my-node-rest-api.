@@ -4,22 +4,19 @@
  *
  */
 const jwt = require('jsonwebtoken');
-// const debug = require('debug')('app:db');
 const logger = require('./logger');
-const config = require('config');
-
 
 function auth(req, res, next) {
 
     const token = req.header('x-auth-token');
-    console.log('token', token);
+    // console.log('token', token);
 
     if (! token) return res.status(401).send("Not authorized, no token provided.");
 
     try{
 
-      // console.log('process.env.JWT_PRIVATE_KEY', process.env.JWT_PRIVATE_KEY);
       const decoded = jwt.verify(token, process.env.JWT_PRIVATE_KEY);
+      // console.log('process.env.JWT_PRIVATE_KEY', process.env.JWT_PRIVATE_KEY);
       // console.log('decodedL', decoded);
 
       req.user = decoded;

@@ -93,7 +93,6 @@ userSchema.methods.generateAuthToken = function() {
     { _id: this._id, isAdmin: this.isAdmin },
     process.env.JWT_PRIVATE_KEY
   );
-  console.log('process.env.JWT_PRIVATE_KEY', process.env.JWT_PRIVATE_KEY);
   return token;
 };
 

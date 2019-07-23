@@ -6,6 +6,7 @@
  */
 
 const express = require('express');
+const expressErrors = require('../middleware/expressErrors');
 const index = require('../routes/index');
 const users = require('../routes/users');
 const auth = require('../routes/auth');
@@ -19,5 +20,6 @@ module.exports = function(app) {
   app.use('/api/users', users);                       // /api/users/
   app.use('/api/auth', auth);                         // /api/auth/
 
+  app.use(expressErrors);                             // use error handling middleware
 
 }
