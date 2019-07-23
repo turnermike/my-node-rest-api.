@@ -21,7 +21,7 @@ const logger = require('../middleware/logger');
 /**
  * get current user
  */
-exports.getCurrentUser = function(req, res) {
+exports.getCurrentUser = (req, res) => {
 
   res.send('Get current user.');
 
@@ -30,7 +30,7 @@ exports.getCurrentUser = function(req, res) {
 /**
  * get all users
  */
-exports.getAllUsers = async function(req, res) {
+exports.getAllUsers = async (req, res) => {
 
   try{
 
@@ -62,7 +62,7 @@ exports.getAllUsers = async function(req, res) {
 /**
  * get user by id
  */
-exports.getUserById = async function(req, res) {
+exports.getUserById = async (req, res) => {
 
   try{
 
@@ -98,7 +98,7 @@ exports.getUserById = async function(req, res) {
 /**
  * add new user
  */
-exports.addNewUser = async function(req, res) {
+exports.addNewUser = async (req, res) => {
 
   // validate
   const { error } = validatePOST(req.body);
@@ -176,7 +176,7 @@ exports.addNewUser = async function(req, res) {
 /**
  * edit user
  */
-exports.editUser = async function(req, res) {
+exports.editUser = async (req, res) => {
 
   // validate
   const { error } = validatePUT(req.body);
@@ -235,7 +235,7 @@ exports.editUser = async function(req, res) {
 /**
  * delete user
  */
-exports.deleteUser = async function(req, res) {
+exports.deleteUser = async (req, res) => {
 
   try{
 
