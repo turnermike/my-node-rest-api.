@@ -21,9 +21,14 @@ const logger = require('../middleware/logger');
 /**
  * get current user
  */
-exports.getCurrentUser = (req, res) => {
+exports.getCurrentUser = async (req, res) => {
 
-  res.send('Get current user.');
+  console.log(req.user);
+
+  const user = await Users.findById(req.user._id).select('-password');
+  logger.info(`USER: Current user requested: ${req.user._id}`);
+
+  res.send(user);
 
 }
 

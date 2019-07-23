@@ -33,7 +33,6 @@ describe('/api/users', () => {
   // get requests
   describe('GET Requests', () => {
 
-
     const exec = async () => {                  // send async request to server
       // console.log('called exec', token);
       const res = await request(server)
@@ -75,7 +74,7 @@ describe('/api/users', () => {
 
     });
 
-    // get all user by id
+    // get user by id
     describe('GET /:id', () => {
 
       it('Should return a user if valid id passed.', async () => {
@@ -92,19 +91,15 @@ describe('/api/users', () => {
           }
         });
         await user.save();
-        // console.log('user', user);
 
         // send async get request
         const res = await request(server)
           .get('/api/users/' + user._id)
           .set('x-auth-token', token)
           .send();
-        // console.log('res.body', res.body);
-        // console.log('res.status', res.status);
 
         expect(res.status).toBe(200);
         expect(res.body).toHaveProperty('email', user.email);
-
 
       });
 

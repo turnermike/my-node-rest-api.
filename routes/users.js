@@ -12,7 +12,7 @@ const auth = require('../middleware/auth');
 const validateObjectId = require('../middleware/validateObjectId');
 
 // get current user
-router.get('/me', (req, res) => {
+router.get('/me', auth, (req, res) => {
 
   usersController.getCurrentUser(req, res);
 
