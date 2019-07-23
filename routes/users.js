@@ -9,6 +9,7 @@ const express = require('express');
 const router = express.Router();
 const usersController = require('../controllers/users');
 const auth = require('../middleware/auth');
+const validateObjectId = require('../middleware/validateObjectId');
 
 // get current user
 router.get('/me', (req, res) => {
@@ -25,7 +26,7 @@ router.get('/', auth, (req, res) => {
 });
 
 // get user by id
-router.get('/:id', auth, (req, res) => {
+router.get('/:id', [auth, validateObjectId], (req, res) => {
 
   usersController.getUserById(req, res);
 
@@ -39,14 +40,14 @@ router.post('/', auth, (req, res) => {
 });
 
 // edit user
-router.put('/:id', auth, (req, res) => {
+router.put('/:id', [auth, validateObjectId], (req, res) => {
 
   usersController.editUser(req, res);
 
 });
 
 // delete user
-router.delete('/:id', auth, (req, res) => {
+router.delete('/:id', [auth, validateObjectId], (req, res) => {
 
   usersController.deleteUser(req, res);
 
