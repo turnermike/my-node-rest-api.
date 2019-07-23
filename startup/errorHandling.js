@@ -19,12 +19,11 @@
 
 require('express-async-errors');
 const logger = require('../middleware/logger');
-// const morgan = require('morgan');
-const config = require('config');
+// const config = require('config');
 
 module.exports = function(app) {
 
-    const devEnvs = ['test'];
+    const devEnvs = ['development'];
 
     // output debug info
     if(devEnvs.includes(app.get('env'))) {

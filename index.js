@@ -17,29 +17,8 @@ require('./startup/db')();                  // initialize db connection
 require('./startup/routes')(app);           // load routes
 require('./startup/validation')();            // load Joi validation module
 
-
-
-
-
-
-
-// TUTORIAL STUFF TO REMOVE LATER
-// const sharks = require('./routes/sharks');
-// const path = __dirname + '/views/';
-
-// app.engine('html', require('ejs').renderFile);
-// app.set('view engine', 'html');
-// app.use(express.urlencoded({ extended: true }));
-// app.use(express.static(path));
-
-// app.use('/test', test);
-// app.use('/sharks', sharks);
-
 // start server
 const port = process.env.PORT || 3000;
-const server = app.listen(port, () => {
-  // console.log(`Example app listening on port ${port}`)
-  logger.info(`Express listening on port ${port}...`);
-});
+const server = app.listen(port, () => { logger.info(`Express listening on port ${port}...`); });
 
 module.exports = server;

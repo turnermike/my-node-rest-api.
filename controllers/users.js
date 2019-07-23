@@ -35,7 +35,6 @@ exports.getAllUsers = async (req, res) => {
   try{
 
     const allUsers = await Users.find();
-    console.log('allUsers', allUsers);
 
     if(allUsers.length) {
 

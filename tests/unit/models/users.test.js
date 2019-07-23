@@ -5,30 +5,32 @@
  */
 
 const path = require('path');
-const mongoose = require('mongoose');
-const request = require('supertest');
-const { Users } = require('../../../models/users');
-const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv-safe').config({ path: path.resolve(process.cwd(), '.env.test') });
+const mongoose = require('mongoose');
+// const request = require('supertest');
+const { Users } = require('../../../models/users');
+// const logger = require('../../../middleware/logger');
+const jwt = require('jsonwebtoken');
+
 
 // console.log('dotenv', dotenv);
 // console.log('path', path.resolve(process.cwd(), '.env.test'));
 
-let server;
+// let server;x
 
 describe('/api/users', () => {
 
-  beforeEach(() => {
+  // beforeEach(() => {
 
-    server = require('../../../index');   // start the express server before each gest
+  //   server = require('../../../index');                                           // start the express server before each gest
 
-  });
+  // });
 
-  afterEach(async () => {
+  // afterEach(async () => {
 
-    await server.close();               // stop server
-    await Users.deleteMany({});         // remove the users table
-  });
+  //   await server.close();                                                         // stop server
+
+  // });
 
   // generate jwt
   describe('user.generateAuthToken()', () => {
@@ -49,21 +51,6 @@ describe('/api/users', () => {
 
   });
 
-  // get all users
-  describe('GET /', () => {
-
-    it('Should return all users.', async () => {
-
-      await Users.collection.insertMany([
-        { email: 'email1@domain.com' },
-        { email: 'email2@domain.com' }
-      ]);
-
-      const res = await request(server).get('/api/users');
-
-    });
-
-  });
 
 });
 
