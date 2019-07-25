@@ -11,6 +11,7 @@
 
 // const path = require('path');
 // const Shark = require('../models/sharks');
+const mongoose = require('mongoose');
 const { Users, validatePOST, validatePUT } = require('../models/users');
 const { Roles } = require('../models/roles');
 const _ = require('lodash');
@@ -115,8 +116,15 @@ exports.addNewUser = async (req, res) => {
 
   try{
 
+    // console.log('req.body.userRole', req.body.userRole);
+
     // get the user role data
-    const role = Roles.findById({ _id: req.body.userRole._id }, async (err, role) => {
+
+    const role = Roles.findOne(ObjectID(req.body.userRole), async (err, role) => {
+    // const role = Roles.findOne({ _id: req.body.userRole }, async (err, role) => {
+    // const role = Roles.findById({ _id: req.body.userRole }, async (err, role) => {
+
+      // console.log('role', role);
 
       if(err) {
           logger.error('ERROR: ' + err.message);
@@ -128,7 +136,7 @@ exports.addNewUser = async (req, res) => {
 
 
       // set new user object with post data
-      console.log(req.body);
+      // console.log('req.body from controller', req.body);
       // user = new Users(_.pick(req.body,
       //   [
       //     'email', 'password', 'firstName', 'lastName', 'telephone', 'organizationName', 'userRole'
@@ -147,7 +155,9 @@ exports.addNewUser = async (req, res) => {
           label: role.label,
           level: role.level
         }
-      })
+      });
+
+      // console.log('user from controller', user);
 
       // hash password
       const salt = await bcrypt.genSalt(10);

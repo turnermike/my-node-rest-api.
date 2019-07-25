@@ -7,9 +7,11 @@
 const path = require('path');
 require('dotenv-safe').config({ path: path.resolve(process.cwd(), '.env.test') });
 const mongoose = require('mongoose');
-// const ObjectID = require('mongodb').ObjectID;
+const ObjectID = require('mongodb').ObjectID;
+const bcrypt = require('bcrypt');
 const request = require('supertest');
 const { Users } = require('../../../models/users');
+const { Roles } = require('../../../models/roles');
 
 let server;
 let token;
@@ -143,50 +145,36 @@ describe('/api/users', () => {
   // post requests
   describe('POST Requests', () => {
 
-    let token;
-    let email;
+    // let token;
+    // let email;
 
-    const user = new Users({
-      email: email,
-      // password: 'Password$1',
-      // firstName: 'First',
-      // lastName: 'Last',
-      // telephone: '123 456 7890',
-      // organizationName: 'Org Name',
-      // userRole: {
-      //   _id: mongoose.Types.ObjectId(),
-      //   label: 'Guest',
-      //   level: 2
-      // }
-    })
 
     const exec = async () => {                  // send async request to server
-      // console.log('called exec', token);
+
+      const user = new Users({
+        email,
+        password: 'Password$1',
+        firstName: 'First',
+        lastName: 'Last',
+        telephone: '123 456 7890',
+        organizationName: 'Org Name',
+        userRole: {
+          // _id: mongoose.Types.ObjectId(),
+          _id: '5d376784a854b86b1a4e7b6a',
+          label: 'Guest',
+          level: 2
+        }
+      });
+
       const res = await request(server)
         .post('/api/users')
         .set('x-auth-token', token)
-        // .send({
-        //   email,
-        //   password: 'Password$1',
-        //   firstName: 'First',
-        //   lastName: 'Last',
-        //   userRole: {
-        //     _id: mongoose.Types.ObjectId(),
-        //     // _id: '5d376784a854b86b1a4e7b6a',
-        //     label: 'Guest',
-        //     level: 2
-        //   }
-        // });
         .send(user);
-
       // console.log('res 1', res.status);
+
       return res;
+
     };
-
-
-
-
-
 
     beforeEach(() => {
       server = require('../../../index');       // start server before each test
@@ -194,18 +182,24 @@ describe('/api/users', () => {
       email = 'email@domain.com';
     });
 
+    afterEach(async () => {                     // executed after each test
+
+      await server.close();                     // stop express
+      await Users.deleteMany({});               // remove users table after each test
+      await Roles.deleteMany({});
+
+    });
 
 
 
+    it('Should return 401 if user is not logged in.', async () => {
 
-    // it('Should return 401 if user is not logged in.', async () => {
+      token = '';
+      const res = await exec();
 
-    //   token = '';
-    //   const res = await exec();
+      expect(res.status).toBe(401);
 
-    //   expect(res.status).toBe(401);
-
-    // });
+    });
 
 
 
@@ -217,33 +211,37 @@ describe('/api/users', () => {
 
     it('Should save the user if valid', async () => {
 
+      // insert a dummy role to use with this test user
+      const role = new Roles({
+        label: 'My Role',
+        level: 1
+      });
+
+      await role.save();
+      // console.log('role._id', role._id);
+
+      // hash password
+      const salt = await bcrypt.genSalt(10);
+      const password = await bcrypt.hash('Password$1', salt);
+
+      // prepare test user object
+      const user = new Users({
+        email: 'email@domain.com',
+        password,
+        firstName: 'First',
+        lastName: 'Last',
+        telephone: '012 345 6789',
+        organizationName: 'My Org',
+        userRole: { _id: role.id }
+      });
 
       const res = await request(server)
         .post('/api/users')
         .set('x-auth-token', token)
-        .send({
-          email: 'email@domain.com',
-          password: 'Password$1',
-          firstName: 'First',
-          lastName: 'Last',
-          userRole: {
-            // _id: mongoose.Types.ObjectId(),
-            _id: '5d376784a854b86b1a4e7b6a',
-            label: 'Guest',
-            level: 2
-          }
-        });
-        // .send(user);
-      console.log('res', res.text);
+        .send(user);
+      // console.log('res.text', res.text);
 
-      // const res = await exec();
-      // console.log('res 2', res.status);
-
-      // const user = await Users.find({ email: 'email@domain.com' });
-      // console.log('user', user);
-
-      // expect(res.status).toBe(200);
-      // expect(user).not.toBeNull();
+      expect(res).not.toBeNull();
 
     });
 
