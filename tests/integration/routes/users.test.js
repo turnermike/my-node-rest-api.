@@ -146,13 +146,83 @@ describe('/api/users', () => {
     let token;
     let email;
 
+    const user = new Users({
+      email: email,
+      // password: 'Password$1',
+      // firstName: 'First',
+      // lastName: 'Last',
+      // telephone: '123 456 7890',
+      // organizationName: 'Org Name',
+      // userRole: {
+      //   _id: mongoose.Types.ObjectId(),
+      //   label: 'Guest',
+      //   level: 2
+      // }
+    })
+
     const exec = async () => {                  // send async request to server
       // console.log('called exec', token);
       const res = await request(server)
         .post('/api/users')
         .set('x-auth-token', token)
+        // .send({
+        //   email,
+        //   password: 'Password$1',
+        //   firstName: 'First',
+        //   lastName: 'Last',
+        //   userRole: {
+        //     _id: mongoose.Types.ObjectId(),
+        //     // _id: '5d376784a854b86b1a4e7b6a',
+        //     label: 'Guest',
+        //     level: 2
+        //   }
+        // });
+        .send(user);
+
+      // console.log('res 1', res.status);
+      return res;
+    };
+
+
+
+
+
+
+    beforeEach(() => {
+      server = require('../../../index');       // start server before each test
+      token = new Users().generateAuthToken();
+      email = 'email@domain.com';
+    });
+
+
+
+
+
+    // it('Should return 401 if user is not logged in.', async () => {
+
+    //   token = '';
+    //   const res = await exec();
+
+    //   expect(res.status).toBe(401);
+
+    // });
+
+
+
+
+
+
+
+
+
+    it('Should save the user if valid', async () => {
+
+
+      const res = await request(server)
+        .post('/api/users')
+        .set('x-auth-token', token)
         .send({
-          email,
+          email: 'email@domain.com',
           password: 'Password$1',
           firstName: 'First',
           lastName: 'Last',
@@ -163,35 +233,26 @@ describe('/api/users', () => {
             level: 2
           }
         });
+        // .send(user);
       console.log('res', res.text);
-      return res;
-    };
 
-    beforeEach(() => {
-      server = require('../../../index');       // start server before each test
-      token = new Users().generateAuthToken();
-      email = 'email@domain.com';
-    });
+      // const res = await exec();
+      // console.log('res 2', res.status);
 
-    it('Should return 401 if user is not logged in.', async () => {
+      // const user = await Users.find({ email: 'email@domain.com' });
+      // console.log('user', user);
 
-      token = '';
-      const res = await exec();
-
-      expect(res.status).toBe(401);
+      // expect(res.status).toBe(200);
+      // expect(user).not.toBeNull();
 
     });
 
-    // it('Should save the user if valid', async () => {
 
-    //   const res = await exec();
 
-    //   // const user = await Users.find({ email: 'email@domain.com' });
 
-    //   // expect(res.status).toBe(200);
-    //   // expect(user).not.toBeNull();
 
-    // });
+
+
 
 
   });

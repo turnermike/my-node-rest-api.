@@ -70,7 +70,7 @@ const userSchema = new mongoose.Schema({
   // userRole: rolesSchema,
   userRole: {
     type: rolesSchema,
-    required: true,
+    required:  true,
   },
   // userRole: {
   //   type: ObjectID,

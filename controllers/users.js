@@ -105,8 +105,8 @@ exports.getUserById = async (req, res) => {
 exports.addNewUser = async (req, res) => {
 
   // validate
-  const { error } = validatePOST(req.body);
-  if(error) return res.status(400).send(error.details[0].message);
+  // const { error } = validatePOST(req.body);
+  // if(error) return res.status(400).send(error.details[0].message);
 
   // check for existing user
   let user  = await Users.findOne({ email: req.body.email });
@@ -116,7 +116,7 @@ exports.addNewUser = async (req, res) => {
   try{
 
     // get the user role data
-    const role = Roles.findById({ _id: req.body.userRole }, async (err, role) => {
+    const role = Roles.findById({ _id: req.body.userRole._id }, async (err, role) => {
 
       if(err) {
           logger.error('ERROR: ' + err.message);

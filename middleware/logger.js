@@ -30,7 +30,8 @@ const appRoot = require('app-root-path');
 const { createLogger, format, transports } = require('winston');
 require('winston-mongodb');
 const config = require('config');
-const dotenv = require('dotenv').config();
+require('dotenv-safe').config();
+const devEnvs = ['development', 'test'];        // array of possible NODE_ENV values where we want to log to console
 
 // winston options
 var options = {
@@ -67,8 +68,6 @@ var options = {
   }
 
 };
-
-const devEnvs = ['development'];        // array of possible NODE_ENV values where we want to log to console
 
 // array of available Winston transports based off of config values
 let availableTransports = [];
