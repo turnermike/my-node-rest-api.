@@ -1,4 +1,4 @@
-/**
+ /**
  * modles/users.js
  *
  * Define and validate a user object.

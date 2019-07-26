@@ -18,11 +18,8 @@ require('./startup/db')();                  // initialize db connection
 require('./startup/routes')(app);           // load routes
 require('./startup/validation')();            // load Joi validation module
 
-const devEnvs = ['development'];            // possible development NODE_ENV names
-
 // start server
 const port = process.env.PORT || 3000;
-// const server = app.listen(port, () => { (devEnvs.includes(process.env.NODE_ENV)) ? logger.info(`Express listening on port ${port}...`) : ''; });
 const server = app.listen(port, () => { logger.info(`Express listening on port ${port}...`); });
 
 module.exports = server;
