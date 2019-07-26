@@ -190,8 +190,6 @@ describe('/api/users', () => {
 
     });
 
-
-
     it('Should return 401 if user is not logged in.', async () => {
 
       token = '';
@@ -200,14 +198,6 @@ describe('/api/users', () => {
       expect(res.status).toBe(401);
 
     });
-
-
-
-
-
-
-
-
 
     it('Should save the user if valid', async () => {
 
@@ -245,17 +235,6 @@ describe('/api/users', () => {
 
     });
 
-
-
-
-
-
-
-
-
   });
-
-
-
 
 });
