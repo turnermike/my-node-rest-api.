@@ -2,6 +2,7 @@
  * routes/users.js
  *
  * User routes calling User controller.
+ * /api/users
  *
  */
 

@@ -1,6 +1,8 @@
 /**
  * routes/index.js
  *
+ * Root or public routes
+ * /
  *
  */
 
