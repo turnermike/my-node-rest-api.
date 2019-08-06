@@ -1,12 +1,12 @@
  /**
- * modles/users.js
+ * models/users.js
  *
  * Define and validate a user object.
  *
  */
 
 const mongoose = require('mongoose');
-const ObjectID = require('mongodb').ObjectID;
+// const ObjectID = require('mongodb').ObjectID;
 const Joi = require('joi');
 const PasswordComplexity = require('joi-password-complexity');
 const jwt = require('jsonwebtoken');
