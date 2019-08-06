@@ -106,8 +106,8 @@ exports.getUserById = async (req, res) => {
 exports.addNewUser = async (req, res) => {
 
   // validate
-  // const { error } = validatePOST(req.body);
-  // if(error) return res.status(400).send(error.details[0].message);
+  const { error } = validatePOST(req.body);
+  if(error) return res.status(400).send(error.details[0].message);
 
   // check for existing user
   let user  = await Users.findOne({ email: req.body.email });
@@ -120,10 +120,7 @@ exports.addNewUser = async (req, res) => {
 
     // get the user role data
 
-    const role = Roles.findOne(ObjectID(req.body.userRole), async (err, role) => {
-    // const role = Roles.findOne({ _id: req.body.userRole }, async (err, role) => {
-    // const role = Roles.findById({ _id: req.body.userRole }, async (err, role) => {
-
+    const role = Roles.findOne(ObjectID(req.body._userRole), async (err, role) => {
       // console.log('role', role);
 
       if(err) {
@@ -134,15 +131,8 @@ exports.addNewUser = async (req, res) => {
       // validate role id
       if(! role) return res.status(400).send('Invalid role ID');
 
-
       // set new user object with post data
       // console.log('req.body from controller', req.body);
-      // user = new Users(_.pick(req.body,
-      //   [
-      //     'email', 'password', 'firstName', 'lastName', 'telephone', 'organizationName', 'userRole'
-      //   ]
-      // ));
-
       user = new Users({
         email: req.body.email,
         password: req.body.password,
@@ -150,14 +140,12 @@ exports.addNewUser = async (req, res) => {
         lastName: req.body.lastName,
         telephone: req.body.telephone,
         organizationName: req.body.organizationName,
-        userRole: {
+        _userRole: {
           _id: role._id,
           label: role.label,
           level: role.level
         }
       });
-
-      // console.log('user from controller', user);
 
       // hash password
       const salt = await bcrypt.genSalt(10);

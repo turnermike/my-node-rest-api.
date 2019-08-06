@@ -6,6 +6,7 @@
  */
 
 const mongoose = require('mongoose');
+const { Schema } = mongoose;
 // const ObjectID = require('mongodb').ObjectID;
 const Joi = require('joi');
 const PasswordComplexity = require('joi-password-complexity');
@@ -67,14 +68,14 @@ const userSchema = new mongoose.Schema({
     min: 2,
     max: 100,
   },
-  // userRole: rolesSchema,
-  userRole: {
+  _userRole: {
     type: rolesSchema,
     required:  true,
   },
-  // userRole: {
-  //   type: ObjectID,
+  // _userRole: {
+  //   type: Schema.Types.ObjectId,
   //   required: true,
+  //   ref: 'roles'
   // },
   dateAdded: {
     type: Date,
@@ -96,7 +97,7 @@ userSchema.methods.generateAuthToken = function() {
   return token;
 };
 
-// schema/model
+// define the model
 const Users = mongoose.model('Users', userSchema);
 
 // POST validation (add new user)
@@ -266,7 +267,7 @@ function validateUsersPOST(user) {
         }
       }),
 
-    userRole: Joi.objectId()
+    _userRole: Joi.objectId()
       .required()
       .label('User Role')
       .error(errors => {
@@ -537,6 +538,7 @@ function validateAUTH(user) {
 
 }
 
+exports.usersSchema = userSchema;
 exports.Users = Users;
 exports.validatePOST = validateUsersPOST;
 exports.validatePUT = validateUsersPUT;
