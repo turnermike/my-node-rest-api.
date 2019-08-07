@@ -85,7 +85,10 @@ export MONGO_HOSTNAME=localhost`
 
 
 # Tests
+Using Jest for automated testing.
 
+`npm run test`
+`npm run test:watch`
 
 
 # Response Codes

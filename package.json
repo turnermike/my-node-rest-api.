@@ -21,7 +21,7 @@
   "scripts": {
     "dev": "export NODE_ENV=development MONGO_USERNAME=mynoderestapi MONGO_PASSWORD=password MONGO_PORT=27017 MONGO_DB=mynoderestapi MONGO_HOSTNAME=localhost && nodemon index.js",
     "start": "npm run dev",
-    "test": "jest --forceExit --detectOpenHandles",
+    "test": "jest --forceExit --detectOpenHandles --testPathIgnorePatterns=tests/integration/routes/users.test.js",
     "test:watch": "jest --watchAll"
   },
   "dependencies": {
