@@ -13,7 +13,8 @@ const { usersSchema } = require('./users');
 
 const pointsSchema = new Schema({
   userId: {
-    type: usersSchema,
+    // type: usersSchema,
+    type: Schema.Types.ObjectId,
     required: true
   },
   points: {
@@ -41,44 +42,41 @@ function validatePointsPOST(points) {
 
   const schema = {
 
-    points: Joi.objectId()
-      // .trim()
+    points: Joi.number()
       .required()
       .label('Points')
       .error(errors => {
-        console.log('errors', errors);
+        // console.log('errors', errors[0].type);
         switch (errors[0].type) {
+          case 'number.base':
+            return { message: 'Please enter a valid number for the points parameter.'};
           default:
-            // catches required()
             return { message: `The ${errors[0].context.label} parameter is required.` };
         }
+    }),
 
-      }),
-
-    // action: Joi.string()
-    //   .trim()
-    //   .required()
-    //   .min(2)
-    //   .max(50)
-    //   .label('Action')
-    //   .error(errors => {
-    //     switch (errors[0].type) {
-    //       case 'string.min':
-    //         return {
-    //           message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.`,
-    //         };
-    //         break;
-    //       case 'string.max':
-    //         return {
-    //           message: `${errors[0].context.label} may have a maximum of 50 characters.`,
-    //         };
-    //         break;
-    //       default:
-    //         // catches required()
-    //         return { message: `The ${errors[0].context.label} parameter is required.` };
-    //     }
-
-    //   })
+    action: Joi.string()
+      .trim()
+      .valid('add', 'subtract', 'transfer')
+      .required()
+      .min(3)
+      .max(50)
+      .label('Action')
+      .error(errors => {
+        // console.log('errors', errors[0].type);
+        switch (errors[0].type) {
+          case 'any.allowOnly':
+            return { message: 'Please enter one of the following for the action parameter: add, subtract, transfer' };
+          case 'string.min':
+            return { message: `${errors[0].context.label} requires at least ${errors[0].context.limit} characters.` };
+            break;
+          case 'string.max':
+            return { message: `${errors[0].context.label} may have a maximum of 50 characters.` };
+            break;
+          default:
+            return { message: `The ${errors[0].context.label} parameter is required.` };
+        }
+    })
 
   }
 
