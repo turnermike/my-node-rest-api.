@@ -23,13 +23,14 @@ const logger = require('../middleware/logger');
 exports.addPoints = async (req, res) => {
 
 
-  // res.status(401).send('testing 123');
-
+  // logger.info('req.params.id: ' + req.params.id)
 
   // check for existing user
   const user = await Users.findById({ _id: new ObjectID(req.params.id) }).select('-password');
   if (! user) return res.status(404).send(`That user ID (${req.params.id}) was not found.`);
-  logger.info(JSON.stringify(user));
+  // logger.info(JSON.stringify(user));
+
+  logger.info('req.body: ' + JSON.stringify(req.body));
 
   // validate
   const { error } = validatePOST(req.body);

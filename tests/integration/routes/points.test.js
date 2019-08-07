@@ -25,40 +25,64 @@ describe('/api/points/:id', () => {
     let token;
     let email;
     let userId;
+    let thepoints;
+    let action;
 
     const exec = async () => {                  // send async request to server
 
-      const points = new Points({
+      const points = new Points({               // points object to pass asyncronously
         _user: {
-          _id: new mongoose.Types.ObjectId(),
+          _id: userId,
           _email: email
         },
-        points: 123,
-        action: 'add'
+        points: thepoints,
+        action: action
       });
+
+      console.log('points object', points);
 
       const res = await request(server)
         .post(`/api/points/${userId}`)
         .set('x-auth-token', token)
         .send(points);
-      // console.log('res 1', res.status);
 
       return res;
 
     };
 
-    beforeEach(() => {
+    beforeEach(async () => {
       server = require('../../../index');       // start server before each test
       token = new Users().generateAuthToken();  // get a jwt auth token
       email = 'email@domain.com';               // fake email
-      userId = new mongoose.Types.ObjectId();   // fake userId
+      // userId = new mongoose.Types.ObjectId();   // fake userId
+      thepoints = 999;                          // fake points
+      action = 'my-action';                     // fake action
+
+
+      // create fake user
+      const user = new Users({
+        email: 'email@domain.com',
+        password: 'password',
+        firstName: 'Mike',
+        lastName: 'Turner',
+        _userRole: {
+          _id: new mongoose.Types.ObjectId(),
+          label: 'My Label',
+          level: 1
+        }
+      });
+      await user.save();                        // save fake user to db
+
+      userId = user._id;                        // assign userId
+
     });
 
     afterEach(async () => {                     // executed after each test
 
       await server.close();                     // stop express
-      // await Users.deleteMany({});               // remove users table after each test
+      await Users.deleteMany({});               // remove users table after each test
       // await Roles.deleteMany({});
+
 
     });
 
@@ -68,6 +92,16 @@ describe('/api/points/:id', () => {
       const res = await exec();
 
       expect(res.status).toBe(401);
+
+    });
+
+    it('Should return 400 if no points value is provided.', async () => {
+
+      thepoints = null;
+
+      const res = await exec();
+
+      expect(res.status).toBe(400);
 
     });
 
