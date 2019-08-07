@@ -66,7 +66,7 @@ describe('/api/users', () => {
           password: 'password',
           firstName: 'Mike',
           lastName: 'Turner',
-          userRole: {
+          _userRole: {
             _id: new mongoose.Types.ObjectId(),
             label: 'My Label',
             level: 1
@@ -119,7 +119,7 @@ describe('/api/users', () => {
           password: 'password',
           firstName: 'Mike',
           lastName: 'Turner',
-          userRole: {
+          _userRole: {
             _id: new mongoose.Types.ObjectId(),
             label: 'My Label',
             level: 1
@@ -148,7 +148,6 @@ describe('/api/users', () => {
     // let token;
     // let email;
 
-
     const exec = async () => {                  // send async request to server
 
       const user = new Users({
@@ -158,7 +157,7 @@ describe('/api/users', () => {
         lastName: 'Last',
         telephone: '123 456 7890',
         organizationName: 'Org Name',
-        userRole: {
+        _userRole: {
           // _id: mongoose.Types.ObjectId(),
           _id: '5d376784a854b86b1a4e7b6a',
           label: 'Guest',
@@ -222,7 +221,7 @@ describe('/api/users', () => {
         lastName: 'Last',
         telephone: '012 345 6789',
         organizationName: 'My Org',
-        userRole: { _id: role.id }
+        _userRole: { _id: role.id }
       });
 
       const res = await request(server)
