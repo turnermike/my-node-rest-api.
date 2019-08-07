@@ -3,18 +3,22 @@
  *
  * Define and validate a points object.
  * Used for collecting user's points via transactional table.
+ * UserId and email are saved as a sub document.
  *
  */
 
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
-const Joi = require('joi');
-const { usersSchema } = require('./users');
+const JoiBase = require('joi');
+const JoiDecimals = require('joi-decimal');
+const Joi = JoiBase.extend(JoiDecimals);
 
 const pointsSchema = new Schema({
-  userId: {
+  _user: {
     // type: usersSchema,
-    type: Schema.Types.ObjectId,
+    // type: Schema.Types.ObjectId,
+    type: Map,
+    of: String,
     required: true
   },
   points: {
@@ -42,14 +46,17 @@ function validatePointsPOST(points) {
 
   const schema = {
 
-    points: Joi.number()
+    // points: Joi.number()
+    points: Joi.string().trim().regex(/^-?[1-9]\d*$/)     // positive or negative number without decimal places
       .required()
       .label('Points')
       .error(errors => {
         // console.log('errors', errors[0].type);
         switch (errors[0].type) {
-          case 'number.base':
-            return { message: 'Please enter a valid number for the points parameter.'};
+          case 'string.regex.base':
+            return { message: 'Please enter a whole number for the points parameter, no decimal places.'};
+          // case 'number.base':
+          //   return { message: 'Please enter a valid number for the points parameter.'};
           default:
             return { message: `The ${errors[0].context.label} parameter is required.` };
         }
