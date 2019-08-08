@@ -8,8 +8,8 @@ The top of each model, controller, and middleware will document it's functionali
 
 ## Auth Routes
 
-/api/auth - Authenticate/Login
-Request body:
+/api/auth - Authenticate/Login  
+Request body:  
 `{
     "email": "mike@humancontact.com",
     "password": "Password$1"
@@ -18,16 +18,15 @@ Request body:
 ## Users Routes
 
 All user routes require authentication. Requests must be sent with the following
-request header:
+request header:  
 `{
     "x-auth-token": "<JWT returned from /api/auth route>"
-}`
-
-GET /api/users/me - Get Current User
-GET /api/users - Get All Users
-GET /api/users/:id - Get User by ID
-POST /api/users - Add New User
-Request body:
+}`  
+GET /api/users/me - Get Current User  
+GET /api/users - Get All Users  
+GET /api/users/:id - Get User by ID  
+POST /api/users - Add New User  
+Request body:  
 `{
     email: '',
     password: '',
@@ -36,9 +35,9 @@ Request body:
     organizationName: '',
     telephone: '',
     userRole: '<role ObjectID>'
-}`
-PUT /api/users/:id - Edit User
-Request body:
+}`  
+PUT /api/users/:id - Edit User  
+Request body:  
 `{
     email: '',
     password: '',
@@ -47,36 +46,36 @@ Request body:
     organizationName: '',
     telephone: '',
     userRole: '<role ObjectID>'
-}`
+}`  
 DEL /api/user/:id - Delete User
 
 
 
 # The Stack
 
-Node.js - Server side language.
-MongoDB - The database server.
-Express - The web server.
+Node.js - Server side language.  
+MongoDB - The database server.  
+Express - The web server.  
 
 
 # MongoDB Access
 
 ## Docker/CLI
 
-Login to MongDB with authentication:
+Login to MongDB with authentication:  
 `mongo -u "mynoderestapi" -p "<check_the_env_file>" --authenticationDatabase "admin"`
 
 ## MongoDB Compass Setup
 
-Hostname: localhost
-Port: 27017
-Database: mynoderestapi
-Authentication: Username/Password
-Username: mynoderestapi
-Password: <check_the_env_file>
-Authentication Database: admin
+Hostname: localhost  
+Port: 27017  
+Database: mynoderestapi  
+Authentication: Username/Password  
+Username: mynoderestapi  
+Password: <check_the_env_file>  
+Authentication Database: admin  
 
-Command to manually set environment variables:
+Command to manually set environment variables:  
 `export MONGO_USERNAME=mynoderestapi &&
 export MONGO_PASSWORD=password &&
 export MONGO_PORT=27017 &&
@@ -87,13 +86,13 @@ export MONGO_HOSTNAME=localhost`
 # Tests
 Using Jest for automated testing.
 
-`npm run test`
+`npm run test`  
 `npm run test:watch`
 
 
 # Response Codes
-200 All Good
-400 Bad Request
-401 Unauthorized (failed login/unauthenticated)
-403 Forbidden (unauthorized/not permitted to access)
-404 Not Available
+200 All Good  
+400 Bad Request  
+401 Unauthorized (failed login/unauthenticated)  
+403 Forbidden (unauthorized/not permitted to access)  
+404 Not Available  
