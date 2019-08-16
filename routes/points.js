@@ -19,6 +19,14 @@ router.post('/:id', [auth, validateObjectId], (req, res) => {
 
 });
 
+// remove points
+router.delete('/:id', [auth, validateObjectId], (req, res) => {
+
+  pointsController.removePoints(req, res);
+
+});
+
+
 // // get current user
 // router.get('/me', auth, (req, res) => {
 

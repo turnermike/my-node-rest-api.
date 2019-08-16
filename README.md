@@ -4,6 +4,18 @@ A learning project for building a Node/Express REST API.
 
 The top of each model, controller, and middleware will document it's functionality.
 
+## First Time Project Setup
+
+Install node_modules:  
+`npm install`  
+
+Import the default database tables (such as roles):  
+`cd db_migrations`
+`./setup.sh`
+
+## Run Project
+`npm run dev`
+
 ## Routes
 
 ## Auth Routes

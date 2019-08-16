@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Administrator",
+        "level": 1
+    },
+    {
+        "label": "Guest",
+        "level": 2
+    }
+]

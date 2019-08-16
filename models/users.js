@@ -271,7 +271,7 @@ function validateUsersPOST(user) {
       .required()
       .label('User Role')
       .error(errors => {
-        console.log(errors[0]);
+        // console.log(errors[0]);
         switch (errors[0].type) {
           case 'string.regex.base':
             return { message: `${errors[0].context.value} is not a valid ${errors[0].context.label}.`}
@@ -461,7 +461,7 @@ function validateUsersPUT(user) {
       .required()
       .label('User Role')
       .error(errors => {
-        console.log(errors[0]);
+        // console.log(errors[0]);
         switch (errors[0].type) {
           case 'string.regex.base':
             return { message: `${errors[0].context.value} is not a valid ${errors[0].context.label}.`}

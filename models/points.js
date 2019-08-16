@@ -12,6 +12,7 @@ const { Schema } = mongoose;
 const JoiBase = require('joi');
 const JoiDecimals = require('joi-decimal');
 const Joi = JoiBase.extend(JoiDecimals);
+const logger = require('../middleware/logger');
 
 const pointsSchema = new Schema({
   _user: {
@@ -46,25 +47,27 @@ function validatePointsPOST(points) {
 
   const schema = {
 
-    // points: Joi.number()
-    points: Joi.string().trim().regex(/^-?[1-9]\d*$/)     // positive or negative number without decimal places
+    points: Joi.number()
+    // points: Joi.string().trim().regex(/^-?[1-9]\d*$/)     // positive or negative number without decimal places
       .required()
       .label('Points')
       .error(errors => {
-        // console.log('errors', errors[0].type);
-        switch (errors[0].type) {
-          case 'string.regex.base':
-            return { message: 'Please enter a whole number for the points parameter, no decimal places.'};
-          // case 'number.base':
-          //   return { message: 'Please enter a valid number for the points parameter.'};
-          default:
-            return { message: `The ${errors[0].context.label} parameter is required.` };
-        }
+        console.log('errors', errors[0].type);
+        // switch (errors[0].type) {
+        //   case 'string.regex.base':
+        //     logger.info('regex error');
+        //     return { message: 'Please enter a whole number for the points parameter, no decimal places.'};
+        //   // case 'number.base':
+        //   //   return { message: 'Please enter a valid number for the points parameter.'};
+        //   default:
+        //     logger.info('label is required ');
+        //     return { message: `The ${errors[0].context.label} parameter is required.` };
+        // }
     }),
 
     action: Joi.string()
       .trim()
-      .valid('add', 'subtract', 'transfer')
+      .valid('add', 'remove', 'transfer')
       .required()
       .min(3)
       .max(50)
