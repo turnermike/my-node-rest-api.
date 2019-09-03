@@ -30,13 +30,12 @@ exports.addPoints = async (req, res) => {
   if (! user) return res.status(404).send(`That user ID (${req.params.id}) was not found.`);
   // logger.info(JSON.stringify(user));
 
-  logger.info('req.body from controller: ' + JSON.stringify(req.body));
+  // logger.info('req.body from controller: ' + JSON.stringify(req.body));
 
   // validate
   const { error } = validatePOST(req.body);
-  console.log('error', error);
-  // if(error) return res.status(400).send(error.details[0].message);
-
+  // console.log('error', error);
+  if(error) return res.status(400).send(error.details[0].message);
   // logger.info('error: ' + error.details[0].message);
 
   try{

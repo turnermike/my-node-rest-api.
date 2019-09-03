@@ -39,8 +39,8 @@ describe('/api/points/:id', () => {
         action: action
       });
 
-      console.log('points object sent from test', points);
-      console.log('userId', userId)
+      // console.log('points object sent from test', points);
+      // console.log('userId', userId);
 
       const res = await request(server)
         .post(`/api/points/${userId}`)
@@ -52,6 +52,7 @@ describe('/api/points/:id', () => {
     };
 
     beforeEach(async () => {
+      
       server = require('../../../index');       // start server before each test
       token = new Users().generateAuthToken();  // get a jwt auth token
       email = 'email@domain.com';               // fake email
@@ -87,38 +88,38 @@ describe('/api/points/:id', () => {
 
     });
 
-    // it('Should return 401 if user is not logged in.', async () => {
+    it('Should return 401 if user is not logged in.', async () => {
 
-    //   token = '';
-    //   const res = await exec();
+      token = '';
+      const res = await exec();
 
-    //   expect(res.status).toBe(401);
+      expect(res.status).toBe(401);
 
-    // });
+    });
 
-    // it('Should return 400 if no points value is provided.', async () => {
+    it('Should return 400 if no points value is provided.', async () => {
 
-    //   thepoints = null;
+      thepoints = null;
 
-    //   const res = await exec();
+      const res = await exec();
 
-    //   expect(res.status).toBe(400);
+      expect(res.status).toBe(400);
 
-    // });
+    });
 
     // it('Should return 400 if action is not add, remove, or transfer.', async () => {
 
     // });
 
-    it('Should return 200 if points where added successfully.', async () => {
+    // it('Should return 200 if points where added successfully.', async () => {
 
-      thepoints = "x5";
-      action = 'add';
-      const res = await exec();
+    //   thepoints = "x5";
+    //   action = 'add';
+    //   const res = await exec();
 
-      expect(res.status).toBe(200);
+    //   expect(res.status).toBe(200);
 
-    });
+    // });
 
 
   });

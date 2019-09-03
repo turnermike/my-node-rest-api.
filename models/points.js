@@ -52,17 +52,19 @@ function validatePointsPOST(points) {
       .required()
       .label('Points')
       .error(errors => {
-        console.log('errors', errors[0].type);
-        // switch (errors[0].type) {
-        //   case 'string.regex.base':
-        //     logger.info('regex error');
-        //     return { message: 'Please enter a whole number for the points parameter, no decimal places.'};
-        //   // case 'number.base':
-        //   //   return { message: 'Please enter a valid number for the points parameter.'};
-        //   default:
-        //     logger.info('label is required ');
-        //     return { message: `The ${errors[0].context.label} parameter is required.` };
-        // }
+        
+        // console.log('errors', errors[0].type);
+        
+        switch (errors[0].type) {
+          case 'string.regex.base':
+            // logger.info('regex error');
+            return { message: 'Please enter a whole number for the points parameter, no decimal places.'};
+          case 'number.base':
+            return { message: 'Please enter a valid number for the points parameter.'};
+          default:
+            // logger.info('label is required ');
+            return { message: `The ${errors[0].context.label} parameter is required.` };
+        }
     }),
 
     action: Joi.string()
