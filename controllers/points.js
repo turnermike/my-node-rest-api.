@@ -24,19 +24,21 @@ exports.addPoints = async (req, res) => {
 
 
   // logger.info('req.params.id: ' + req.params.id)
+  logger.info('req.body from controller: ' + JSON.stringify(req.body));
 
   // check for existing user
   const user = await Users.findById({ _id: new ObjectID(req.params.id) }).select('-password');
   if (! user) return res.status(404).send(`That user ID (${req.params.id}) was not found.`);
   // logger.info(JSON.stringify(user));
 
-  // logger.info('req.body from controller: ' + JSON.stringify(req.body));
+  // check for points value
+
 
   // validate
   const { error } = validatePOST(req.body);
-  // console.log('error', error);
+  logger.info('error: ' + error.details[0].message);
   if(error) return res.status(400).send(error.details[0].message);
-  // logger.info('error: ' + error.details[0].message);
+  
 
   try{
 

@@ -39,7 +39,7 @@ describe('/api/points/:id', () => {
         action: action
       });
 
-      // console.log('points object sent from test', points);
+      console.log('points object sent from test', points);
       // console.log('userId', userId);
 
       const res = await request(server)
@@ -52,13 +52,13 @@ describe('/api/points/:id', () => {
     };
 
     beforeEach(async () => {
-      
+
       server = require('../../../index');       // start server before each test
       token = new Users().generateAuthToken();  // get a jwt auth token
       email = 'email@domain.com';               // fake email
       // userId = new mongoose.Types.ObjectId();   // fake userId
       thepoints = 999;                          // fake points
-      action = 'my-action';                     // fake action
+      // action = 'my-action';                     // fake action
 
 
       // create fake user
@@ -113,11 +113,15 @@ describe('/api/points/:id', () => {
 
     // it('Should return 200 if points where added successfully.', async () => {
 
-    //   thepoints = "x5";
-    //   action = 'add';
+    //   thepoints = 5;
+    //   // action = 'add';
+
     //   const res = await exec();
+    //   // console.log('res', res);
 
     //   expect(res.status).toBe(200);
+
+    //   // console.log('HELLO');
 
     // });
 

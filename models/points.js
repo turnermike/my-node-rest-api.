@@ -25,12 +25,12 @@ const pointsSchema = new Schema({
   points: {
     type: Number,
     required: true,
-    default: 0
+    // default: 0
   },
   action: {
     type: String,
     required: true,
-    default: 'added'
+    default: 'add'
   },
   dateAdded: {
     type: Date,
@@ -53,7 +53,7 @@ function validatePointsPOST(points) {
       .label('Points')
       .error(errors => {
         
-        // console.log('errors', errors[0].type);
+        // console.log('errors', errors[0]);
         
         switch (errors[0].type) {
           case 'string.regex.base':
