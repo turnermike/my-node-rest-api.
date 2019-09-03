@@ -101,6 +101,9 @@ Using Jest for automated testing.
 `npm run test`  
 `npm run test:watch`
 
+Ignore a test by adding the following paraemter to the `npm test` command via package.json:
+`--testPathIgnorePatterns=tests/integration/routes/<file_name>.test.js`  
+
 
 # Response Codes
 200 All Good  
