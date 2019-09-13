@@ -78,7 +78,7 @@ exports.getUserById = async (req, res) => {
             if (! user) {
                 logger.error('USERS: User requested by ID not found.');
                 // res.send({ error: err.message });
-                res.status(404).send(`The user with the ID ('${req.params.id}') does not exist.`);
+                res.status(400).send(`The user with the ID ('${req.params.id}') does not exist.`);
                 return;
             }
 
@@ -91,7 +91,7 @@ exports.getUserById = async (req, res) => {
             }
 
             logger.error(`USERS: Get user by ID: ${req.params.id}.`);
-            logger.error('Get user by ID: \n', user);
+            // logger.error('Get user by ID: \n', user);
             res.send(user);
         }
     );

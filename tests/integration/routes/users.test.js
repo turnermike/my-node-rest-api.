@@ -114,6 +114,7 @@ describe('/api/users', () => {
 
       it('Should return a user if valid id passed.', async () => {
 
+        // insert a fake user
         const user = new Users({
           email: 'email@domain.com',
           password: 'password',
@@ -138,7 +139,18 @@ describe('/api/users', () => {
 
       });
 
-      it('Should ')
+      it('Should return 400 user ID is not found.', async () => {
+
+        // send async get request with invalid ID
+        const res = await request(server)
+          .get('/api/users/5d7a8ba2f218fcb03e1c1a99')   // passing invalid ID, but valid ObjectId format
+          .set('x-auth-token', token)
+          .send();
+
+        expect(res.status).toBe(400);
+        // expect(res.body).toHaveProperty('email', user.email);
+
+      });
 
     });
 
