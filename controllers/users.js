@@ -74,15 +74,24 @@ exports.getUserById = async (req, res) => {
     const user = await Users.findById(
         { _id: new ObjectID(req.params.id) },
         (err, user) => {
-            if (err) {
+          
+            if (! user) {
                 logger.error('USERS: User requested by ID not found.');
                 // res.send({ error: err.message });
                 res.status(404).send(`The user with the ID ('${req.params.id}') does not exist.`);
                 return;
             }
 
+            if(err) {
+                logger.error(`Error: ${err.message}`);
+                // res.send({ error: err.message });
+                res.status(400).send(`Error: ${err.message}`);
+                return;
+
+            }
+
             logger.error(`USERS: Get user by ID: ${req.params.id}.`);
-            // debug('Get user by ID: \n', user);
+            logger.error('Get user by ID: \n', user);
             res.send(user);
         }
     );
