@@ -45,7 +45,8 @@ describe('/api/users', () => {
 
     });
 
-    it('Should return 401 is user is not logged in.', async () => {
+    // validate auth
+    it('Should return 401 is user is not authorized.', async () => {
 
       token = '';
 
@@ -57,6 +58,16 @@ describe('/api/users', () => {
 
     // get current user
     describe('GET /me', () => {
+
+      it('Should return 401 if user is not authorized', async () => {
+
+        token = '';
+
+        const res = await exec();
+
+        expect(res.status).toBe(401);
+
+      });
 
       it('Should return 200 if user is found', async () => {
 
@@ -139,7 +150,7 @@ describe('/api/users', () => {
 
       });
 
-      it('Should return 400 user ID is not found.', async () => {
+      it('Should return 404 user ID is not found.', async () => {
 
         // send async get request with invalid ID
         const res = await request(server)
@@ -147,7 +158,7 @@ describe('/api/users', () => {
           .set('x-auth-token', token)
           .send();
 
-        expect(res.status).toBe(400);
+        expect(res.status).toBe(404);
         // expect(res.body).toHaveProperty('email', user.email);
 
       });

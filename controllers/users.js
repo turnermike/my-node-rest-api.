@@ -24,10 +24,10 @@ const logger = require('../middleware/logger');
  */
 exports.getCurrentUser = async (req, res) => {
 
-  console.log(req.user);
+  // console.log(req.user);
 
   const user = await Users.findById(req.user._id).select('-password');
-  logger.info(`USER: Current user requested: ${req.user._id}`);
+  logger.info(`USER: Get current user request: ${req.user._id}`);
 
   res.send(user);
 
@@ -44,12 +44,12 @@ exports.getAllUsers = async (req, res) => {
 
     if(allUsers.length) {
 
-      logger.info('USERS: Get all users requested.');
+      logger.info('USERS: Get all users request.');
       res.send(allUsers);
 
     } else {
 
-      logger.info('USERS: Get all users requested, none found.');
+      logger.info('USERS: Get all users request, none found.');
       res.status(404).send('No users found.');
 
     }
@@ -78,7 +78,7 @@ exports.getUserById = async (req, res) => {
             if (! user) {
                 logger.error('USERS: User requested by ID not found.');
                 // res.send({ error: err.message });
-                res.status(400).send(`The user with the ID ('${req.params.id}') does not exist.`);
+                res.status(404).send(`The user with the ID ('${req.params.id}') does not exist.`);
                 return;
             }
 

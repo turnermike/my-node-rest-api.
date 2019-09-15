@@ -110,4 +110,4 @@ Ignore a test by adding the following paraemter to the `npm test` command via pa
 400 Bad Request  
 401 Unauthorized (failed login/unauthenticated)  
 403 Forbidden (unauthorized/not permitted to access)  
-404 Not Available  
+404 Not Available/Found
