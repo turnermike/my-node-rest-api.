@@ -210,33 +210,43 @@ exports.editUser = async (req, res) => {
     // const salt = await bcrypt.genSalt(10);
     // user.password = await bcrypt.hash(user.password, salt);
 
-    user = await Users.findByIdAndUpdate(
-      { _id: new ObjectID(req.params.id) },
-      {
-        email: req.body.email,
-        password: user.password,                        // not updating the password, using exiting password
-        firstName: req.body.firstName,
-        lastName: req.body.lastName,
-        telephone: req.body.telephone,
-        organizationName: req.body.organizationName,
-        userRole: {
-          _id: role._id,
-          label: role.label,
-          level: role.level
-        }
-      },
-      { upsert: true, new: true }
-    );
+    if (user !== null) {
 
-    logger.info(`USERS: Updated user: ${req.params.id}`);
-    res.send(user);
+      user = await Users.findByIdAndUpdate(
+        { _id: new ObjectID(req.params.id) },
+        {
+          email: req.body.email,
+          password: user.password,                        // not updating the password, using exiting password
+          firstName: req.body.firstName,
+          lastName: req.body.lastName,
+          telephone: req.body.telephone,
+          organizationName: req.body.organizationName,
+          userRole: {
+            _id: role._id,
+            label: role.label,
+            level: role.level
+          }
+        },
+        { upsert: true, new: true }
+      );
+
+      logger.info(`USERS: Updated user: ${req.params.id}`);
+      res.send(user);
+
+    } else {
+
+      logger.error('ERROR: User ID not found.');
+      res.send('ERROR: User ID not found.');
+
+    }
 
   } catch (err) {
 
     logger.error('ERROR: ' + err.message);
     res.send('ERROR: ' + err.message);
 
-  }
+  }    
+
 
 
   // res.send(`Edit user: ${req.params.id}`);
