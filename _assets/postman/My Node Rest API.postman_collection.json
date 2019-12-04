@@ -1,0 +1,478 @@
+{
+	"info": {
+		"_postman_id": "15434129-8e25-4fc3-ae09-79d05e737c7d",
+		"name": "My Node Rest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Index",
+			"item": [
+				{
+					"name": "Get Home Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/users/me",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Authenticate User",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "turner.mike@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Password$1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/auth/",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Get Current User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDdhOGJhMmYyMThmY2IwM2UxYzFhNTMiLCJpYXQiOjE1NjgzMTIyNDV9.SEhrzynKrQ1zomkyNtgE-YdpLpDpish0XpMeC5Ei5b4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/users/me",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDU2Yzk1NjM5ZmVmODMxOGU2MWQ0YTUiLCJpYXQiOjE1Njc1NTU1NDh9.hQ-QUBQcAM0QcUxq6ilq07yKYRB5SxjB2wx-lvL5Ocw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/users/",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDdhOGJhMmYyMThmY2IwM2UxYzFhNTMiLCJpYXQiOjE1NjgzMTIyNDV9.SEhrzynKrQ1zomkyNtgE-YdpLpDpish0XpMeC5Ei5b4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/users/5d7a8ba2f218fcb03e1c1a53",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"5d7a8ba2f218fcb03e1c1a53"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add New User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDU2Yzk1NjM5ZmVmODMxOGU2MWQ0YTUiLCJpYXQiOjE1Njc1NTU1NDh9.hQ-QUBQcAM0QcUxq6ilq07yKYRB5SxjB2wx-lvL5Ocw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "mike.turner@blvdagency.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Password$1",
+									"type": "text"
+								},
+								{
+									"key": "firstName",
+									"value": "Mike",
+									"type": "text"
+								},
+								{
+									"key": "lastName",
+									"value": "Turner",
+									"type": "text"
+								},
+								{
+									"key": "organizationName",
+									"value": "BLVD",
+									"type": "text"
+								},
+								{
+									"key": "telephone",
+									"value": "888 777 6543",
+									"type": "text"
+								},
+								{
+									"key": "_userRole",
+									"value": "5d7a8b7a20ae780b951eeaa0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/users/",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit User",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDU2Yzk1NjM5ZmVmODMxOGU2MWQ0YTUiLCJpYXQiOjE1Njc1NTU1NDh9.hQ-QUBQcAM0QcUxq6ilq07yKYRB5SxjB2wx-lvL5Ocw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "mike.turner@blvdagency.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Password$1",
+									"type": "text"
+								},
+								{
+									"key": "firstName",
+									"value": "Charles",
+									"type": "text"
+								},
+								{
+									"key": "lastName",
+									"value": "Norris",
+									"type": "text"
+								},
+								{
+									"key": "organizationName",
+									"value": "Kicking Ass Company",
+									"type": "text"
+								},
+								{
+									"key": "telephone",
+									"value": "416 333 2988",
+									"type": "text"
+								},
+								{
+									"key": "userRole",
+									"value": "5d7a8b7a20ae780b951eeaa0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/users/5de566630cf7432acb171a92",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"5de566630cf7432acb171a92"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDU2Yzk1NjM5ZmVmODMxOGU2MWQ0YTUiLCJpYXQiOjE1Njc1NTU1NDh9.hQ-QUBQcAM0QcUxq6ilq07yKYRB5SxjB2wx-lvL5Ocw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/users/5d6f034a271f5c2522a12560",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								"5d6f034a271f5c2522a12560"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Points",
+			"item": [
+				{
+					"name": "Add Points",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded",
+								"disabled": true
+							},
+							{
+								"key": "x-auth-token",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDU2Yzk1NjM5ZmVmODMxOGU2MWQ0YTUiLCJpYXQiOjE1Njc1NTU1NDh9.hQ-QUBQcAM0QcUxq6ilq07yKYRB5SxjB2wx-lvL5Ocw"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "points",
+									"value": "40",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "add",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/points/5d7a8ba2f218fcb03e1c1a53",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"points",
+								"5d7a8ba2f218fcb03e1c1a53"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove Points",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "x-auth-token",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDU2Yzk1NjM5ZmVmODMxOGU2MWQ0YTUiLCJpYXQiOjE1Njc1NTU1NDh9.hQ-QUBQcAM0QcUxq6ilq07yKYRB5SxjB2wx-lvL5Ocw"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "points",
+									"value": "15",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "remove",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/api/points/5d7a8ba2f218fcb03e1c1a53",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"points",
+								"5d7a8ba2f218fcb03e1c1a53"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
