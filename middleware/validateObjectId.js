@@ -6,11 +6,16 @@
  */
 
 const mongoose = require('mongoose');
+const logger = require('../middleware/logger');
 
 module.exports = function(req, res, next) {
 
-    if (! mongoose.Types.ObjectId.isValid(req.params.id))
-        return res.status(404).send('Invalid ID');
+    if (! mongoose.Types.ObjectId.isValid(req.params.id)) {
+      logger.info(`Invalid MongoDB Ojbect ID (middleware/validateObjectId.js`);
+      return res.status(404).send('Invalid Object ID');
+    }
+
+
 
     next();                                                     // pass control to next middleware function
 

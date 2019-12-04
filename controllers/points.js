@@ -20,11 +20,11 @@ const logger = require('../middleware/logger');
 /**
  * add points
  */
-exports.addPoints = async (req, res) => {
+exports.insertPointsTransaction = async (req, res) => {
 
 
   // logger.info('req.params.id: ' + req.params.id)
-  logger.info('req.body from controller: ' + JSON.stringify(req.body));
+  // logger.info('req.body from controller: ' + JSON.stringify(req.body));
 
   // check for existing user
   const user = await Users.findById({ _id: new ObjectID(req.params.id) }).select('-password');
@@ -36,7 +36,7 @@ exports.addPoints = async (req, res) => {
 
   // validate
   const { error } = validatePOST(req.body);
-  logger.info('error: ' + error.details[0].message);
+  // logger.info('error: ' + error.details[0].message);
   if(error) return res.status(400).send(error.details[0].message);
   
 
@@ -56,10 +56,8 @@ exports.addPoints = async (req, res) => {
     // save the points record
     await points.save();
 
-    console.log('points', points);
-
     // log message
-    logger.info(`POINTS: Added new points record for user ${user._id}`);
+    logger.info(`POINTS: New transaction record for user ${user._id}`);
 
     // return response with points object
     res.send(points);
@@ -73,26 +71,5 @@ exports.addPoints = async (req, res) => {
   }
 
 }
-
-
-/**
- * remove points
-*/
-exports.removePoints = async (req, res) => {
-
-  // check for existing user
-  const user = await Users.findById({ _id: new ObjectID(req.params.id) }).select('-password');
-  if (! user) return res.status(404).send(`That user ID (${req.params.id}) was not found.`);
-  logger.info(JSON.stringify(user));
-
-  // validate
-  const { error } = validatePOST(req.body);
-  if(error) return res.status(400).send(error.details[0].message);  
-
-
-  res.send('ok')
-
-}
-
 
 
