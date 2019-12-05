@@ -11,6 +11,7 @@
 
 // const mongoose = require('mongoose');
 const { Users } = require('../models/users');
+const usersController = require('../controllers/users');
 const { Points, validatePOST } = require('../models/points');
 const _ = require('lodash');
 const ObjectID = require('mongodb').ObjectID;
@@ -69,6 +70,34 @@ exports.insertPointsTransaction = async (req, res) => {
     res.send('ERROR: ' + err.message);
 
   }
+
+}
+
+/**
+ * transfer points from current user to id parameter
+ */
+exports.transferPoints = async (req, res) => {
+
+  // logger.info('req.params: ' + JSON.stringify(req.params));
+
+  // check for existing user
+  const user = await Users.findById({ _id: new ObjectID(req.params.id) }).select('-password');
+  if (! user) return res.status(404).send(`That user ID (${req.params.id}) was not found.`);
+
+  let to_id = req.params.id;                  // transfer to user id
+  let from_id = req.user._id;                 // transfer from user id
+  logger.info('Transfer to: ' + to_id);
+  logger.info('Transfer from: ' + from_id);
+
+
+
+
+
+
+
+  res.sendStatus(200);
+
+
 
 }
 

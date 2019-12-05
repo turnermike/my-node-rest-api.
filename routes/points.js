@@ -26,4 +26,11 @@ router.delete('/:id', [auth, validateObjectId], (req, res) => {
 
 });
 
+// transfer points
+router.put('/:id', [auth, validateObjectId], (req, res) => {
+
+  pointsController.transferPoints(req, res);
+
+});
+
 module.exports = router;
