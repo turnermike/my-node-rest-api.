@@ -43,6 +43,7 @@
     "lodash": "^4.17.14",
     "mongoose": "^5.4.10",
     "morgan": "^1.9.1",
+    "passport": "^0.4.1",
     "supertest": "^4.0.2",
     "winston": "^3.2.1",
     "winston-mongodb": "^5.0.0"

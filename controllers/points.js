@@ -27,6 +27,8 @@ exports.insertPointsTransaction = async (req, res) => {
   // logger.info('req.params.id: ' + req.params.id)
   // logger.info('req.body from controller: ' + JSON.stringify(req.body));
 
+
+
   // check for existing user
   const user = await Users.findById({ _id: new ObjectID(req.params.id) }).select('-password');
   if (! user) return res.status(404).send(`That user ID (${req.params.id}) was not found.`);
@@ -78,20 +80,21 @@ exports.insertPointsTransaction = async (req, res) => {
  */
 exports.transferPoints = async (req, res) => {
 
-  logger.info('transferPoints()');
+  logger.info('transferPoints()', req.user);
   // logger.info('req.params: ' + JSON.stringify(req.params));
-  // logger.info('req.body: ' + JSON.stringify(req.body));
+  logger.info('req.body: ' + JSON.stringify(req.body));
 
   let recipient_id = req.body.recipient_id;                           // get recipient user id from request body
   let sender_id = req.user._id;                                       // get current (sender) user id from req.user object
   logger.info('Transfer to: ' + recipient_id);
   logger.info('Transfer from: ' + sender_id);
 
+
   // // check for existing user
   // const user = await Users.findById({ _id: new ObjectID(recipient_id) }).select('-password');
   // if (! user) return res.status(404).send(`That user ID (${recipient_id}) was not found.`);
 
-  // get recipients points balance
+  // get sender's points balance
   let points = await this.getUsersPoints(sender_id);
 
 
@@ -124,15 +127,16 @@ exports.transferPoints = async (req, res) => {
  *
  */
 // function getUsersPoints(user_id) {
-exports.getUsersPoints = async (req, res) => {
+exports.getUsersPoints = async (user_id) => {
 
-  logger.info('getUsersPoints()');
+  logger.info('getUsersPoints()' + JSON.stringify(user_id));
 
   let points = await Points.aggregate([
     {
       $match: 
       {
-        "_user._id": '5d7a8ba2f218fcb03e1c1a53'                               // match this sub document user id
+        // "_user._id": '5d7a8ba2f218fcb03e1c1a53'                               // match this sub document user id
+        "_user._id": user_id                                                  // match this sub document user id
       },
     },
     {
