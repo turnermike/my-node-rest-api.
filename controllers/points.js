@@ -78,18 +78,25 @@ exports.insertPointsTransaction = async (req, res) => {
  */
 exports.transferPoints = async (req, res) => {
 
+  logger.info('transferPoints()');
   // logger.info('req.params: ' + JSON.stringify(req.params));
+  // logger.info('req.body: ' + JSON.stringify(req.body));
 
-  // check for existing user
-  const user = await Users.findById({ _id: new ObjectID(req.params.id) }).select('-password');
-  if (! user) return res.status(404).send(`That user ID (${req.params.id}) was not found.`);
+  let recipient_id = req.body.recipient_id;                           // get recipient user id from request body
+  let sender_id = req.user._id;                                       // get current (sender) user id from req.user object
+  logger.info('Transfer to: ' + recipient_id);
+  logger.info('Transfer from: ' + sender_id);
 
-  let to_id = req.params.id;                  // transfer to user id
-  let from_id = req.user._id;                 // transfer from user id
-  logger.info('Transfer to: ' + to_id);
-  logger.info('Transfer from: ' + from_id);
+  // // check for existing user
+  // const user = await Users.findById({ _id: new ObjectID(recipient_id) }).select('-password');
+  // if (! user) return res.status(404).send(`That user ID (${recipient_id}) was not found.`);
+
+  // get recipients points balance
+  let points = await this.getUsersPoints(sender_id);
 
 
+
+  console.log('points (from return)', points);
 
 
 
@@ -99,6 +106,98 @@ exports.transferPoints = async (req, res) => {
 
 
 
+
+
+
+
+
+
 }
+
+
+/**
+ * get user's points balance
+ *
+ * @param ObjectId The user id to lookup.
+ *
+ * @return Object The points added, points removed, points balance.
+ *
+ */
+// function getUsersPoints(user_id) {
+exports.getUsersPoints = async (req, res) => {
+
+  logger.info('getUsersPoints()');
+
+  let points = await Points.aggregate([
+    {
+      $match: 
+      {
+        "_user._id": '5d7a8ba2f218fcb03e1c1a53'                               // match this sub document user id
+      },
+    },
+    {
+      $group:
+      {
+        _id: null,
+        "to_add": { 
+          "$sum": {
+            "$cond": [
+              { "$eq": ["$action", "add"] },                                  // sum values from 'points' column were action column is 'add'
+              "$points",
+              0
+            ]
+          }
+        },
+        "to_subtract": {
+          "$sum": {
+            "$cond": [
+            { "$eq": ["$action", "remove"] },                                 // sum values from 'points' column were action column is 'remove'
+            "$points",
+            0
+            ]
+          }
+        }
+      }
+    },
+    {
+      $project:
+      {
+          "points_available": { "$subtract": ["$to_add", "$to_subtract"] },   // subtract the 'remove' points from 'add' points
+          "points_added": "$to_add",                                          // amount to add
+          "points_removed": "$to_subtract"                                    // amount to subtract
+      }    
+    }
+  // ], function (err, points) {
+  //   if (err) {
+  //     logger.error('ERROR: ' + err);
+  //     return;
+  //   }
+  //   console.log('points (from callback)', points);
+  // });
+
+  // ]).exec()
+
+  ]).then(results => {                                                        // process results
+
+    // console.log('results (from then()): ', results);
+    return results;
+
+  }, function(err) {                                                          // error handler
+
+    if (err) {
+
+      logger.error('ERROR: ' + err);
+      return;
+
+    }
+
+  });
+
+  return points;                                                              // return results from aggregator pipeline
+
+}
+
+
+
 
 
