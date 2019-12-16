@@ -13,7 +13,6 @@ const JoiBase = require('joi');
 const JoiDecimals = require('joi-decimal');
 const Joi = JoiBase.extend(JoiDecimals);
 Joi.objectId = require('joi-objectId')(Joi);
-// const ObjectID = require('mongodb').ObjectID;
 const logger = require('../middleware/logger');
 
 const pointsSchema = new Schema({
