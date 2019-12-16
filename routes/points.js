@@ -27,7 +27,7 @@ router.delete('/:id', [auth, validateObjectId], (req, res) => {
 });
 
 // transfer points
-router.put('/', [auth], (req, res) => {
+router.put('/:id', [auth, validateObjectId], (req, res) => {
 
   pointsController.transferPoints(req, res);
 

@@ -24,9 +24,9 @@ const logger = require('../middleware/logger');
 exports.insertPointsTransaction = async (req, res) => {
 
 
-  // logger.info('req.params.id: ' + req.params.id)
-  // logger.info('req.body from controller: ' + JSON.stringify(req.body));
-
+  logger.info('insertPointsTransaction() req.params.id: ' + req.params.id)
+  logger.info('insertPointsTransaction() req.body from controller: ' + JSON.stringify(req.body));
+  // return false;
 
 
   // check for existing user
@@ -76,7 +76,7 @@ exports.insertPointsTransaction = async (req, res) => {
 }
 
 /**
- * transfer points from current user to id parameter
+ * transfer points from current user to another user id
  */
 exports.transferPoints = async (req, res) => {
 
@@ -84,8 +84,8 @@ exports.transferPoints = async (req, res) => {
   // logger.info('req.params: ' + JSON.stringify(req.params));
   logger.info('req.body: ' + JSON.stringify(req.body));
 
-  let recipient_id = req.body.recipient_id;                           // get recipient user id from request body
-  let sender_id = req.user._id;                                       // get current (sender) user id from req.user object
+  let recipient_id = req.body.recipient_id;                                           // get recipient user id from request body
+  let sender_id = req.user._id;                                                       // get current (sender) user id from req.user object
   logger.info('Transfer to: ' + recipient_id);
   logger.info('Transfer from: ' + sender_id);
 
@@ -94,18 +94,25 @@ exports.transferPoints = async (req, res) => {
   // const user = await Users.findById({ _id: new ObjectID(recipient_id) }).select('-password');
   // if (! user) return res.status(404).send(`That user ID (${recipient_id}) was not found.`);
 
-  // get sender's points balance
-  let points = await this.getUsersPoints(sender_id);
+  let sender_points_available = await this.getUsersPoints(sender_id);                 // get sender's points balance
+  console.log('sender_points_available (from return)', sender_points_available);
+
+  if( sender_points_available >= req.body.points ) {                                  // if sender has enough points available
+
+    req.body.action = 'add';
+    this.insertPointsTransaction(req, res);
+
+  }
 
 
 
-  console.log('points (from return)', points);
+  
 
 
 
 
 
-  res.sendStatus(200);
+  // res.sendStatus(200);
 
 
 
@@ -126,7 +133,6 @@ exports.transferPoints = async (req, res) => {
  * @return Object The points added, points removed, points balance.
  *
  */
-// function getUsersPoints(user_id) {
 exports.getUsersPoints = async (user_id) => {
 
   logger.info('getUsersPoints()' + JSON.stringify(user_id));

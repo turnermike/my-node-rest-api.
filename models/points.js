@@ -12,6 +12,8 @@ const { Schema } = mongoose;
 const JoiBase = require('joi');
 const JoiDecimals = require('joi-decimal');
 const Joi = JoiBase.extend(JoiDecimals);
+Joi.objectId = require('joi-objectId')(Joi);
+// const ObjectID = require('mongodb').ObjectID;
 const logger = require('../middleware/logger');
 
 const pointsSchema = new Schema({
@@ -31,6 +33,10 @@ const pointsSchema = new Schema({
     type: String,
     required: true,
     default: 'add'
+  },
+  recipient_id: {
+    type: Joi.objectId,
+    required: false
   },
   dateAdded: {
     type: Date,
@@ -88,7 +94,11 @@ function validatePointsPOST(points) {
           default:
             return { message: `The ${errors[0].context.label} parameter is required.` };
         }
-    })
+    }),
+
+    recipient_id: Joi.objectId()
+      .trim()
+      .label('Sender ID')
 
   }
 
