@@ -34,6 +34,7 @@ request header:
 `{
     "x-auth-token": "<JWT returned from /api/auth route>"
 }`  
+
 GET /api/users/me - Get Current User  
 GET /api/users - Get All Users  
 GET /api/users/:id - Get User by ID  
@@ -67,7 +68,9 @@ DEL /api/user/:id - Delete User
 
 Node.js - Server side language.  
 MongoDB - The database server.  
-Express - The web server.  
+Express - The web server.
+React - Front-end framework.
+  
 
 
 # MongoDB Access
